@@ -1,0 +1,9 @@
+#nav-bar {
+  border-top: 1px solid black;
+}
+
+.nav-icon {
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+}

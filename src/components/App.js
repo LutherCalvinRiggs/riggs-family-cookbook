@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import '../css/App.css';
+import MobileAppNavigation from './MobileAppNavigation.js'
 import LandingPage from './LandingPage.js'
 import RecipePage from './RecipePage.js'
+// import ShoppingList from './ShoppingList.js'
 
 
 
@@ -9,30 +11,29 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      currentContent: 'home'
+      displayedContent: 'landingPage',
     }
   }
 
-  updateState = (newState) => {
+  updateDisplay = (newState) => {
     this.setState({
-      currentContent: newState
+      displayedContent: newState
     })
   }
 
-  currentContent = (props) => {
-    if(props === 'home') {
-      return  <LandingPage 
-                viewRecipes={this.updateState}
-              />
-    } else if (props === 'recipeList') {
-      return <RecipePage />
-    }
+  displayedContent = (displayedContent) => {
+    if(displayedContent === 'landingPage') {
+      return  <LandingPage />
+    } else if (displayedContent === 'recipeList') {
+      return  <RecipePage />
+    } // else if (props === 'shoppingList') { <ShoppingList />}
   }
   
   render() {
     return (
       <>
-        {this.currentContent(this.state.currentContent)}
+        <MobileAppNavigation showContent={this.updateDisplay}/>
+        {this.displayedContent(this.state.displayedContent)}
       </>
     )
   }
