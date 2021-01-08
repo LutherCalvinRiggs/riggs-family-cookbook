@@ -1,4 +1,5 @@
 #search-component {
+  height: 30px;
   background-color: white;
   padding: 10px;
   border-bottom: 1px solid black;
@@ -8,10 +9,10 @@
   height: 20px;
 }
 
-.btn-primary {
-  height: 28px;
+.sort-options {
+  height: 26px;
   padding: 5px 10px;
-  background-color: black !important;
+  background-color: black;
   color: white;
   border: 1px solid black;
   border-radius: 0 5px 5px 0;
@@ -20,11 +21,9 @@
 
 .dropdown-list {
   border: 1px solid lightgrey;
-  position: absolute;
-  top: 40px;
+  position: relative;
+  top: 0;
   visibility: collapse; 
-  /* max-height: -0px;
-  overflow-x: hidden; */
 }
 
 .dropdown-list.active {

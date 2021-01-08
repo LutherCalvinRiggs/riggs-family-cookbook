@@ -40,7 +40,7 @@ class SearchComponent extends Component {
           <div className="flex-column justify-end">
             <button
               type="button"
-              className="btn-primary"
+              className="sort-options"
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
@@ -52,17 +52,17 @@ class SearchComponent extends Component {
             <div className={'dropdown-list flex-column ' + 
               (this.state.dropdownStatus === 'expanded' ? 'active' : '')}
             >
-              <button className={'dropdown-item ' + 
+              {/* <button className={'dropdown-item ' + 
                   (this.props.orderBy === 'mealType' ? 'active-sort' : '' )}
                   onClick={e => this.props.changeOrder('mealType', this.props.orderDir)}
                   href="#">
                   Upcoming Meal
-              </button>
+              </button> */}
               <button className={'dropdown-item ' + 
-                  (this.props.orderBy === 'totalTime' ? 'active-sort' : '' )}
-                  onClick={e => this.props.changeOrder('totalTime', this.props.orderDir)}
+                  (this.props.orderBy === 'recipeTitle' ? 'active-sort' : '' )}
+                  onClick={e => this.props.changeOrder('recipeTitle', this.props.orderDir)}
                   href="#">
-                  Total Time
+                  Alphabetical
               </button>
               <button className={'dropdown-item ' + 
                   (this.props.orderBy === 'servingSize' ? 'active-sort' : '' )}
@@ -71,10 +71,10 @@ class SearchComponent extends Component {
                   Serving Size
               </button>
               <button className={'dropdown-item ' + 
-                  (this.props.orderBy === 'alphabetical' ? 'active-sort' : '' )}
-                  onClick={e => this.props.changeOrder('alphabetical', this.props.orderDir)}
+                  (this.props.orderBy === 'totalTime' ? 'active-sort' : '' )}
+                  onClick={e => this.props.changeOrder('totalTime', this.props.orderDir)}
                   href="#">
-                  Alphabetical
+                  Total Time
               </button>
               <div role="separator" className="flex-column dropdown-divider">
                 <button className={'dropdown-item ' + 

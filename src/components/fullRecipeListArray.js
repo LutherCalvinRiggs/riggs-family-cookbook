@@ -213,7 +213,7 @@ export const fullRecipeListArray = [
     recipeDirections: [
       {
         stepNumber: 1,
-        direction: "Preheat the oven to 460˚F/240˚C/Fan 220˚C/Gas 9. Put the lemon juice and zest, butter (1 tablespoon), fromage blanc (3 tablespoons), chives (1 tablespoon), parsley (1 tablespoon), rocket (1 handful), thyme (1 teaspoon), and breadcrumbs (2 tablespoons) in a blender or food processor. Season with salt and pepper, then blitz to make a smooth paste."
+        direction: "Preheat the oven to 460˚F/240˚C/Fan 220˚C/Gas 9. Put the lemon juice and zest, butter (1 tbsp), fromage blanc (3 tbsp), chives (1 tbsp), parsley (1 tbsp), rocket (1 handful), thyme (1 tsp), and breadcrumbs (2 tbsp) in a blender or food processor. Season with salt and pepper, then blitz to make a smooth paste."
       },
       {
         stepNumber: 2,
@@ -229,7 +229,7 @@ export const fullRecipeListArray = [
       },
       {
         stepNumber: 5,
-        direction: "Place the roasting tin on the hob and simmer the cooking juices. Add the wine (100 mililiters) and tomato paste (1 teaspoon), then simmer until the liquid is reduced by half. Add the stock (120 mililiters) and reduce again until the sauce is syrupy. Serve with the chicken."
+        direction: "Place the roasting tin on the hob and simmer the cooking juices. Add the wine (100 mL) and tomato paste (1 tsp), then simmer until the liquid is reduced by half. Add the stock (120 mL) and reduce again until the sauce is syrupy. Serve with the chicken."
       }
     ],
     recipeImage: "",
@@ -305,11 +305,11 @@ export const fullRecipeListArray = [
     recipeDirections: [
       {
         stepNumber: 1,
-        direction: "Heat the oil in a pan and fry the mushrooms until they have taken on a little colour. Add the shallot, garlic and thyme (1 tablespoon), then season with salt and pepper and take the pan off the heat."
+        direction: "Heat the oil in a pan and fry the mushrooms until they have taken on a little colour. Add the shallot, garlic and thyme (1 tbsp), then season with salt and pepper and take the pan off the heat."
       },
       {
         stepNumber: 2,
-        direction: "Pick out about a third of the best-looking mushrooms and set them aside. Put the rest of the mushrooms in a blender, add the brandy (2 tablespoons) and crème fraîche (4 tablespoons), then blend until smooth."
+        direction: "Pick out about a third of the best-looking mushrooms and set them aside. Put the rest of the mushrooms in a blender, add the brandy (2 tbsp) and crème fraîche (4 tbsp), then blend until smooth."
       },
       {
         stepNumber: 3,
@@ -391,7 +391,7 @@ export const fullRecipeListArray = [
       },
       {
         stepNumber: 2,
-        direction: "Heat the remaining oil in a pan and gently cook the onions and raw corn kernals. Once they are soft, add enough water to cover the vegetables by 3-4 cm and season with salt, pepper and nutmeg. Bring to a simmer and cook for 20 minutes. Add the crème fraîche (3 tablespoons) and blitz the soup in a blender or food processor until smooth. If you want an extra-smooth soup, pass it through a fine sieve."
+        direction: "Heat the remaining oil in a pan and gently cook the onions and raw corn kernals. Once they are soft, add enough water to cover the vegetables by 3-4 cm and season with salt, pepper and nutmeg. Bring to a simmer and cook for 20 minutes. Add the crème fraîche (3 tbsp) and blitz the soup in a blender or food processor until smooth. If you want an extra-smooth soup, pass it through a fine sieve."
       },
       {
         stepNumber: 3,
@@ -471,7 +471,7 @@ export const fullRecipeListArray = [
     recipeDirections: [
       {
         stepNumber: 1,
-        direction: "Preheat the oven to 400˚F/200˚C/Fan 180˚C/Gas 6. Cut the tomatoes in half and place them in a big bowl with the red onions (2), garlic cloves (4), red chilli (1), and thyme leaves (1 tablespoon). Add the oil (4 tablespoons) and toss well to coat the tomatoes. Scatter the contents of the bowl into a large roasing tin, making sure the tomatoes aren't too crowded together."
+        direction: "Preheat the oven to 400˚F/200˚C/Fan 180˚C/Gas 6. Cut the tomatoes in half and place them in a big bowl with the red onions (2), garlic cloves (4), red chilli (1), and thyme leaves (1 tbsp). Add the oil (4 tbsp) and toss well to coat the tomatoes. Scatter the contents of the bowl into a large roasing tin, making sure the tomatoes aren't too crowded together."
       },
       {
         stepNumber: 2,
@@ -547,11 +547,11 @@ export const fullRecipeListArray = [
       },
       {
         stepNumber: 2,
-        direction: "Toast the almonds (80 grams) in a dry pan until golden brown. Keep a close eye on them so they don't burn."
+        direction: "Toast the almonds (80 g) in a dry pan until golden brown. Keep a close eye on them so they don't burn."
       },
       {
         stepNumber: 3,
-        direction: "Drizzle some of the oil over the broccoli (250 grams), then grill it on a griddle pan over high heat, or on a barbecue, until well charred but still nice and crunchy."
+        direction: "Drizzle some of the oil over the broccoli (250 g), then grill it on a griddle pan over high heat, or on a barbecue, until well charred but still nice and crunchy."
       },
       {
         stepNumber: 4,
@@ -631,11 +631,11 @@ export const fullRecipeListArray = [
     recipeDirections: [
       {
         stepNumber: 1,
-        direction: "Cut the celeriac (500 grams) into super-thin matchsticks and put them in a bowl. In a separate bowl, mix the red wine vinegar (1 tablespoon), dijon mustard (2 teaspoons) and olive oil (4 tablespoons) to make the dressing and season with salt and pepper, then fold this into the celeriac. Chill the celeriac in the fridge for a few hours or overnight."
+        direction: "Cut the celeriac (500 g) into super-thin matchsticks and put them in a bowl. In a separate bowl, mix the red wine vinegar (1 tbsp), dijon mustard (2 tsp) and olive oil (4 tbsp) to make the dressing and season with salt and pepper, then fold this into the celeriac. Chill the celeriac in the fridge for a few hours or overnight."
       },
       {
         stepNumber: 2,
-        direction: "Cut the green apple into thin matchsticks. If you're not serving the salad right away, toss the apple in the lemon juice to stop it going brown. When you're ready to serve, add the apple and crumbled cheese (80 grams) to the salad and finish with some celery leaves."
+        direction: "Cut the green apple into thin matchsticks. If you're not serving the salad right away, toss the apple in the lemon juice to stop it going brown. When you're ready to serve, add the apple and crumbled cheese (80 g) to the salad and finish with some celery leaves."
       }
     ],
     recipeImage: "",

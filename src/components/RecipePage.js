@@ -8,8 +8,8 @@ class RecipePage extends Component {
     super(props)
     this.state = {
       fullList: fullRecipeListArray,
-      orderBy: 'mealType', 
-      /* options: mealType, totalTime, servingSize, alphabetical */
+      orderBy: 'recipeTitle', 
+      /* options: recipeTitle, servingSize, totalTime, mealType */
       orderDir: 'asc',
       keywordText: ''
     }
@@ -51,31 +51,33 @@ class RecipePage extends Component {
       }
     }).filter((eachItem) => {
       return (
-        eachItem['keywords']
+        eachItem.keywords
         .toLowerCase()
         .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem['recipeTitle']
+        eachItem.recipeTitle
         .toLowerCase()
         .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem['servingSize']
+        eachItem.servingSize
         .toLowerCase()
         .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem['totalTime']
+        eachItem.totalTime
         .toLowerCase()
         .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem['mealType']
+        eachItem.mealType
         .toLowerCase()
         .includes(this.state.keywordText.toLowerCase()) ||
-        // eachItem['recipeIngredientList']
-        // .toLowerCase()
-        // .includes(this.state.keywordText.toLowerCase()) ||
-        // eachItem['recipeDirections']
-        // .toLowerCase()
-        // .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem['cookbookTitle']
+        // eachItem.recipeIngredientList
+        // .filter((eachIngredient) => {
+        //   return (
+        //     eachIngredient.ingredient
+        //     .toLowerCase()
+        //     .includes(this.state.keywordText.toLowerCase())
+        //   )
+        // }) ||
+        eachItem.cookbookTitle
         .toLowerCase()
         .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem['cookbookAuthor']
+        eachItem.cookbookAuthor
         .toLowerCase()
         .includes(this.state.keywordText.toLowerCase())
       )
@@ -145,14 +147,17 @@ class RecipePage extends Component {
             <div
               className="ingredient-list"
             >
+              <h3
+                className="ingredient-header text-center font-bold"
+              >
+                Ingredient List
+              </h3>
+              
               {item.recipeIngredientList.map((item) => (
-                
-                
                 <div
                   key={item.ingredientNumber}
-                  className="ingredient flex-row text-center"
+                  className="ingredient flex-row justify-center"
                 >
-
                   <div 
                     className="ingredient-quantity-container"
                   >
@@ -162,35 +167,31 @@ class RecipePage extends Component {
                       {item.amount}
                     </p>
                   </div>
-
                   <div
-                    className="ingredient-item-container"
+                    className="ingredient-item-container text-left"
                   >
-
                     <p
                       className="ingredient-item"
                     >
-                      {item.ingredient}, {item.preparation}
+                      {item.ingredient}
+                      {(item.preparation ? `, ${item.preparation}` : '')}
                     </p>
-                    {/* <p
-                      className="ingredient-preperation"
-                    >
-                      
-                    </p> */}
-
                   </div>
                 </div>
-
-
               ))}
             </div>
             <div
-              className="recipe-directions"
+              className="recipe-directions text-justify"
             >
+              <h3
+                className="directions-header text-center font-bold"
+              >
+                Directions
+              </h3>
               {item.recipeDirections.map((item) => (
                 <p
                   key={item.stepNumber}
-                  className="directionn"
+                  className="direction"
                 >
                   {item.direction}
                 </p>
