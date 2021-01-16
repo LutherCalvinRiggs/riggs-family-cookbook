@@ -8,42 +8,42 @@ class RecipePage extends Component {
     super(props)
     this.state = {
       fullList: fullRecipeListArray,
-      orderBy: 'recipeTitle', 
-      /* options: recipeTitle, servingSize, totalTime, mealType */
-      orderDir: 'asc',
-      keywordText: ''
+      // orderBy: 'recipeTitle', 
+      // /* options: recipeTitle, servingSize, totalTime, mealType */
+      // orderDir: 'asc',
+      // keywordText: ''
     }
-    this.keywordSearch = this.keywordSearch.bind(this);
-    this.changeOrder = this.changeOrder.bind(this);
+    // this.keywordSearch = this.keywordSearch.bind(this);
+    // this.changeOrder = this.changeOrder.bind(this);
   }
 
-  keywordSearch = (keyword) => {
-    this.setState({
-      keywordText: keyword
-    })
-  }
+  // keywordSearch = (keyword) => {
+  //   this.setState({
+  //     keywordText: keyword
+  //   })
+  // }
 
-  changeOrder = (newOrder, newDir) => {
-    this.setState({
-      orderBy: newOrder,
-      orderDir: newDir
-    })
-  }
+  // changeOrder = (newOrder, newDir) => {
+  //   this.setState({
+  //     orderBy: newOrder,
+  //     orderDir: newDir
+  //   })
+  // }
 
   render() {
 
     let order;
     let filteredList = this.state.fullList;
 
-    if (this.state.orderDir === 'asc') {
+    if (this.props.orderDir === 'asc') {
       order = 1;
     } else {
       order = -1;
     }
 
     filteredList = filteredList.sort((a,b) => {
-      if (a[this.state.orderBy].toLowerCase() <
-          b[this.state.orderBy].toLowerCase()
+      if (a[this.props.orderBy].toLowerCase() <
+          b[this.props.orderBy].toLowerCase()
       ) {
         return -1 * order;
       } else {
@@ -53,46 +53,49 @@ class RecipePage extends Component {
       return (
         eachItem.keywords
         .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
+        .includes(this.props.keywordText.toLowerCase()) ||
         eachItem.recipeTitle
         .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
+        .includes(this.props.keywordText.toLowerCase()) ||
         eachItem.servingSize
         .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
+        .includes(this.props.keywordText.toLowerCase()) ||
         eachItem.totalTime
         .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
+        .includes(this.props.keywordText.toLowerCase()) ||
         eachItem.mealType
         .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
+        .includes(this.props.keywordText.toLowerCase()) ||
         // eachItem.recipeIngredientList
         // .filter((eachIngredient) => {
         //   return (
         //     eachIngredient.ingredient
         //     .toLowerCase()
-        //     .includes(this.state.keywordText.toLowerCase())
+        //     .includes(props.keywordText.toLowerCase())
         //   )
         // }) ||
         eachItem.cookbookTitle
         .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
+        .includes(this.props.keywordText.toLowerCase()) ||
         eachItem.cookbookAuthor
         .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase())
+        .includes(this.props.keywordText.toLowerCase())
       )
     })
 
     return (
       <div 
         id="recipe-page"
-        className="background-white background-image-center-fixed-bottom"
+        className="background-white background-image-center-fixed-bottom flex-column align-center"
       >
+
         <SearchComponent 
-          orderBy = {this.state.orderBy}
-          orderDir = {this.state.orderDir}
-          changeOrder = {this.changeOrder}
-          searchList = {this.keywordSearch}
+          orderBy = {this.props.orderBy}
+          orderDir = {this.props.orderDir}
+          keywordText = {this.props.keywordText}
+          changeOrder = {this.props.changeOrder}
+          searchList = {this.props.searchList}
+          clearSearch = {this.props.clearSearch}
         />
         <RecipeList 
           recipeList = {filteredList}
@@ -156,7 +159,7 @@ class RecipePage extends Component {
               {item.recipeIngredientList.map((item) => (
                 <div
                   key={item.ingredientNumber}
-                  className="ingredient flex-row justify-center"
+                  className="ingredient flex-row justify-center text-uppercase"
                 >
                   <div 
                     className="ingredient-quantity-container"

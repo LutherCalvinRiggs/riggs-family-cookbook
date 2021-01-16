@@ -30,13 +30,25 @@ class SearchComponent extends Component {
     return (
       <div id="search-component" className="">
         <div id="input-group" className="flex-row justify-center">
+          <button
+            type="button"
+            id="clear-search-button"
+            onClick={this.props.clearSearch}
+          >
+            X
+          </button>
+          
           <input
             id="search-input"
             type="text"
             className=""
             aria-label="Search Recipes"
+            placeholder={this.props.keywordText === '' ? 'Search...' : this.props.keywordText}
             onChange={ e => this.props.searchList(e.target.value)}
           />
+          
+          
+
           <div className="flex-column justify-end">
             <button
               type="button"

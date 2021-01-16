@@ -7,18 +7,18 @@ const MobileAppNavigation = (props) => {
       id="nav-bar"
       className="full-width flex-row justify-even fixed-pos bottom-edge background-white"
     >
-      <UserAccount 
+      {/* <UserAccount 
         showContent={props.showContent}
-      />
+      /> */}
       <RecipeIcon 
         showContent={props.showContent}
       />
       <ConversionIcon 
         showContent={props.showContent}
       />
-      <ShoppingListIcon 
+      {/* <ShoppingListIcon 
         showContent={props.showContent}
-      />
+      /> */}
     </div>
   )
 }
@@ -54,7 +54,7 @@ const MobileAppNavigation = (props) => {
         className="nav-icon"
         src="./images/measuring-cup-icon-48.png"
         alt="Conversion Tab"
-        onClick={() => props.showContent('conversionTables')}
+        onClick={() => props.showContent('conversionTable')}
       />
     )
   }
