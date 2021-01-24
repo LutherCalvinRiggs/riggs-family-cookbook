@@ -1,11 +1,17 @@
 export const fullRecipeListArray = [
   {
     recipeNumber: x,
-    keywords: "main dish spring summer fall winter favorite comfort food PROTEIN",
+    keywords: "dessert spring summer fall winter",
     recipeTitle: "",
     servingSize: "",
     totalTime: "",
-    mealType: "",
+    mealType: "dessert",
+    protein: "",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main side",
+    favorite: "favorite",  // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -118,12 +124,18 @@ export const fullRecipeListArray = [
     amazonProductLink: "",
   },
   {
-    recipeNumber: 45,
-    keywords: "main dish spring summer fall winter poultry",
-    recipeTitle: "Chicken Breasts with Burgundy",
+    recipeNumber: 51,
+    keywords: "dessert spring summer fall winter",
+    recipeTitle: "French Toast, Normandy Style",
     servingSize: "2",
     totalTime: "",
-    mealType: "",
+    mealType: "breakfast",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main side",
+    favorite: "favorite",  // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -228,6 +240,630 @@ export const fullRecipeListArray = [
         stepNumber: 10,
         direction: ""
       },
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 50,
+    keywords: "dessert spring summer fall winter vegetarian",
+    recipeTitle: "Fig Tarte Tatin",
+    servingSize: "4",
+    totalTime: "50 minnutes",
+    mealType: "dessert",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "dessert",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "35 G",
+        ingredient: "Butter",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "70 G",
+        ingredient: "Caster sugar (golden)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "",
+        ingredient: "Pinch of sea salt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "12",
+        ingredient: "Figs, fresh",
+        preparation: "cut in half"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "250 G",
+        ingredient: "Puff pastry",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Melt the butter (35 G), sugar (70 G) and salt in a frying pan. When the mixture is bubbling, add the figs (12) and cook them for 5 minutes over a high heat, turning them over after 2.5 minutes"
+      },
+      {
+        stepNumber: 2,
+        direction: "Transfer the figs and juices to a tarte tatin pan or an ovenproof dish that's about 20 cM (8 in) wide. Leave to cool. Preheat the oven to 410˚F/210˚C/Fan 190˚C/Gas 6.5."
+      },
+      {
+        stepNumber: 3,
+        direction: "Roll out the pastry to a circle about 3 cM wider than the pan. Place this on top of the figs, tucking in the excess pastry around them."
+      },
+      {
+        stepNumber: 4,
+        direction: "Cut 8 little holes in the pastry with the point of a knife. Bake the tart in the oven for 35 minutes, then remove it and leave it to cool slightly."
+      },
+      {
+        stepNumber: 5,
+        direction: "To turn the tart out, take a plate of about the same size as the pan and place it over the pan. Quickly turn the pan over to transfer the tart to the plate."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 49,
+    keywords: "main dish spring summer fall winter comfort food lamb",
+    recipeTitle: "Lamb with Haricot Beans",
+    servingSize: "6",
+    totalTime: "90 minutes",
+    mealType: "dinner",
+    protein: "lamb",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main side",
+    favorite: "",  // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "500 G",
+        ingredient: "Haricot beans",
+        preparation: "dried"
+      },
+      {
+        ingredientNumber: 2,
+        amount: "2",
+        ingredient: "Onions",
+        preparation: "peeled and diced"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1",
+        ingredient: "Bay leaf",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "4",
+        ingredient: "Garlic cloves",
+        preparation: "peeled and crushed"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "2",
+        ingredient: "Bouquets garnis",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "4 tbsp",
+        ingredient: "Vegetable oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "1.2 kG",
+        ingredient: "Lamb neck or shoulder (boned)",
+        preparation: "cut into 4 cM pieces"
+      },
+      {
+        ingredientNumber: 8,
+        amount: "2",
+        ingredient: "Carrots",
+        preparation: "peeled and diced"
+      },
+      {
+        ingredientNumber: 9,
+        amount: "2 tbsp",
+        ingredient: "Tomato paste",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "",
+        ingredient: "Salt and freshly ground black pepper",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Soak the beans (500 G) in cold water overnight. Drain them, put them in a pan with half the diced onions (1) and the bay leaf, then cover generously with cold water. Add 2 of the garlic cloves and a bouquet garni and bring to the boil. Simmer for 45 minutes or until almost tender - the beans will be cooked again later. Drain the beans and set them and the cooking liquid aside."
+      },
+      {
+        stepNumber: 2,
+        direction: "Heat 2 tablespoons of the oil in a large flameproof casserole dish annd sear the meat until golden. It's best to do this in batches so as not to overcrowd the pan. Remove each batch as it is browned."
+      },
+      {
+        stepNumber: 3,
+        direction: "Discard any fat in the pan. Add the rest of the oil (2 tbsp) and cook the remaining onion (1) and garlic (2 cloves) with the carrots (2) over a medium heat until lightly coloured. "
+      },
+      {
+        stepNumber: 4,
+        direction: "Add the tomato paste (2 tbsp) and the remaining bouquet garni and stir, scraping the bottom of the pan well. Put the meat back in the pan with enough of the bean cooking liquid to cover. Season, cover the pan and simmer gently for 45 minutes. Add the beans with more water if needed and simmer for a further 30 minutes. Serve in wide bowls."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 48,
+    keywords: "main dish spring summer fall winter lamb",
+    recipeTitle: "Rack of Lamb with an Olive Crust",
+    servingSize: "4-6",
+    totalTime: "60 minutes",
+    mealType: "dinner",
+    protein: "lamb",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "60 G",
+        ingredient: "Green olives",
+        preparation: "pitted"
+      },
+      {
+        ingredientNumber: 2,
+        amount: "40 G",
+        ingredient: "Almonds",
+        preparation: "ground"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "30 G",
+        ingredient: "Breadcrumbs",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1",
+        ingredient: "Lemon (zest and juice)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "2 tbsp",
+        ingredient: "Olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1",
+        ingredient: "Garlic clove",
+        preparation: "peeled and chopped"
+      },
+      {
+        ingredientNumber: 7,
+        amount: "1 tbsp",
+        ingredient: "Parsley",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 8,
+        amount: "2",
+        ingredient: "Racks of lamb (French trimmed)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "",
+        ingredient: "Salt and freshly ground black pepper",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "2",
+        ingredient: "Fennel bulbs",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 11,
+        amount: "2 tbsp",
+        ingredient: "Olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 12,
+        amount: "2 tbsp",
+        ingredient: "Pastis",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 13,
+        amount: "1 tsp",
+        ingredient: "Fennel seeds",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 14,
+        amount: "1",
+        ingredient: "Lemon",
+        preparation: "juiced"
+      },
+      {
+        ingredientNumber: 15,
+        amount: "200 mL",
+        ingredient: "Vegetable or chicken stock",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 16,
+        amount: "",
+        ingredient: "Salt and freshly ground black pepper",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Place all the ingredients for the lamb (green olives through parsley), except for the meat, in a food processor and blend until smooth. The mixture should come together as a paste. Preheat the oven to 430˚F/220˚C/Fan 200˚C/Gas 7."
+      },
+      {
+        stepNumber: 2,
+        direction: "Season the racks, then place them fat-side down in a pan over a medium heat to render the fat and brown the skin. When the racks are nicely brown, take the pan off the heat. Turn the racks over and spread the olive past all over the browned meat and skin, then transfer them to a roasting tin."
+      },
+      {
+        stepNumber: 3,
+        direction: "Roast the lamb racks for 12 minutes for pink meat. Take them out and leave them to rest for 7-8 minutes before carving."
+      },
+      {
+        stepNumber: 4,
+        direction: "Meanwhile, trim the fennel bulbs (2) and cut them into quarters. Heat the oil (2 tbsp) in a pan and carefully fry the fennel on all sides until lightly coloured. Add the pastis (2 tbsp), followed by the fennnel seeds (1 tsp), lemon juice (1 lemon) and stock (200 mL)."
+      },
+      {
+        stepNumber: 5,
+        direction: "Season and simmer until the fennel is tender and the liquid has almost completely evaporated, then serve with the lamb."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 47,
+    keywords: "main dish spring summer fall winter favorite comfort food beef",
+    recipeTitle: "Minute Steak",
+    servingSize: "2",
+    totalTime: "20 minutes",
+    mealType: "dinner",
+    protein: "beef",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "favorite",
+    comfortFood: "comfort food",
+    recipeBackstory: "A French classic and one of my family's all time favorites! This recipe is fast and easy to make, so be sure to have all of your ingredients prepped and ready to go. Complete the meal with some fresh, handcut French fries!",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "2 x 120-180 G",
+        ingredient: "Steaks (1.5 cM thick)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "2 tbsp",
+        ingredient: "Vegetable oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1 tbsp",
+        ingredient: "Butter",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1",
+        ingredient: "Shallot",
+        preparation: "peeled and finely chopped"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "1 tsp",
+        ingredient: "Black pepper",
+        preparation: "cracked"
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1 tbsp",
+        ingredient: "Brandy",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "60 mL",
+        ingredient: "White wine",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "2 tbsp",
+        ingredient: "Crème fraîche",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "",
+        ingredient: "Salt",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Take the steaks out of the fridge an hour before you want to cook them to make sure they are at room temperature. Heat a heavy-based pan until it's very hot."
+      },
+      {
+        stepNumber: 2,
+        direction: "Brush the steaks with oil on both sides and season them with a little salt. Place them in the pan and let them sear for 20 seconnds - don't shake the pan or prod the meat. Turn the steaks and continue to cook for 30 or so seconds, then add the butter (1 tbsp) and baste. The steaks should be nicely seared annd even a little charred."
+      },
+      {
+        stepNumber: 3,
+        direction: "Take the steaks out of the pan and leave them on a plate to rest."
+      },
+      {
+        stepNumber: 4,
+        direction: "Add the shallot to the pan, followed by the cracked pepper (1 tsp), then stir and cook for 15 seconds. Pour in the brandy (1 tbsp) and wine (60 mL), which should boil immediately. Add the crème fraîche (2 tbsp) and take the pan off the heat. Pour any juices from the resting steak into the sauce. Serve the steaks with the sauce and French fries."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 46,
+    keywords: "main dish fall winter duck",
+    recipeTitle: "Duck Confit Pie",
+    servingSize: "4",
+    totalTime: "75 minutes",
+    mealType: "dinner",
+    protein: "duck",
+    cuisine: "french",
+    season: "fall winter",
+    dishType: "main dish",
+    favorite: "",
+    comfortFood: "",
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "1 kG",
+        ingredient: "Floury potatoes (King Edward or Roosters)",
+        preparation: "peeled"
+      },
+      {
+        ingredientNumber: 2,
+        amount: "4",
+        ingredient: "Garlic cloves",
+        preparation: "left whole and unpeeled"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "250 mL",
+        ingredient: "Milk",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "60 G",
+        ingredient: "Butter",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "4",
+        ingredient: "Confit duck legs",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1",
+        ingredient: "Onion",
+        preparation: "peeled and chopped"
+      },
+      {
+        ingredientNumber: 7,
+        amount: "2 tbsp",
+        ingredient: "Parsley",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 8,
+        amount: "30 G",
+        ingredient: "Truffle (optional)",
+        preparation: "sliced"
+      },
+      {
+        ingredientNumber: 9,
+        amount: "2 tbsp",
+        ingredient: "Breadcrumbs",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "",
+        ingredient: "Salt and freshly ground black pepper",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Cut the potatoes (1 kG) into quarters. Put them in a pan of water with the garlic cloves (4) and season with salt. Simmer until cooked, then drain, tip the potatoes and garlic back in the pan and leave them to steam and dry."
+      },
+      {
+        stepNumber: 2,
+        direction: "Remove the garlic, pop the skins off and put the flesh in a small pan with the milk (250 mL). Simmer for 5 minutes, then blend until smooth."
+      },
+      {
+        stepNumber: 3,
+        direction: "Pass the potatoes through a ricer, mix in 30 G of the butter and the garlicky milk, then season well. Set aside."
+      },
+      {
+        stepNumber: 4,
+        direction: "Preheat the oven to 400˚F/200˚C/Fan 180˚C/ Gas 6. Remove the skin and bones from the duck legs and shred the meat."
+      },
+      {
+        stepNumber: 5,
+        direction: "Warm a little of the fat from the confit in a frying pan and sweat the chopped onion (1) until soft and lightly browned. Add the duck meat, parsley (2 tbsp) and the truffle (30 G), if using, and check the seasoning."
+      },
+      {
+        stepNumber: 6,
+        direction: "Tip the mixture into a pie dish and press it down. Spread the mashed potato on top and run a fork over it to make a pattern. Sprinkle the breadcrumbs (2 tbsp) on top and bake the pie in the oven for 20 minutes. Place the pie under a preheated grill to brown the top."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 45,
+    keywords: "main dish spring summer fall winter poultry",
+    recipeTitle: "Chicken Breasts with Burgundy",
+    servingSize: "2",
+    totalTime: "180 minutes",
+    mealType: "dinner",
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "500 mL",
+        ingredient: "Red wine, full-bodied (preferably Burgandy)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "1 tbsp",
+        ingredient: "Sugar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1",
+        ingredient: "Garlic clove",
+        preparation: "crushed"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "2",
+        ingredient: "Chicken breasts",
+        preparation: "skinless, winglets removed"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "10",
+        ingredient: "Button onions",
+        preparation: "peeled"
+      },
+      {
+        ingredientNumber: 6,
+        amount: "2 tbsp",
+        ingredient: "Butter",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "1 tbsp",
+        ingredient: "Vegetable oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "10",
+        ingredient: "Button mushrooms",
+        preparation: "wiped"
+      },
+      {
+        ingredientNumber: 9,
+        amount: "120 G",
+        ingredient: "Smoked bacon",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "300 mL",
+        ingredient: "Brown chicken stock or veal stock",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 11,
+        amount: "",
+        ingredient: "Salt and freshly ground black pepper",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Put the red wine (500 mL), sugar (1 tbsp) and garlic (1 clove) in a glass or ceramic bowl (the wine can react with metal) and add the chicken breats. Cover and leave them in the fridge to marinate for 2 hours."
+      },
+      {
+        stepNumber: 2,
+        direction: "Put the onions (10) in a pan of cold water and bring the water to the boil. Take the pan off the heat and drain the onions, then set them aside."
+      },
+      {
+        stepNumber: 3,
+        direction: "Remove the chicken and pat it dry. Pour the marinade into a pan, bring it to the boil and reduce by two-thirds."
+      },
+      {
+        stepNumber: 4,
+        direction: "Heat a tablespoon of the butter and the oil in a frying pan, add the chicken breasts and fry them for 15 minutes, turning them halfway through. Remove the chicken from the pan and set it aside to rest."
+      },
+      {
+        stepNumber: 5,
+        direction: "Add the blanched onions and the mushrooms (10) to the frying pan and cook them for a few minutes. Drain off the excess fat, add the bacon (120 G) and cook until browned. Pour the reduced marinade into the pan, add the stock (300 mL) and boil rapidly until the mixture is syrupy. Stir the remaining butter (1 tbsp) into the sauce."
+      },
+      {
+        stepNumber: 6,
+        direction: "Serve the chicken with the onion and mushroom sauce."
+      }
     ],
     recipeImage: "",
     cookbookTitle: "The French Revolution",
