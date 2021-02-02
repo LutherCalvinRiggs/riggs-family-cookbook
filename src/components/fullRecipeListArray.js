@@ -551,7 +551,7 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 57,
-    keywords: "dessert spring summer fall winter",
+    keywords: "",
     recipeTitle: "Poached Peaches with Rosemary",
     servingSize: "6",
     totalTime: "45 minutes",
@@ -605,7 +605,7 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 56,
-    keywords: "dessert spring summer fall winter",
+    keywords: "",
     recipeTitle: "Yoghurt & Strawberry Ice Cream",
     servingSize: "4",
     totalTime: "20 minutes",
@@ -667,7 +667,7 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 55,
-    keywords: "dessert spring summer fall winter",
+    keywords: "",
     recipeTitle: "Chocolate Ice Cream",
     servingSize: "6-8",
     totalTime: "40 minutes (8 hours to freeze)",
@@ -747,7 +747,7 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 54,
-    keywords: "dessert spring summer fall winter",
+    keywords: "",
     recipeTitle: "Chocolate Mousse",
     servingSize: "6-8",
     totalTime: "40 minutes",
@@ -815,7 +815,7 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 53,
-    keywords: "dessert spring summer fall winter vegetarian",
+    keywords: "",
     recipeTitle: "Fruit Compotes",
     servingSize: "6",
     totalTime: "25-35 minutes",
@@ -909,7 +909,7 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 52,
-    keywords: "dessert summer vegetarian french side dish",
+    keywords: "",
     recipeTitle: "Fruit Soup with Verbena",
     servingSize: "4",
     totalTime: "45 minutes",
@@ -979,7 +979,7 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 51,
-    keywords: "dessert spring summer fall winter",
+    keywords: "",
     recipeTitle: "French Toast, Normandy Style",
     servingSize: "2",
     totalTime: "25 minutes",
@@ -1083,7 +1083,7 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 50,
-    keywords: "dessert spring summer fall winter vegetarian",
+    keywords: "",
     recipeTitle: "Fig Tarte Tatin",
     servingSize: "4",
     totalTime: "50 minnutes",
@@ -1157,7 +1157,7 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 49,
-    keywords: "main dish spring summer fall winter comfort food lamb",
+    keywords: "",
     recipeTitle: "Lamb with Haricot Beans",
     servingSize: "6",
     totalTime: "90 minutes",
@@ -1257,7 +1257,7 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 48,
-    keywords: "main dish spring summer fall winter lamb",
+    keywords: "",
     recipeTitle: "Rack of Lamb with an Olive Crust",
     servingSize: "4-6",
     totalTime: "60 minutes",
@@ -1397,7 +1397,7 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 47,
-    keywords: "main dish spring summer fall winter favorite comfort food beef",
+    keywords: "",
     recipeTitle: "Minute Steak",
     servingSize: "2",
     totalTime: "20 minutes",
@@ -1491,7 +1491,7 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 46,
-    keywords: "main dish fall winter duck",
+    keywords: "",
     recipeTitle: "Duck Confit Pie",
     servingSize: "4",
     totalTime: "75 minutes",
@@ -1500,8 +1500,8 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "fall winter",
     dishType: "main dish",
-    favorite: "",
-    comfortFood: "",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -1599,11 +1599,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 45,
-    keywords: "main dish spring summer fall winter poultry",
+    keywords: "",
     recipeTitle: "Chicken Breasts with Burgundy",
     servingSize: "2",
     totalTime: "180 minutes",
     mealType: "dinner",
+    protein: "chicken poultry",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -1707,11 +1713,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 44,
-    keywords: "main dish spring summer fall winter fish seafood",
+    keywords: "",
     recipeTitle: "Poached Sea Trout",
     servingSize: "6",
     totalTime: "70 minutes",
     mealType: "dinner",
+    protein: "fish seafood",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -1805,11 +1817,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 43,
-    keywords: "main dish spring summer fall winter fish seafood",
+    keywords: "",
     recipeTitle: "Scallops with Breadcrumbs, Garlic & Parsley",
     servingSize: "4",
     totalTime: "20 minutes",
     mealType: "lunch dinnner",
+    protein: "seafood shellfish",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "favorite", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -1881,11 +1899,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 42,
-    keywords: "main dish spring summer fall winter fish seafood",
+    keywords: "",
     recipeTitle: "Monkfish Cooked in the Style of Lamb",
     servingSize: "4",
     totalTime: "45 minutes",
     mealType: "lunch dinner",
+    protein: "seafood fish",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -1963,11 +1987,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 41,
-    keywords: "main dish spring summer fall winter favorite comfort food beef",
+    keywords: "",
     recipeTitle: "Beef Patties Topped with Eggs",
     servingSize: "4",
     totalTime: "30 minutes",
     mealType: "lunch dinner",
+    protein: "beef",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "favorite", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -2045,11 +2075,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 40,
-    keywords: "main dish spring summer fall winter pork",
+    keywords: "",
     recipeTitle: "Prok Chops with Prunes",
     servingSize: "4",
     totalTime: "45 minutes",
     mealType: "dinner",
+    protein: "pork",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -2163,11 +2199,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 39,
-    keywords: "main dish spring summer fall winter favorite poultry",
+    keywords: "",
     recipeTitle: "Basque-style Chicken",
     servingSize: "4",
     totalTime: "65 minutes",
     mealType: "dinner",
+    protein: "chicken poultry",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "favorite", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -2279,11 +2321,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 38,
-    keywords: "side dish spring summer fall winter favorite comfort food beef",
+    keywords: "",
     recipeTitle: "Stuffed Tomatoes",
     servingSize: "8",
     totalTime: "60 minutes",
     mealType: "lunch dinner",
+    protein: "beef pork",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "favorite", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -2369,11 +2417,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 37,
-    keywords: "main dish spring summer fall winter comfort food seafood shellfish",
+    keywords: "",
     recipeTitle: "Mussels with Beer",
     servingSize: "4",
     totalTime: "35 minutes",
     mealType: "lunch dinner",
+    protein: "seafood shellfish",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -2439,11 +2493,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 36,
-    keywords: "main dish spring summer fall winter fish seafood",
+    keywords: "",
     recipeTitle: "Tuna Steaks Antiboise",
     servingSize: "4",
     totalTime: "30 minutes",
     mealType: "dinner",
+    protein: "seafood fish",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -2535,11 +2595,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 35,
-    keywords: "main dish spring summer fall winter favorite comfort food vegetarian",
+    keywords: "",
     recipeTitle: "Pasta with Wild Mushrooms",
     servingSize: "4",
     totalTime: "20 minutes",
     mealType: "lunch dinner",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "favorite", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -2623,11 +2689,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 34,
-    keywords: "main dish spring summer fall winter favorite seafood shellfish",
+    keywords: "",
     recipeTitle: "Pasta with Prawns & Pistou",
     servingSize: "4",
     totalTime: "30 minutes",
     mealType: "lunch dinner",
+    protein: "seafood shellfish",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "favorite", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -2689,11 +2761,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 33,
-    keywords: "side dish spring summer fall winter vegetarian vegan",
+    keywords: "",
     recipeTitle: "Rice with Peppers, Basque Style",
     servingSize: "6",
     totalTime: "45 minutes",
     mealType: "lunch dinner",
+    protein: "vegetarian vegan",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -2791,11 +2869,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 32,
-    keywords: "side dish spring summer fall winter vegetarian vegan",
+    keywords: "",
     recipeTitle: "Lentils Moroccan Style",
     servingSize: "4",
     totalTime: "50 minutes",
     mealType: "lunch dinner",
+    protein: "vegetarian vegan",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -2891,11 +2975,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 31,
-    keywords: "side dish spring summer fall winter comfort food vegetarian",
+    keywords: "",
     recipeTitle: "Crushed Potatoes",
     servingSize: "4",
     totalTime: "30 minutes",
     mealType: "dinner",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side dish",
+    favorite: "", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -2969,11 +3059,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 30,
-    keywords: "side dish fall winter vegetarian",
+    keywords: "",
     recipeTitle: "Jerusalem Artichoke & Potato Gratin",
     servingSize: "6",
     totalTime: "90 minutes",
     mealType: "dinner",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "fall winter",
+    dishType: "side dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3053,11 +3149,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 29,
-    keywords: "side dish spring summer fall winter vegetarian",
+    keywords: "",
     recipeTitle: "Sautéed New Potatoes",
     servingSize: "4",
     totalTime: "30 minutes",
     mealType: "lunch dinner",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3119,11 +3221,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 28,
-    keywords: "main dish spring summer fall winter vegetarian vegan",
+    keywords: "",
     recipeTitle: "Baked Tomatoes Provençal",
     servingSize: "4",
     totalTime: "25 minutes",
     mealType: "lunch",
+    protein: "vegetarian vegan",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3197,11 +3305,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 27,
-    keywords: "side dish spring summer fall winter vegetarian vegan",
+    keywords: "",
     recipeTitle: "Grilled Asparagus with Hazelnuts",
     servingSize: "4",
     totalTime: "45 minutes",
     mealType: "lunch dinner",
+    protein: "vegetarian vegan",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3281,11 +3395,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 26,
-    keywords: "main dish spring summer fall winter poultry",
+    keywords: "",
     recipeTitle: "Chicken Soup with Cheese Croquettes & Truffle",
     servingSize: "4",
     totalTime: "90 miutes",
     mealType: "lunch dinner",
+    protein: "chicken poultry",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3409,11 +3529,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 25,
-    keywords: "main dish spring summer fall winter fish seafood",
+    keywords: "",
     recipeTitle: "Watercress & Crayfish Soup",
     servingSize: "6",
     totalTime: "15-25 minutes",
     mealType: "lunch dinner",
+    protein: "seafood fish",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3491,11 +3617,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 24,
-    keywords: "main dish spring summer fall winter comfort food favorite vegetarian seafood shellfish",
+    keywords: "",
     recipeTitle: "Sweetcorn & Brown Shrimp Soup",
     servingSize: "6",
     totalTime: "45 minutes",
     mealType: "lunch dinner",
+    protein: "seafood shellfish vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "favorite", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "This was the first recipe that I made for my family out of this book and it was a MASSIVE hit! Simple and makes enough for leftovers the next day (just as delicious the second time around). I feel confident saying that you'll visit this site again simply for this amazing soup!!",
     recipeIngredientList: [
       {
@@ -3569,11 +3701,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 23,
-    keywords: "main dish spring summer fall winter vegetarian",
+    keywords: "",
     recipeTitle: "Purple Potato Soup",
     servingSize: "6",
     totalTime: "30 minutes",
     mealType: "lunch dinnner",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3647,11 +3785,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 22,
-    keywords: "main dish spring summer fall winter vegetarian vegan",
+    keywords: "",
     recipeTitle: "Chickpea & Harissa Soup",
     servingSize: "6",
     totalTime: "40 minutes",
     mealType: "lunch dinner",
+    protein: "vegetarian vegan",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3735,11 +3879,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 21,
-    keywords: "main dish spring summer fall winter comfort food favorite vegetarian",
+    keywords: "",
     recipeTitle: "Roasted Tomato Soup",
     servingSize: "6",
     totalTime: "105 minutes",
     mealType: "lunch dinner",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "favorite", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "My family absolutely loves this soup! It's a go-to for weekends, rainy days and snow days. Pair this soup with a grilled cheese sandwich of country bread and Emmemtal for a French twist on a comfort food classic.",
     recipeIngredientList: [
       {
@@ -3819,11 +3969,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 20,
-    keywords: "main dish spring summer fall winter comfort food vegetarian",
+    keywords: "",
     recipeTitle: "Cauliflower Soup",
     servingSize: "6",
     totalTime: "45 minutes",
     mealType: "lunch dinner",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3919,11 +4075,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 19,
-    keywords: "main dish spring summer fall winter comfort food vegetarian vegan",
+    keywords: "",
     recipeTitle: "Vegetable Soup",
     servingSize: "6",
     totalTime: "30 minutes",
     mealType: "lunch dinner",
+    protein: "vegetarian vegann",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -4011,11 +4173,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 18,
-    keywords: "main dish spring summer fall winter vegetarian vegan",
+    keywords: "",
     recipeTitle: "Spinach Soup",
     servingSize: "4",
     totalTime: "30 minutes",
     mealType: "lunch dinner",
+    protein: "vegetarian vegan",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -4079,11 +4247,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 17,
-    keywords: "side dish spring summer fall favorite vegetarian",
+    keywords: "",
     recipeTitle: "Rice Salad Niçoise",
     servingSize: "4",
     totalTime: "40 minutes",
     mealType: "lunch",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall",
+    dishType: "side dish",
+    favorite: "favorite", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -4179,11 +4353,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 16,
-    keywords: "side dish spring summer fall winter favorite vegetarian vegan pork",
+    keywords: "",
     recipeTitle: "Spinach & Smoked Bacon Salad",
     servingSize: "4",
     totalTime: "30 minutes",
     mealType: "lunch dinner",
+    protein: "vegetarian vegan pork",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side dish",
+    favorite: "favorite", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "One of my favorite salads on this list. Simple, easy to make, pairs with pretty much everything, and BACON!",
     recipeIngredientList: [
       {
@@ -4251,11 +4431,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 15,
-    keywords: "side dish spring summer fall winter favorite vegetarian",
+    keywords: "",
     recipeTitle: "Mushroom Salad with Emmental & Herbs",
     servingSize: "4",
     totalTime: "20 minutes",
     mealType: "lunch dinner",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side dish",
+    favorite: "favorite", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -4341,11 +4527,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 14,
-    keywords: "side dish spring summer fall comfort food vegetarian",
+    keywords: "",
     recipeTitle: "Celeria Salad",
     servingSize: "6",
     totalTime: "30 minutes; 24 hours",
     mealType: "lunch dinner",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall",
+    dishType: "side dish",
+    favorite: "", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -4441,11 +4633,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 13,
-    keywords: "side dish spring summer fall favorite vegetarian",
+    keywords: "",
     recipeTitle: "Creamed Cucumber Salad",
     servingSize: "4",
     totalTime: "45 minutes",
     mealType: "lunch",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall",
+    dishType: "side dish",
+    favorite: "favorite", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -4513,11 +4711,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 12,
-    keywords: "main dish sprin summer fall comfort food vegetarian",
+    keywords: "",
     recipeTitle: "Open Sandwich with Cheese, Apples & Calvados",
     servingSize: "4",
     totalTime: "25 minutes",
     mealType: "lunch",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -4599,11 +4803,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 11,
-    keywords: "main dish spring summer fall comfort food vegetarian",
+    keywords: "",
     recipeTitle: "Open Sandwich with Goats' Cheese & Figs",
     servingSize: "4",
     totalTime: "20 minutes",
     mealType: "lunch",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -4671,11 +4881,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 10,
-    keywords: "main dish spring summer fall winter comfort food",
+    keywords: "",
     recipeTitle: "Salami & Cheese Open Sandwich",
     servingSize: "2",
     totalTime: "15 minutes",
     mealType: "lunch",
+    protein: "pork",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -4753,11 +4969,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 9,
-    keywords: "main dish spring summer fall winter comfort food beef",
+    keywords: "",
     recipeTitle: "Open Sandwich with Beef, Shallots & Watercress",
     servingSize: "4",
     totalTime: "20 minutes",
     mealType: "lunch",
+    protein: "beef",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -4843,11 +5065,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 8,
-    keywords: "egg ham cheese spring summer fall winter comfort food",
+    keywords: "",
     recipeTitle: "Swiss Chard Omelette",
     servingSize: "4",
     totalTime: "20 minutes",
     mealType: "breakfast",
+    protein: "egg pork",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -4937,11 +5165,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 7,
-    keywords: "ham main dish spring summer fall winter comfort food",
+    keywords: "",
     recipeTitle: "Baked Cheese Sandwich",
     servingSize: "4",
     totalTime: "15 minutes",
     mealType: "breakfast lunch",
+    protein: "pork",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -5015,11 +5249,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 6,
-    keywords: "chicken main dish fall winter favorite poultry",
+    keywords: "",
     recipeTitle: "Roast Chicken with Herbs",
     servingSize: "4-6",
     totalTime: "75 minutes",
     mealType: "dinner",
+    protein: "chicken poultry",
+    cuisine: "french",
+    season: "fall winter",
+    dishType: "main dish",
+    favorite: "favorite", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "I love this recipe! It's easy, tasty and once you have it mastered you can explore various flavour profiles by modifying the herbs. Not to mention, chicken pairs well with pretty much everything!",
     recipeIngredientList: [
       {
@@ -5137,11 +5377,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 5,
-    keywords: "pasta main dish fall winter vegetarian favorite vegetarian",
+    keywords: "",
     recipeTitle: "Pasta with Wild Mushrooms",
     servingSize: "4",
     totalTime: "20 minutes",
     mealType: "lunch dinner",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "fall winter",
+    dishType: "main dish",
+    favorite: "favorite", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",
     recipeIngredientList: [
       {
@@ -5230,6 +5476,12 @@ export const fullRecipeListArray = [
     servingSize: "6",
     totalTime: "120 minutes",
     mealType: "dinner",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",
     recipeIngredientList: [
       {
@@ -5337,11 +5589,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 3,
-    keywords: "soup winter favorite comfort food vegetarian",
+    keywords: "",
     recipeTitle: "Roasted Tomato Soup",
     servingSize: "6",
     totalTime: "90 minutes",
     mealType: "lunch dinner",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main dish",
+    favorite: "favorite", // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "This recipe is one of my wife's favorites and a classic for the winter months. Pair this soup with a grilled cheese sandwich of country bread and Muenster cheese and you have a comfort-food lunch that can't miss.",
     recipeIngredientList: [
       {
@@ -5421,11 +5679,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 2,
-    keywords: "side dish salad spring summer fall winter vegetarian vegan",
+    keywords: "salad",
     recipeTitle: "Grilled Broccoli with Almonds & Lemons",
     servingSize: "4",
     totalTime: "30 minutes",
     mealType: "lunch dinner",
+    protein: "vegetarian vegan",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side dish",
+    favorite: "", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "This is a delicious dish doubles as a side dish for grilled beef, or as a fresh cooked salad for a light lunch!",
     recipeIngredientList: [
       {
@@ -5497,11 +5761,17 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 1,
-    keywords: "side dish salad summer favorite vegetarian",
+    keywords: "",
     recipeTitle: "Celeraic, Apple & Roquefort Salad",
     servingSize: "4",
     totalTime: "20 minutes",
     mealType: "lunch",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall",
+    dishType: "side dish",
+    favorite: "favorite", // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "I love this recipe! It's quick, simple, full of flavor and easy to make. If there is one recipe that you should definitly add to your personal shortlist, this is it!",
     recipeIngredientList: [
       {
