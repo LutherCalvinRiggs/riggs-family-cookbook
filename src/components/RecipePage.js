@@ -66,14 +66,24 @@ class RecipePage extends Component {
         eachItem.mealType
         .toLowerCase()
         .includes(this.props.keywordText.toLowerCase()) ||
-        // eachItem.recipeIngredientList
-        // .filter((eachIngredient) => {
-        //   return (
-        //     eachIngredient.ingredient
-        //     .toLowerCase()
-        //     .includes(props.keywordText.toLowerCase())
-        //   )
-        // }) ||
+        eachItem.protein
+        .toLowerCase()
+        .includes(this.props.keywordText.toLowerCase()) ||
+        eachItem.cuisine
+        .toLowerCase()
+        .includes(this.props.keywordText.toLowerCase()) ||
+        eachItem.season
+        .toLowerCase()
+        .includes(this.props.keywordText.toLowerCase()) ||
+        eachItem.dishType
+        .toLowerCase()
+        .includes(this.props.keywordText.toLowerCase()) ||
+        eachItem.favorite
+        .toLowerCase()
+        .includes(this.props.keywordText.toLowerCase()) ||
+        eachItem.comfortFood
+        .toLowerCase()
+        .includes(this.props.keywordText.toLowerCase()) ||
         eachItem.cookbookTitle
         .toLowerCase()
         .includes(this.props.keywordText.toLowerCase()) ||

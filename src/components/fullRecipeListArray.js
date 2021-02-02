@@ -5,11 +5,11 @@ export const fullRecipeListArray = [
     recipeTitle: "",
     servingSize: "",
     totalTime: "",
-    mealType: "dessert",
-    protein: "",
+    mealType: "pastry bread",
+    protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "main side",
+    dishType: "side side",
     favorite: "favorite",  // leave blank if not
     comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
@@ -116,6 +116,244 @@ export const fullRecipeListArray = [
         stepNumber: 10,
         direction: ""
       },
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 61,
+    keywords: "bake baking",
+    recipeTitle: "Brittany Shortbread",
+    servingSize: "35 biscuits",
+    totalTime: "75 minutes",
+    mealType: "pastry bread",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side side",
+    favorite: "",  // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: ""
+      },
+      {
+        stepNumber: 2,
+        direction: ""
+      },
+      {
+        stepNumber: 3,
+        direction: ""
+      },
+      {
+        stepNumber: 4,
+        direction: ""
+      },
+      {
+        stepNumber: 5,
+        direction: ""
+      },
+      {
+        stepNumber: 6,
+        direction: ""
+      },
+      {
+        stepNumber: 7,
+        direction: ""
+      },
+      {
+        stepNumber: 8,
+        direction: ""
+      },
+      {
+        stepNumber: 9,
+        direction: ""
+      },
+      {
+        stepNumber: 10,
+        direction: ""
+      },
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 60,
+    keywords: "bake baking",
+    recipeTitle: "Fruit Cake",
+    servingSize: "1 x 28cm cake",
+    totalTime: "75 minutes",
+    mealType: "pastry bread",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side side",
+    favorite: "",  // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "250 G",
+        ingredient: "Mixed dried fruit (sultanas, currants, raisins, peel)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "100 mL",
+        ingredient: "Rum or kirsch",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "500 G",
+        ingredient: "Butter",
+        preparation: "softened, plus extra for greasing"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "300 G",
+        ingredient: "Caster sugar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "2",
+        ingredient: "Eggs",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "4",
+        ingredient: "Eggs",
+        preparation: "separated"
+      },
+      {
+        ingredientNumber: 7,
+        amount: "2 tsp",
+        ingredient: "Baking powder",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "500 G",
+        ingredient: "Plain flour",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "1/2 tsp",
+        ingredient: "Salt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "",
+        ingredient: "Apricot jam",
+        preparation: "warmed"
+      },
+      {
+        ingredientNumber: 11,
+        amount: "",
+        ingredient: "Glacé fruit",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "The night before you want to make the cake, put the dried fruit in a bowl with the rum or Kirsch and leave it to macerate."
+      },
+      {
+        stepNumber: 2,
+        direction: "Grease a 28 cM cake tin and line it with baking paper. Preheat the oven to 460˚F/240˚C/Fan 220˚C/Gas 9."
+      },
+      {
+        stepNumber: 3,
+        direction: "Using an electric whisk, beat the butter (500 G) and sugar (300 G) in a bowl until light and fluffy, then gradually add 2 whole eggs and 4 additional egg yolks. Keep whisking for about 6 minutes, until the mixture is pale."
+      },
+      {
+        stepNumber: 4,
+        direction: "Mix the baking powder (2 tsp) with the flour (500 G) and fold this into the butter, sugar, and egg mixture. Fold in the soaked fruit and liquor."
+      },
+      {
+        stepNumber: 5,
+        direction: "Whisk the 4 egg whites with the salt in a clean bowl until they form stiff peaks, then fold them into the mixture. Pour the mixture into the prepared tin and place it in the hot oven for 5 minutes. Then turn the oven down to 400˚F/200˚C/Fan 180˚C/Gas 6 and bake the cake for a further 45 minutes - cover the cake with some foil after about 10 minutes so the top doesn't get too dark."
+      },
+      {
+        stepNumber: 6,
+        direction: "At the end of the cooking time, insert a skewer into the cake - if it comes out clean the cake is ready. If not, bake for another 5 minutes. Leave the cake to cool in the tin, then turn it out on to a wire rack. If you like, you can brush the cake with some warmed apricot jam and then decorate it with some glacé fruit."
+      }
     ],
     recipeImage: "",
     cookbookTitle: "The French Revolution",
@@ -125,121 +363,85 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 59,
-    keywords: "dessert spring summer fall winter",
-    recipeTitle: "",
-    servingSize: "",
-    totalTime: "",
-    mealType: "dessert",
-    protein: "",
+    keywords: "bake baking",
+    recipeTitle: "Lemon Cake",
+    servingSize: "10 slices",
+    totalTime: "65 minutes",
+    mealType: "pastry bread",
+    protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "main side",
+    dishType: "side side",
     favorite: "favorite",  // leave blank if not
     comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
         ingredientNumber: 1,
-        amount: "",
-        ingredient: "",
-        preparation: ""
+        amount: "75 G",
+        ingredient: "Butter",
+        preparation: "softened, plus extra for greasing"
       },
       {
         ingredientNumber: 2,
-        amount: "",
-        ingredient: "",
+        amount: "200 mL",
+        ingredient: "Crème fraîche",
         preparation: ""
       },
       {
         ingredientNumber: 3,
-        amount: "",
-        ingredient: "",
+        amount: "150 G",
+        ingredient: "Caster sugar",
         preparation: ""
       },
       {
         ingredientNumber: 4,
-        amount: "",
-        ingredient: "",
-        preparation: ""
+        amount: "3",
+        ingredient: "Eggs",
+        preparation: "large"
       },
       {
         ingredientNumber: 5,
-        amount: "",
-        ingredient: "",
+        amount: "220 G",
+        ingredient: "Plain flour",
         preparation: ""
       },
       {
         ingredientNumber: 6,
-        amount: "",
-        ingredient: "",
+        amount: "2 tsp",
+        ingredient: "Baking powder",
         preparation: ""
       },
       {
         ingredientNumber: 7,
-        amount: "",
-        ingredient: "",
+        amount: "20 G",
+        ingredient: "Candied lemon peel (optional)",
         preparation: ""
       },
       {
         ingredientNumber: 8,
         amount: "",
-        ingredient: "",
+        ingredient: "Zest and juice of 1 unwaxed lemon",
         preparation: ""
-      },
-      {
-        ingredientNumber: 9,
-        amount: "",
-        ingredient: "",
-        preparation: ""
-      },
-      {
-        ingredientNumber: 10,
-        amount: "",
-        ingredient: "",
-        preparation: ""
-      },
+      }
     ],
     recipeDirections: [
       {
         stepNumber: 1,
-        direction: ""
+        direction: "Preheat the oven to 400˚F/200˚C/Fan 180˚C/Gas 6. Grease a 450 G loaf tin and line it with baking paper."
       },
       {
         stepNumber: 2,
-        direction: ""
+        direction: "Using an electric hand whisk, beat the softened butter (75 G), crème fraîche (200 mL) and sugar (150 G) in a bowl until creamy. Add the eggs (2) one at a time, whisking well."
       },
       {
         stepNumber: 3,
-        direction: ""
+        direction: "Mix the flour (220 G), baking powder (2 tsp), lemon juice and zest and the chopped peel, if using, in a bowl, then fold this into the wet ingredients. Pour the mixture into the prepared loaf tin and bake for 40 minutes."
       },
       {
         stepNumber: 4,
-        direction: ""
-      },
-      {
-        stepNumber: 5,
-        direction: ""
-      },
-      {
-        stepNumber: 6,
-        direction: ""
-      },
-      {
-        stepNumber: 7,
-        direction: ""
-      },
-      {
-        stepNumber: 8,
-        direction: ""
-      },
-      {
-        stepNumber: 9,
-        direction: ""
-      },
-      {
-        stepNumber: 10,
-        direction: ""
-      },
+        direction: "Remove the cake from the oven and leave it to cool in the tin for 5 minutes. Turn it out on to a wire rack to finish cooling."
+      }
     ],
     recipeImage: "",
     cookbookTitle: "The French Revolution",
@@ -249,7 +451,7 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 58,
-    keywords: "dessert spring summer fall winter",
+    keywords: "bake baking",
     recipeTitle: "Fruit Tarts",
     servingSize: "8",
     totalTime: "60 minutes",
