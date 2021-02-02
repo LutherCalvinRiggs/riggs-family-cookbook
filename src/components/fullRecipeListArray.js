@@ -124,13 +124,13 @@ export const fullRecipeListArray = [
     amazonProductLink: "",
   },
   {
-    recipeNumber: 51,
+    recipeNumber: 59,
     keywords: "dessert spring summer fall winter",
-    recipeTitle: "French Toast, Normandy Style",
-    servingSize: "2",
+    recipeTitle: "",
+    servingSize: "",
     totalTime: "",
-    mealType: "breakfast",
-    protein: "vegetarian",
+    mealType: "dessert",
+    protein: "",
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "main side",
@@ -240,6 +240,638 @@ export const fullRecipeListArray = [
         stepNumber: 10,
         direction: ""
       },
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 58,
+    keywords: "dessert spring summer fall winter",
+    recipeTitle: "Fruit Tarts",
+    servingSize: "8",
+    totalTime: "60 minutes",
+    mealType: "dessert",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side side",
+    favorite: "",  // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "250 G",
+        ingredient: "Sweet pastry (search for recipe)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "500 G",
+        ingredient: "Fruit (strawberries, raspberries, blackberries, redcurrants)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "80 G",
+        ingredient: "Butter",
+        preparation: "softened"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "80 G",
+        ingredient: "Caster sugar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "100 G",
+        ingredient: "Ground almonds",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "",
+        ingredient: "Pinch of salt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "2",
+        ingredient: "Eggs",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "1 tbsp",
+        ingredient: "Dark rum",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "",
+        ingredient: "Melted apricot jam (optional)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "",
+        ingredient: "Icing sugar (optional)",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Preheat the oven to 400˚F/200˚C/Fan 180˚C/Gas 6. Roll out the pastry to a thickness of 5 mm and cut out shapes to line your tart moulds."
+      },
+      {
+        stepNumber: 2,
+        direction: "To make the almond paste, place the butter (80 G), sugar (80 G), ground almonds (100 G) and salt (pinch) in a food processor and blitz until the mixture is pale and well combined. Add the eggs (2), one at a time, then add the rum (1 tbsp), and blitz again."
+      },
+      {
+        stepNumber: 3,
+        direction: "Spoon the almond paste into the tarts to fill them three-quarters full. Cook the tarts for 20 mintues until golden brown and fully cooked. Remove them from the oven and leave them to cool."
+      },
+      {
+        stepNumber: 4,
+        direction: "Arrange the fruit on top. Do this just before serving, otherwise the fruit may soften the pastry. If desired, glaze the tarts with melted apricot jam or sprinkle with icing sugar."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 57,
+    keywords: "dessert spring summer fall winter",
+    recipeTitle: "Poached Peaches with Rosemary",
+    servingSize: "6",
+    totalTime: "45 minutes",
+    mealType: "dessert",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side side",
+    favorite: "",  // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "6",
+        ingredient: "Peaches",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "1 kG",
+        ingredient: "Caster sugar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "2",
+        ingredient: "Rosemary sprigs",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "If, like me, you are not a fan of peach skin, blanch the peaches first and peel off the skin. Cut a small cross in the base of each peach. Bring a pan of water to the boil, add the peaches and leave them for 30 seconds, then remove and put them in a bowl of cold water. Peel off the skins."
+      },
+      {
+        stepNumber: 2,
+        direction: "Fill a large pan with 2 litres of water and add the sugar (1 kG) and rosemary (2 sprigs). Bring to the boil, add the peaches and simmer them for 20 minutes - put a piece of baking paper over them to keep them down in the water. Remove the pan from the heat and leave to cool."
+      },
+      {
+        stepNumber: 3,
+        direction: "Serve the peaches with a little of the poaching syrup."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 56,
+    keywords: "dessert spring summer fall winter",
+    recipeTitle: "Yoghurt & Strawberry Ice Cream",
+    servingSize: "4",
+    totalTime: "20 minutes",
+    mealType: "dessert",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side side",
+    favorite: "favorite",  // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "500 G",
+        ingredient: "Plain yoghurt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "100 G",
+        ingredient: "Strawberry jam",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "100 mL",
+        ingredient: "Double cream",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "",
+        ingredient: "Juice and zest of 1 lemon",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "",
+        ingredient: "Pistachios and sliced almonds (optional)",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Blitz all the ingredients, except the nuts, in a food processor until smooth. Scoop the mixture into an airtight, freezer-proof container. Place it in the freezer and leave for 6-8 hours."
+      },
+      {
+        stepNumber: 2,
+        direction: "Toast the nuts, if using, in a dry pan until golden, then set them aside. Serve the ice cream topped with the toasted nuts."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 55,
+    keywords: "dessert spring summer fall winter",
+    recipeTitle: "Chocolate Ice Cream",
+    servingSize: "6-8",
+    totalTime: "40 minutes (8 hours to freeze)",
+    mealType: "dessert",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side side",
+    favorite: "favorite",  // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "50 G",
+        ingredient: "Milk chocolate",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "250 mL",
+        ingredient: "Double cream",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "160 G",
+        ingredient: "Dark chocolate (70% cocoa solids)",
+        preparation: "broken into pieces"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "2",
+        ingredient: "Eggs",
+        preparation: "plus one yolk"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "90 G",
+        ingredient: "Caster sugar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1 tsp",
+        ingredient: "Vanilla extract",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Chop or coarsely grate the milk chocolate (50 G) and put it in the fridge to keep cold. Whisk the cream (250 mL) in a bowl until it holds firm peaks."
+      },
+      {
+        stepNumber: 2,
+        direction: "Put the dark chocolate (160 G) in a bowl over a pan of simmering water, make sure the bottom of the bowl doesn't touch the water, making sure the bottom of the bowl doesn't touch the water. Allow the chocolate to melt - don't let it overheat - then carefully remove the bowl from the pan and set it aside."
+      },
+      {
+        stepNumber: 3,
+        direction: "Place the eggs (2), egg yolk (1), sugar (90 G) and vanilla (1 tsp) in another bowl and set it over the pan of simmering water. Whisk the mixture with a balloon whisk for 10 minutes until it is pale and frothy. Be sure to keep the temperature low or the eggs will scramble. This process partially cooks the eggs and sets the mixture, giving a lovely creamy texture to the ice cream."
+      },
+      {
+        stepNumber: 4,
+        direction: "Take the pan off the heat and carefully remove the bowl, then mix in the melted dark chocolate. Leave the mixture to cool a little, then fold in the whipped cream and grated milk chocolate."
+      },
+      {
+        stepNumber: 5,
+        direction: "Tip the mixture into an airtight, freezer-proof container and freeze for about 8 hours before serving."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 54,
+    keywords: "dessert spring summer fall winter",
+    recipeTitle: "Chocolate Mousse",
+    servingSize: "6-8",
+    totalTime: "40 minutes",
+    mealType: "dessert",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side side",
+    favorite: "favorite",  // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "220 G",
+        ingredient: "Dark chocolate (70% cocoa solids)",
+        preparation: "broken into pieces"
+      },
+      {
+        ingredientNumber: 2,
+        amount: "8",
+        ingredient: "Eggs",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "2 tbsp",
+        ingredient: "Caster sugar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "",
+        ingredient: "Coarse sea salt (optional)",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Set a heatproof bowl over a saucepan of simmering water, making sure the bottom of the bowl doesn't touch the water. "
+      },
+      {
+        stepNumber: 2,
+        direction: "Add the chocolate (220 G) to the bowl with 2 tablespoons of water, and allow it to melt slowly, making sure it doesn't overheat. Once melted, set the bowl of chocolate aside to cool slightly."
+      },
+      {
+        stepNumber: 3,
+        direction: "Separate the eggs (8), making sure the whites go in a scrupulously clean bowl with no trace of fat or they won't whisk properly. Whisk the egg yolks into the cooled chocolate."
+      },
+      {
+        stepNumber: 4,
+        direction: "Add the sugar (2 tbsp) to the egg whites and beat them with an electric hand beater until stiff. Fold them into the chocolate a little at a time. I like to add just a pinch of coarse sea salt to bring out the flavour of the chocolate."
+      },
+      {
+        stepNumber: 5,
+        direction: "Spoon the mixture into little cups or glass bowls and refigerate for a couple of hours before serving."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 53,
+    keywords: "dessert spring summer fall winter vegetarian",
+    recipeTitle: "Fruit Compotes",
+    servingSize: "6",
+    totalTime: "25-35 minutes",
+    mealType: "dessert",
+    protein: "vegetarian vegan",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side side",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "3",
+        ingredient: "Sharp cooking apples",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "6",
+        ingredient: "Eating apples",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "80 G",
+        ingredient: "Caster sugar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "",
+        ingredient: "Juice of 1 lemon",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "1",
+        ingredient: "Cinnamon stick",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "30",
+        ingredient: "Apricots",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "180 G",
+        ingredient: "Caster sugar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "2",
+        ingredient: "Vanilla pods",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "1 tsp",
+        ingredient: "Almond extract (optional)",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "For the apple compote, I like to peel the apples but some people prefer not to."
+      },
+      {
+        stepNumber: 2,
+        direction: "Core and cut the apples (9) into small pieces, put them in a pan and add the sugar (80 G), lemon juice and cinnamon stick. Cover and bring to a gentle simmer for 20 minutes. Remove the cinnamon to serve. Nice drizzled with a little honey if you like."
+      },
+      {
+        stepNumber: 3,
+        direction: "For the apricot compote, cut the apricots (30) in half and discard the stones. Place the apricots in a pan with the sugar (180 G). Scrape the seeds from the halved vanilla pods (2) into the pan and add a couple of tablespoons of water. Cover and bring to a gentle simmer for 20 minutes, then add the almond extract (1 tsp), if using."
+      },
+      {
+        stepNumber: 4,
+        direction: "I like this compote smooth so I blitz it in a food processor before serving, but you can leave it chunky if you prefer."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 52,
+    keywords: "dessert summer vegetarian french side dish",
+    recipeTitle: "Fruit Soup with Verbena",
+    servingSize: "4",
+    totalTime: "45 minutes",
+    mealType: "dessert",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "summer",
+    dishType: "side side",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "75 G",
+        ingredient: "Caster sugar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "2 tbsp",
+        ingredient: "Blossom honey",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "2",
+        ingredient: "Fresh verbana sprigs (or a handful of dried)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "500 G",
+        ingredient: "Mixed berries (strawberries, raspberries, blackberries, redcurrants, blackcurrants)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "",
+        ingredient: "Freshly ground black pepper (optional)",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Pour 500 mL of water into a pan, add the sugar (75 G) and honey (2 tbsp) and bring to the boil."
+      },
+      {
+        stepNumber: 2,
+        direction: "Add the verbena (2 sprigs) and simmer for 2 minutes. Take the pan off the heat, cover and leave to infuse for about 10 minutes. Remove the verbena."
+      },
+      {
+        stepNumber: 3,
+        direction: "Pour the liquid into a bowl, add the fruit (500 G), then leave to cool. Chill the soup in the fridge until it is very cold."
+      },
+      {
+        stepNumber: 4,
+        direction: "Just before serving I like to add a little freshly ground black pepper."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 51,
+    keywords: "dessert spring summer fall winter",
+    recipeTitle: "French Toast, Normandy Style",
+    servingSize: "2",
+    totalTime: "25 minutes",
+    mealType: "breakfast",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "main side",
+    favorite: "favorite",  // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "1",
+        ingredient: "Egg",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "125 mL",
+        ingredient: "Milk",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1 tsp",
+        ingredient: "Ground cinnamon",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "4 tbsp",
+        ingredient: "Sugar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "2",
+        ingredient: "Thick slices of Brioche or stale bread",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "3 tbsp",
+        ingredient: "Butter",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "2",
+        ingredient: "Apples",
+        preparation: "green"
+      },
+      {
+        ingredientNumber: 8,
+        amount: "",
+        ingredient: "Calvados",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "150 mL",
+        ingredient: "Whipping cream",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "1 tbsp",
+        ingredient: "Icing sugar",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Mix the egg, milk (125 mL) and cinnamon (1 tsp) with a tablespoon of sugar in a bowl. Dunk the slices of bread into this mixture to moisten them."
+      },
+      {
+        stepNumber: 2,
+        direction: "Heat a tablespoon of the butter in a pan. Take the slices of bread out of the milk mixture and place them in the hot pan with butter. Brown the bread on both sides, then add a tablespoon of sugar to the pan and another tablespoon of butter to caramelise. Take the slices of bread out and set them aside."
+      },
+      {
+        stepNumber: 3,
+        direction: "Cut one and a half of the apples into wedges - no need to peel them. Heat the rest of the butter (1 tbsp) and sugar (2 tbsp) in the pan and fry the apples until they are just cooked and browned. Add a good splash of Calvados and then set the pan aside."
+      },
+      {
+        stepNumber: 4,
+        direction: "Whisk the cream (150 mL) with the icing sugar (1 tbsp). Cut the remaining apple half into thin matchsticks."
+      },
+      {
+        stepNumber: 5,
+        direction: "Divide the warm apples between the slices of bread, spoon on some cream and sprinkle a few strips of raw apple on top. Serve at once!"
+      }
     ],
     recipeImage: "",
     cookbookTitle: "The French Revolution",
