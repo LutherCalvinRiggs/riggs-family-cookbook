@@ -1,7 +1,7 @@
 export const fullRecipeListArray = [
   {
     recipeNumber: x,
-    keywords: "dessert spring summer fall winter",
+    keywords: "",
     recipeTitle: "",
     servingSize: "",
     totalTime: "",
@@ -9,7 +9,7 @@ export const fullRecipeListArray = [
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side side",
+    dishType: "side dish",
     favorite: "favorite",  // leave blank if not
     comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
@@ -124,17 +124,17 @@ export const fullRecipeListArray = [
     amazonProductLink: "",
   },
   {
-    recipeNumber: 61,
+    recipeNumber: 64,
     keywords: "bake baking",
-    recipeTitle: "Brittany Shortbread",
-    servingSize: "35 biscuits",
-    totalTime: "75 minutes",
+    recipeTitle: "Buttery French Cakes",
+    servingSize: "",
+    totalTime: "",
     mealType: "pastry bread",
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side side",
-    favorite: "",  // leave blank if not
+    dishType: "side dish",
+    favorite: "favorite",  // leave blank if not
     comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
@@ -248,6 +248,266 @@ export const fullRecipeListArray = [
     amazonProductLink: "",
   },
   {
+    recipeNumber: 63,
+    keywords: "bake baking",
+    recipeTitle: "Spicy Biscuits",
+    servingSize: "About 30",
+    totalTime: "190 minutes",
+    mealType: "pastry bread",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side dish",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "150 G",
+        ingredient: "Butter",
+        preparation: "softened"
+      },
+      {
+        ingredientNumber: 2,
+        amount: "200 G",
+        ingredient: "Soft brown sugar (preferably muscovado)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1 tbsp",
+        ingredient: "Cinnamon",
+        preparation: "ground"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "2 tsp",
+        ingredient: "Ginger",
+        preparation: "ground"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "1 tsp",
+        ingredient: "Nutmeg",
+        preparation: "ground"
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1/2 tsp",
+        ingredient: "Cloves",
+        preparation: "ground"
+      },
+      {
+        ingredientNumber: 7,
+        amount: "1/2 tsp",
+        ingredient: "Salt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "3",
+        ingredient: "Eggs",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "500 G",
+        ingredient: "Plain flour",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "1 tsp",
+        ingredient: "Baking powder",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Whisk the butter (150 G) with the sugar (200 G), spices (1 tsp cinnamon, 2 tsp ginger, 1 tsp nutmeg, 1/2 tsp cloves) and salt (1/2 tsp) in a bowl until pale and creamy. Add the eggs (3) one at a time, whisking in between each one."
+      },
+      {
+        stepNumber: 2,
+        direction: "Mix the flour (500 G) and baking powder (1 tsp) in a bowl, then gradually fold them into the egg mixture to make a smooth dough. Wrap the dough in cling film and leave it to rest in the fridge for 2 hours."
+      },
+      {
+        stepNumber: 3,
+        direction: "Preheat the oven to 360˚F/180˚C/Fan 160˚C/Gas 4. Roll the dough out to 5 mM thick and cut it into rectangles or whatever shape you prefer. If you like, score a pattern on the biscuits with the tip of a sharp knife."
+      },
+      {
+        stepNumber: 4,
+        direction: "Place the biscuits on a baking tray and bake for 20-25 minutes. Remove them from the oven and leave them to cool on the baking tray for 10 minutes. Transfer them to a wire rack to cool completely. Store the biscuits in an airtight jar or tin."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 62,
+    keywords: "bake baking",
+    recipeTitle: "Yoghurt Cake",
+    servingSize: "10",
+    totalTime: "30-50 minutes",
+    mealType: "pastry bread cake",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side dish",
+    favorite: "favorite",  // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
+    recipeBackstory: "'This simple cake is child's play - in fact it's often one of the first recipes that a French child cooks at home with the family. There's no need to weigh anything, as you just use the yoghurt pot to measure the rest of the ingredients.'",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "1 x 125 G pot",
+        ingredient: "Plain yoghurt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "1 pot",
+        ingredient: "Vegetable oil",
+        preparation: "plus extra for greasing"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1 pot",
+        ingredient: "Eggs (usually 2 large eggs)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "2 pots",
+        ingredient: "Caster sugar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "3 pots",
+        ingredient: "Plain flour",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1 tsp",
+        ingredient: "Baking powder",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "1 tsp",
+        ingredient: "Vanilla essence or grated lemon zest",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Lightly grease a silicone mould or a loaf tin. Preheat the oven to 400˚F/200˚C/Fan 180˚C/Gas 6."
+      },
+      {
+        stepNumber: 2,
+        direction: "Whisk the yoghurt (1 pot), oil (1 pot) annd eggs (2 eggs) together in a bowl, then stir in the remaining ingredients (2 pots caster sugar, 3 pots plain flour, 1 tsp baking powder, tsp vanilla essence). Don't overwork the mxture. Pour the mixture into the prepared tin and bake for 35-40 minutes."
+      },
+      {
+        stepNumber: 3,
+        direction: "Remove the cake from the oven and leave it to cool in the tin for 5 minutes. Transfer it to a wire rack to finish cooling."
+      },
+      {
+        stepNumber: 4,
+        direction: "You can also make small cakes in muffin tins. Bake these for about 20 minutes."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 61,
+    keywords: "bake baking",
+    recipeTitle: "Brittany Shortbread",
+    servingSize: "35 biscuits",
+    totalTime: "75 minutes",
+    mealType: "pastry bread",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side dish",
+    favorite: "",  // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "200 G",
+        ingredient: "Butter",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "120 G",
+        ingredient: "Caster Sugar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1 tbsp",
+        ingredient: "Granulated sugar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "3",
+        ingredient: "Egg yolks",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "1 tsp",
+        ingredient: "Vanilla extract",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "Pinch of",
+        ingredient: "Sea salt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "280 G",
+        ingredient: "Plain flour",
+        preparation: "plus extra for dusting"
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Using an electric whisk, beat the butter (200 G) and caster sugar (120 G) together in a bowl for 2-3 minutes until light and fluffy. Add 2 of the egg yolks, the vanilla (1 tsp) and salt (pinch), then fold in the flour (280 G). Do not overwork the mixture. Wrap it in cling film and chill it in the fridge for half an hour to firm up."
+      },
+      {
+        stepNumber: 2,
+        direction: "Preheat the oven to 410˚F/210˚C/Fan 190˚C/Gas 6-1/2. Roll out the dough on a lightly floured work surface to about 1 cM thickness, then cut into small rounds about 4 cM in diameter. Place them on a baking tray. Beat the remaining egg yolk (1) with a little water, then brush the biscuits with this mixture. Make little indentations in the top of each one with the back of a fork and sprinkle whem with the granulated sugar (1 tbsp)."
+      },
+      {
+        stepNumber: 3,
+        direction: "Bake the biscuits for 12-15 minutes until golden. Transfer them to a wire rack to cool, then store in an airtight tin."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
     recipeNumber: 60,
     keywords: "bake baking",
     recipeTitle: "Fruit Cake",
@@ -257,7 +517,7 @@ export const fullRecipeListArray = [
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side side",
+    dishType: "side dish",
     favorite: "",  // leave blank if not
     comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
@@ -371,7 +631,7 @@ export const fullRecipeListArray = [
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side side",
+    dishType: "side dish",
     favorite: "favorite",  // leave blank if not
     comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
@@ -459,7 +719,7 @@ export const fullRecipeListArray = [
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side side",
+    dishType: "side dish",
     favorite: "",  // leave blank if not
     comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
@@ -559,7 +819,7 @@ export const fullRecipeListArray = [
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side side",
+    dishType: "side dish",
     favorite: "",  // leave blank if not
     comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
@@ -613,7 +873,7 @@ export const fullRecipeListArray = [
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side side",
+    dishType: "side dish",
     favorite: "favorite",  // leave blank if not
     comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
@@ -675,7 +935,7 @@ export const fullRecipeListArray = [
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side side",
+    dishType: "side dish",
     favorite: "favorite",  // leave blank if not
     comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
@@ -755,7 +1015,7 @@ export const fullRecipeListArray = [
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side side",
+    dishType: "side dish",
     favorite: "favorite",  // leave blank if not
     comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
@@ -823,7 +1083,7 @@ export const fullRecipeListArray = [
     protein: "vegetarian vegan",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side side",
+    dishType: "side dish",
     favorite: "",  // leave blank if not
     comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
@@ -917,7 +1177,7 @@ export const fullRecipeListArray = [
     protein: "vegetarian",
     cuisine: "french",
     season: "summer",
-    dishType: "side side",
+    dishType: "side dish",
     favorite: "",  // leave blank if not
     comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
@@ -987,7 +1247,7 @@ export const fullRecipeListArray = [
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "main side",
+    dishType: "main dish",
     favorite: "favorite",  // leave blank if not
     comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
@@ -1165,7 +1425,7 @@ export const fullRecipeListArray = [
     protein: "lamb",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "main side",
+    dishType: "main dish",
     favorite: "",  // leave blank if not
     comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
