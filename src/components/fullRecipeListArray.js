@@ -5,13 +5,13 @@ export const fullRecipeListArray = [
     recipeTitle: "",
     servingSize: "",
     totalTime: "",
-    mealType: "pastry bread",
+    mealType: "stock",
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side dish",
-    favorite: "favorite",  // leave blank if not
-    comfortFood: "comfort food",  // leave blank if not
+    dishType: "stock",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -116,6 +116,1002 @@ export const fullRecipeListArray = [
         stepNumber: 10,
         direction: ""
       },
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 74,
+    keywords: "",
+    recipeTitle: "Basil Sauce",
+    servingSize: "about 200 mL",
+    totalTime: "",
+    mealType: "stock",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "stock",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: ""
+      },
+      {
+        stepNumber: 2,
+        direction: ""
+      },
+      {
+        stepNumber: 3,
+        direction: ""
+      },
+      {
+        stepNumber: 4,
+        direction: ""
+      },
+      {
+        stepNumber: 5,
+        direction: ""
+      },
+      {
+        stepNumber: 6,
+        direction: ""
+      },
+      {
+        stepNumber: 7,
+        direction: ""
+      },
+      {
+        stepNumber: 8,
+        direction: ""
+      },
+      {
+        stepNumber: 9,
+        direction: ""
+      },
+      {
+        stepNumber: 10,
+        direction: ""
+      },
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 73,
+    keywords: "",
+    recipeTitle: "Beef Stock",
+    servingSize: "about 4 litres",
+    totalTime: "405 minutes",
+    mealType: "stock",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "stock",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "'Marrowbones, knuckles, ribs or oxtail tips with little or no meat on them are all fine for this stock. Ask your butcher to chop the bones up for you.'",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "2 kG",
+        ingredient: "Beef bones",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 2,
+        amount: "2",
+        ingredient: "Carrots",
+        preparation: "peeled and roughly chopped"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1",
+        ingredient: "Onion",
+        preparation: "peeled and roughly chopped"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1",
+        ingredient: "Leek",
+        preparation: "roughly chopped"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "2",
+        ingredient: "Celery sticks",
+        preparation: "roughly chopped"
+      },
+      {
+        ingredientNumber: 6,
+        amount: "4",
+        ingredient: "Garlic cloves",
+        preparation: "peeled and chopped"
+      },
+      {
+        ingredientNumber: 7,
+        amount: "2",
+        ingredient: "Bay leaves",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "",
+        ingredient: "Olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "500 mL",
+        ingredient: "White wine",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "1 tbsp",
+        ingredient: "Black peppercorns",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Preheat the oven to 430˚F/220˚C/Fan 200˚C/Gas 7. Put the bones in a large roasting tin. Add the vegetables, garlic (4) and bay leaves (2) to the bones and drizzle them with a little olive oil. Roast for about 30 minutes until the bones and vegetables are browned and caramelised, turning them a couple of times."
+      },
+      {
+        stepNumber: 2,
+        direction: "Transfer everything to a deep stock pan or a large saucepan, discarding any fat in the roasting tin. Put the tin on the hob and add the wine (500 mL). Deglaze, scraping up any sticky bits from the bottom of the tin, then add this to the bones in the pan."
+      },
+      {
+        stepNumber: 3,
+        direction: "Add cold water to cover the bones and vegetables by at least 20 cM. Bring to the boil and add the peppercorns (1 tbsp), then turn the heat down to a very gentle simmer. Skim well and cook for at least 6 hours. You may need to top up the liquid with a little hot water from time to time to ensure the bones stay covered."
+      },
+      {
+        stepNumber: 4,
+        direction: "Leave to cool, then skim off any fat and strain the stock through a fine sieve. Use immediately or chill for later use. This stock freezes well."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 72,
+    keywords: "",
+    recipeTitle: "Veal Stock",
+    servingSize: "about 3-1/2 litres",
+    totalTime: "255 minutes",
+    mealType: "stock",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "stock",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "'Ask your butcher to chop the bones and split the calf's foot for you. This stock is ideal for the chicken breasts with Burgudny recipe.'",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "1.5 kG",
+        ingredient: "Veal knuckle bones",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 2,
+        amount: "1",
+        ingredient: "Calf's foot",
+        preparation: "split"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "",
+        ingredient: "Olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1",
+        ingredient: "Large onion",
+        preparation: "peeled and roughly chopped"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "2",
+        ingredient: "Large carrots",
+        preparation: "peeled and roughly chopped"
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1",
+        ingredient: "Celery stick",
+        preparation: "roughly chopped"
+      },
+      {
+        ingredientNumber: 7,
+        amount: "2",
+        ingredient: "Garlic cloves",
+        preparation: "peeled"
+      },
+      {
+        ingredientNumber: 8,
+        amount: "2",
+        ingredient: "Thyme sprigs",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "1/2 tbsp",
+        ingredient: "Tomato purée",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Preheat the oven to 430˚F/220˚C/Fan 200˚C/Gas 7. Put the bones and calf's foot in a roasting tin with a little oil and roast in the oven, turning them occasionally until they're brown all over. Transfer them to a large saucepan."
+      },
+      {
+        stepNumber: 2,
+        direction: "Put the onion (1), carrots (2) and celery (1) into the roasting tin and roast them in the oven until golden, turning them from time to time with a woden spatula. Pour off any excess fat and put the vegetables into the pan with the bones. Place the roasting tin over a high heat and add 500 mL of water. Bring to the boil, scraping the bottom of the tin to loosen any caramelised bits, then pour everything into the pan with the bones."
+      },
+      {
+        stepNumber: 3,
+        direction: "Add the remaining ingredients and another 4-1/2 litres of water and bring to the boil. Skim off any scum and fat, then turn down the heat and simmer gently for 3-1/2 hours, skimming occasionally. Pass the stock through a fine sieve and leave to cool. The stock can be kept in the fridge for up to 7 days, or it can be frozen."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 71,
+    keywords: "",
+    recipeTitle: "Brown Chicken Stock",
+    servingSize: "about 5 litres",
+    totalTime: "3 hours",
+    mealType: "stock",
+    protein: "poultry",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "stock",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "'For a brown chicken stock, the chicken bones are roasted before boiling which gives extra colour and depth of flavour.'",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "2 kG",
+        ingredient: "Chicken bones or wing tips",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "1",
+        ingredient: "Calf's foot",
+        preparation: "split"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "",
+        ingredient: "Olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1",
+        ingredient: "Onion",
+        preparation: "peeled and roughly chopped"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "1",
+        ingredient: "Carrot",
+        preparation: "peeled and roughly chopped"
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1",
+        ingredient: "Celery stick",
+        preparation: "roughly chopped"
+      },
+      {
+        ingredientNumber: 7,
+        amount: "5",
+        ingredient: "Garlic cloves",
+        preparation: "peeled and roughly chopped"
+      },
+      {
+        ingredientNumber: 8,
+        amount: "1 tbsp",
+        ingredient: "Tomato paste",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "2",
+        ingredient: "Thyme sprigs",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Preheat the oven to 430˚F/220˚C/Fan 200˚C/Gas 7. Put the bones, or wing tips, and the calf's foot in a roasting tin, drizzle them with olive oil and roast until brown."
+      },
+      {
+        stepNumber: 2,
+        direction: "Transfer the bones to a deep saucepan, cover with 5 litres of cold water and bring to a gentle simmer."
+      },
+      {
+        stepNumber: 3,
+        direction: "Meanwhile, place the roasting tin on the hob, add the vegetables and garlic and fry them until golden. Add the tomato paste (1 tbsp), thyme (2 sprigs) and another litre of water. Bring to the boil, stirring well to scrape up any caramelised bits sticking to the bottom of the pan. Once the water is boiling, pour the contents of the tin into the saucepan with the bones and continue to simmer for 2 hours, skimming when necessary."
+      },
+      {
+        stepNumber: 4,
+        direction: "Pass the stock through a fine sieve and chill. It can be kept in the fridge for 5 days or it can be frozen."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 70,
+    keywords: "",
+    recipeTitle: "Chicken Stock",
+    servingSize: "about 4 litres",
+    totalTime: "105 minutes",
+    mealType: "stock",
+    protein: "poultry",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "stock",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "'This is a simple white chicken stock, made without roasting the bones, for use in soups and light chicken and fish dishes. Ask your butcher to split the calf's foot for you.'",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "2 kG",
+        ingredient: "Chicken bones or wing tips",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "1",
+        ingredient: "Calf's foot",
+        preparation: "split"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1",
+        ingredient: "Onion",
+        preparation: "peeled and roughly chopped"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1",
+        ingredient: "Small leek",
+        preparation: "roughly chopped"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "2",
+        ingredient: "Celery sticks",
+        preparation: "roughly chopped"
+      },
+      {
+        ingredientNumber: 6,
+        amount: "2",
+        ingredient: "Thyme sprigs",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "6",
+        ingredient: "Parsley stalks",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Place the bones, or wing tips, and the calf's foot in a large saucepan, cover with 5 litres of water and bring the water to the boil. Skin off the scum and any fat that comes to the surface. Turn the heat down, add the remaining ingredients and simmer for 1-1/2 hours, skimming occasionally."
+      },
+      {
+        stepNumber: 2,
+        direction: "Pass the stock through a fine sieve and leave it to cool. It can be kept in the fridge for up to 5 days, or you can freeze the stock until needed."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 69,
+    keywords: "",
+    recipeTitle: "Fish Stock",
+    servingSize: "about 2 litres",
+    totalTime: "60 minutes",
+    mealType: "stock",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "stock",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "'Most fishmongers will give you fish bones and heads for stock if you ask. White fish, such as sole, whiting and turbot, are best. A good fish stock doesn't take long to make and it does make such a difference to your dish.'",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "1 kG",
+        ingredient: "White fish bones and heads",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "4 tbsp",
+        ingredient: "Unsalted butter",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1",
+        ingredient: "Small onion",
+        preparation: "peeled annd roughly chopped"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1",
+        ingredient: "Celery stick",
+        preparation: "roughly chopped"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "60 mL",
+        ingredient: "Dry white wine",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "6",
+        ingredient: "Parsley stalks",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "1",
+        ingredient: "Bay leaf",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Remove any gills from the fish heads, then soak the heads and bones in cold water for 3-4 hours. Remove them from the water and chop roughly."
+      },
+      {
+        stepNumber: 2,
+        direction: "Melt the butter (4 tbsp) in a deep pan and sweat the onion (1) and celery (1 stick) over a low heat until softened. Add the fish bones and heads and cook for 2-3 minutes, stirring frequently."
+      },
+      {
+        stepNumber: 3,
+        direction: "Pour in the wine (60 mL), turn up the heat and reduce by half. Add 2 litres of water and the herbs, then bring to the boil, skimming frequently. Lower the heat and simmer, uncovered, for 25 minutes."
+      },
+      {
+        stepNumber: 4,
+        direction: "Strain the mixture through a muslin-lined sieve and leave to cool. The stock can be kept in the fridge for 2-3 days or it can be frozen."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 68,
+    keywords: "",
+    recipeTitle: "Vegetable Stock",
+    servingSize: "2 Litres",
+    totalTime: "50 minutes",
+    mealType: "stock",
+    protein: "vegetarian vegan",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "stock",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "'This simple vegetable stock is ideal for soups annd for cooking grains, such as buckwheat and Camargue red rice.'",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "1",
+        ingredient: "Carrot",
+        preparation: "peeled and roughly chopped"
+      },
+      {
+        ingredientNumber: 2,
+        amount: "2",
+        ingredient: "Shallots",
+        preparation: "peeled and roughly chopped"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1",
+        ingredient: "Small onion",
+        preparation: "peeled and roughly chopped"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "2",
+        ingredient: "Celery sticks",
+        preparation: "roughly chopped"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "1",
+        ingredient: "Leek (green top part only)",
+        preparation: "roughly chopped"
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1",
+        ingredient: "Bay leaf",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "A few",
+        ingredient: "Thyme sprigs",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "6",
+        ingredient: "Parsley stalks",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Put all the vegetables in a large saucepan and cover them with 2.5 litres of cold water. Add the herbs and bring the water to the boil."
+      },
+      {
+        stepNumber: 2,
+        direction: "Simmer for about 35 minutes, then strain the stock through a sieve before using. The stock can be kept in the fridge for up to 5 days."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 67,
+    keywords: "bake baking",
+    recipeTitle: "Garlic Bread",
+    servingSize: "1 loaf",
+    totalTime: "110 minutes",
+    mealType: "pastry bread",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side dish",
+    favorite: "favorite",  // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "25 G",
+        ingredient: "Fresh yeast (or 12 G dried)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "400 mL",
+        ingredient: "Lukewarm water",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "500 G",
+        ingredient: "White bread flour",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "200 G",
+        ingredient: "Rye flour",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "1 tbsp",
+        ingredient: "Olive oil",
+        preparation: "plus extra for brushing"
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1 tbsp",
+        ingredient: "Thyme leaves",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "2-1/2 tsp",
+        ingredient: "Salt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "12",
+        ingredient: "Garlic cloves",
+        preparation: "peeled"
+      },
+      {
+        ingredientNumber: 9,
+        amount: "2 tbsp",
+        ingredient: "Olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "",
+        ingredient: "Salt",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "First prepare the garlic confit. Preheat the oven to 375˚F/190˚C/Fan 170˚C/Gas 5. Bring a pan of salted water to the boil, add the garlic (12 cloves) and cook for 30 seconds, then drain. Put the garlic cloves on a piece of foil, sprinkle them with the olive oil and a little salt. Wrap the garlic up loosely by bringing the corners of the foil together. Place the parcel in an ovenproof dish and cook in the oven for 1 hour. Leave to cool."
+      },
+      {
+        stepNumber: 2,
+        direction: "For the bread, dissolve the yeast (25 G fresh, 12 G dried) in the water in a large bowl. Add the white (500 G) and rye (200 G) flours, oil (1 tbsp), thyme (1 tbsp) and salt (2-1/2 tsp), mix well and knead for 5 minutes. Cover and leave the dough to rise in a warm place until doubled in volume."
+      },
+      {
+        stepNumber: 3,
+        direction: "Knock the dough back and knead it again for 5 minutes. Roll the dough out into a long flat oval shape and dot the garlic over it evenly. Fold the dough over on itself, then shape it into a loaf. Brush with a little olive oil, cover and leave to rise. Preheat the oven to 430˚F/220˚C/Fan 200˚C/Gas 7."
+      },
+      {
+        stepNumber: 4,
+        direction: "When you're ready to cook the loaf, make 3 or 4 cuts about 1 cM deep across it. Cook the bread in the oven for 20 minutes, then turn the heat down to 400˚F/200˚C/Fan 180˚C/Gas 6 and bake for a further 20 minutes. Cool on a wire rack before using."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 66,
+    keywords: "bake baking",
+    recipeTitle: "Choux Cheese Pastries",
+    servingSize: "25-35",
+    totalTime: "60 minnutes",
+    mealType: "pastry bread",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "side dish",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "120 mL",
+        ingredient: "Whole milk",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "1 tsp",
+        ingredient: "Salt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1 tsp",
+        ingredient: "Sugar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "110 G",
+        ingredient: "Butter",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "140 G",
+        ingredient: "Plain flour",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "5",
+        ingredient: "Eggs",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "80 G",
+        ingredient: "Hard cheese",
+        preparation: "grated"
+      },
+      {
+        ingredientNumber: 8,
+        amount: "200 G",
+        ingredient: "Fromage blanc (light cream cheese)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "1 tbsp",
+        ingredient: "Chives",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 10,
+        amount: "1 tbsp",
+        ingredient: "Tarragon",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 11,
+        amount: "40 G",
+        ingredient: "Smoked ham",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 12,
+        amount: "",
+        ingredient: "Salt and freshly ground black pepper",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Preheat the oven to 465˚F/240˚C/Fan 220˚C/Gas 9. Pour the milk (120 mL) into a saucepan and add the salt (1 tsp), sugar (1 tsp), butter (110 G) and 120 mL of water. Bring to the boil, then take the pan off the heat and beat in the flour (140 G) with a wooden spoon. Return the pan to the heat and stir vigorously to cook out the excess moisture. This will take a couple of minutes and the paste should start to come away from the sides of the pan."
+      },
+      {
+        stepNumber: 2,
+        direction: "Transfer the paste to a bowl and beat in the eggs one at a time until the mixture is smooth. Using a piping bag, pipe blobs of the mixture on to a non-stick baking mat; 2-3 cM for snacks or starters, or 5-6 cM to serve with filling and sauce as a meal with salad."
+      },
+      {
+        stepNumber: 3,
+        direction: "Sprinkle some grated cheese on top, then bake at 465˚F/240˚C/Fan 220˚C/Gas 9 for 10 minutes. Reduce the heat to 400˚F/200˚C/Fan 180˚C/Gas 6, open the oven door for a few seconds to let out excess steam, then bake for another 15 minutes."
+      },
+      {
+        stepNumber: 4,
+        direction: "Leave the gougères on a wire rack to cool slightly. If using the filling, mix the ingrediennts together. Make a hole in each gougère, then spoon in some filling or pipe it in with a piping bag."
+      },
+      {
+        stepNumber: 5,
+        direction: "If using the mornay sauce (see recipe), pip it into the gougères and serve them warm. If you want to prepare the gougères in advance you can warm them through in a low oven before filling and serving."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 65,
+    keywords: "",
+    recipeTitle: "Buckwheat Pancakes",
+    servingSize: "2 pancakes",
+    totalTime: "30 minutes",
+    mealType: "pastry bread",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "breakfast brunch",
+    favorite: "favorite",  // leave blank if not
+    comfortFood: "comfort food",  // leave blank if not
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "100 G",
+        ingredient: "Buckwheat flour",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "Pinch of",
+        ingredient: "Salt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1 tbsp",
+        ingredient: "Butter",
+        preparation: "melted"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1",
+        ingredient: "Egg",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "300 mL",
+        ingredient: "Milk",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1 tbsp",
+        ingredient: "Vegetable oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "1 tsp",
+        ingredient: "Wholegrain mustard",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "2 tbsp",
+        ingredient: "Vegetable oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "2 tsp",
+        ingredient: "Red wine vinegar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "Handful",
+        ingredient: "Mixed baby leaf salad",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 11,
+        amount: "4 slices",
+        ingredient: "Ham",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 12,
+        amount: "10",
+        ingredient: "Walnut kernels",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 13,
+        amount: "",
+        ingredient: "Salt and freshly ground black pepper",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 14,
+        amount: "1 tbsp",
+        ingredient: "Strawberry jam",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 15,
+        amount: "100 G",
+        ingredient: "Plain yoghurt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 16,
+        amount: "125 G",
+        ingredient: "Strawberries, blueberries or raspberries",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Whisk the flour (100 G), salt (pinch), melted butter (1 tbsp), egg and half the milk (155 mL) in a bowl to make a smooth paste, then mix in the remaining milk (150 mL)."
+      },
+      {
+        stepNumber: 2,
+        direction: "Heat a pan with a smear of oil. Spoon in just enough batter to cover the base of the pan, and cook until the underside is golden. Flip it over to cook the other side, then remove the pancake and keep it warm. Continue until you have used all the batter."
+      },
+      {
+        stepNumber: 3,
+        direction: "SAVOURY GALETTE: Mix the mustard (1 tsp), oil (2 tbsp) and vinegar (2 tsp) to make a dressing, season with salt and pepper, then dress the salad leaves. Fill the pancakes with the ham (1-2 slices) and salad and sprinkle with the walnuts, then roll them up and serve."
+      },
+      {
+        stepNumber: 4,
+        direction: "SWEET GALETTE: Stir the jam (1 tbsp) through the yoghurt (100 G) so you get a ripple effect, then drizzle the mixture over the pancakes. Add the berries, roll the pancakes up and serve."
+      }
     ],
     recipeImage: "",
     cookbookTitle: "The French Revolution",
@@ -127,119 +1123,67 @@ export const fullRecipeListArray = [
     recipeNumber: 64,
     keywords: "bake baking",
     recipeTitle: "Buttery French Cakes",
-    servingSize: "",
-    totalTime: "",
+    servingSize: "12-16 cakes",
+    totalTime: "50 minutes",
     mealType: "pastry bread",
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "side dish",
-    favorite: "favorite",  // leave blank if not
+    favorite: "",  // leave blank if not
     comfortFood: "comfort food",  // leave blank if not
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
         ingredientNumber: 1,
-        amount: "",
-        ingredient: "",
-        preparation: ""
+        amount: "100 G",
+        ingredient: "Butter",
+        preparation: "melted and cooled, plus extra for greasing"
       },
       {
         ingredientNumber: 2,
-        amount: "",
-        ingredient: "",
-        preparation: ""
+        amount: "100 G",
+        ingredient: "Plain flour",
+        preparation: "plus extra for dusting"
       },
       {
         ingredientNumber: 3,
-        amount: "",
-        ingredient: "",
+        amount: "2",
+        ingredient: "Eggs",
         preparation: ""
       },
       {
         ingredientNumber: 4,
-        amount: "",
-        ingredient: "",
+        amount: "100 G",
+        ingredient: "Caster sugar",
         preparation: ""
       },
       {
         ingredientNumber: 5,
-        amount: "",
-        ingredient: "",
+        amount: "3/4 tbsp",
+        ingredient: "Baking powder",
         preparation: ""
       },
       {
         ingredientNumber: 6,
         amount: "",
-        ingredient: "",
+        ingredient: "Zest of 1 unwaxed lemon",
         preparation: ""
-      },
-      {
-        ingredientNumber: 7,
-        amount: "",
-        ingredient: "",
-        preparation: ""
-      },
-      {
-        ingredientNumber: 8,
-        amount: "",
-        ingredient: "",
-        preparation: ""
-      },
-      {
-        ingredientNumber: 9,
-        amount: "",
-        ingredient: "",
-        preparation: ""
-      },
-      {
-        ingredientNumber: 10,
-        amount: "",
-        ingredient: "",
-        preparation: ""
-      },
+      }
     ],
     recipeDirections: [
       {
         stepNumber: 1,
-        direction: ""
+        direction: "Brush the madeleine trays with a little melted butter. Shake in a little flour to coat, tapping out the excess."
       },
       {
         stepNumber: 2,
-        direction: ""
+        direction: "Whisk the eggs (2) and sugar (100 G) in a bowl until the mixture is really light and frothy. Gently whisk in the flour (100 G) and baking powder (3/4 tbsp), followed by the lemon zest and butter (100 G). Leave the mixture to rest for 20 minutes. Preheat the oven to 430˚F/220˚C/Fan 200˚C/Gas 7."
       },
       {
         stepNumber: 3,
-        direction: ""
-      },
-      {
-        stepNumber: 4,
-        direction: ""
-      },
-      {
-        stepNumber: 5,
-        direction: ""
-      },
-      {
-        stepNumber: 6,
-        direction: ""
-      },
-      {
-        stepNumber: 7,
-        direction: ""
-      },
-      {
-        stepNumber: 8,
-        direction: ""
-      },
-      {
-        stepNumber: 9,
-        direction: ""
-      },
-      {
-        stepNumber: 10,
-        direction: ""
-      },
+        direction: "Carefully spoon the mixture into the prepared moulds. Bake the cakes for 8-10 minutes until they have risen nicely and are firm to the touch. Tap them out of the tray on to a wire rack to cool briefly before devouring!"
+      }
     ],
     recipeImage: "",
     cookbookTitle: "The French Revolution",
@@ -251,7 +1195,7 @@ export const fullRecipeListArray = [
     recipeNumber: 63,
     keywords: "bake baking",
     recipeTitle: "Spicy Biscuits",
-    servingSize: "About 30",
+    servingSize: "About 30 biscuits",
     totalTime: "190 minutes",
     mealType: "pastry bread",
     protein: "vegetarian",
@@ -351,7 +1295,7 @@ export const fullRecipeListArray = [
     recipeNumber: 62,
     keywords: "bake baking",
     recipeTitle: "Yoghurt Cake",
-    servingSize: "10",
+    servingSize: "10 cakes",
     totalTime: "30-50 minutes",
     mealType: "pastry bread cake",
     protein: "vegetarian",
