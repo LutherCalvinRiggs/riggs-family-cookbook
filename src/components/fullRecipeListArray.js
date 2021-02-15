@@ -124,16 +124,16 @@ export const fullRecipeListArray = [
     amazonProductLink: "",
   },
   {
-    recipeNumber: 74,
-    keywords: "",
-    recipeTitle: "Basil Sauce",
-    servingSize: "about 200 mL",
+    recipeNumber: 80,
+    keywords: "bake baking",
+    recipeTitle: "Traditional Shortcrust Pastry",
+    servingSize: "about 300 G",
     totalTime: "",
-    mealType: "stock",
+    mealType: "pastry",
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "stock",
+    dishType: "pastry",
     favorite: "",  // leave blank if not
     comfortFood: "",  // leave blank if not
     recipeBackstory: "",  // optional
@@ -240,6 +240,464 @@ export const fullRecipeListArray = [
         stepNumber: 10,
         direction: ""
       },
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 79,
+    keywords: "",
+    recipeTitle: "Tomato & Garlic Purée",
+    servingSize: "a small bowlful",
+    totalTime: "15 minutes",
+    mealType: "sauce",
+    protein: "vegetarian vegan",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "sauce",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "'This can be used for adding flavour to salads or sndwiches or even as a dip. It's best to use dried tomatoes that still have some moisture - sometimes called sun-blushed or semi-dried. If you have a jar of tomatoes in oil, the oil can be used instead of, or as some of, the oil in the recipe.'",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "120 G",
+        ingredient: "Sun-dried or sun-blushed tomatoes",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "4 tbsp",
+        ingredient: "Olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "4",
+        ingredient: "Garlic cloves",
+        preparation: "peeled and crushed"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1 tsp",
+        ingredient: "Chilli flakes",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "",
+        ingredient: "Handful of basil leaves",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Place all the ingredients in a food processor with 2 tablespoons of water and blitz until emulsified, but not too smooth."
+      },
+      {
+        stepNumber: 2,
+        direction: "Scoop into a bowl and cover. This keeps in the fridge for up to 2 weeks."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 78,
+    keywords: "",
+    recipeTitle: "Tomato & Herb Sauce",
+    servingSize: "4-6",
+    totalTime: "15 minutes",
+    mealType: "sauce",
+    protein: "vegetarian vegan",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "sauce",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "'This sauce is best made a few hours before serving or even a day ahead to allow time for the flavours to develop. It's a perfect accompaniment for white fish or grilled vegetbles.'",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "6",
+        ingredient: "Tomatoes",
+        preparation: "peeled and seeled"
+      },
+      {
+        ingredientNumber: 2,
+        amount: "2",
+        ingredient: "Garlic cloves",
+        preparation: "peeled and finely chopped"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1 tbsp",
+        ingredient: "Tarragon",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1 tbsp",
+        ingredient: "Chervil",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "",
+        ingredient: "Juice and zest of 1 large lemon",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "200 mL",
+        ingredient: "Extra virgin olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "1 tsp",
+        ingredient: "Coriander seeds",
+        preparation: "crushed"
+      },
+      {
+        ingredientNumber: 8,
+        amount: "",
+        ingredient: "Salt and freshly ground black pepper",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Finely chop the tomatoes and put them in a bowl. Add all the other ingredients, mix well and season with salt and pepper."
+      },
+      {
+        stepNumber: 2,
+        direction: "This is best served at room temperature, not cold from the fridge."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 77,
+    keywords: "",
+    recipeTitle: "Grlic & Pepper Sauce",
+    servingSize: "a big bowlful",
+    totalTime: "45 minutes",
+    mealType: "sauce",
+    protein: "",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "sauce",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "'Rouille is mostly served with fish soup or bouillabaisse but it's also good on salads or spread on slices of grilled baguette.'",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "",
+        ingredient: "Pinch of saffron",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "1 tbsp",
+        ingredient: "Lemon juice",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "2",
+        ingredient: "Garlic cloves",
+        preparation: "peeled and crushed"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "2",
+        ingredient: "Anchovy filets",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "1",
+        ingredient: "Red pepper",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1",
+        ingredient: "Egg yolk",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "200 mL",
+        ingredient: "Olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "",
+        ingredient: "Pinch of chilli flakes",
+        preparation: "to taste"
+      },
+      {
+        ingredientNumber: 9,
+        amount: "",
+        ingredient: "Salt",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Put the saffron (a pinch) in a small bowl with the lemon juice (1 tbsp) and leave for 10 minutes to soften."
+      },
+      {
+        stepNumber: 2,
+        direction: "Chop the garlic (2 cloves) and rinse the anchovies (2)."
+      },
+      {
+        stepNumber: 3,
+        direction: "Roast the pepper (1) under a hot grill, turning it regularly until blackened all over. Place it in a bowl, cover with cling film and leave to cool. When cool, peel off the black skin, remove the stalk, core and seeds and roughly chop the flesh."
+      },
+      {
+        stepNumber: 4,
+        direction: "Place all the ingredients, except the oil, salt and chilli flakes, in a blender and blitz until smooth. Slowly add the oil (200 mL) until the mixture emulsifies. Scoop into a bowl and season with salt and chilli flakes to taste."
+      },
+      {
+        stepNumber: 5,
+        direction: "Cover and store in the fridge for up to 2 weeks."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 76,
+    keywords: "",
+    recipeTitle: "Mornay Sauce",
+    servingSize: "about 300 mL",
+    totalTime: "15 minutes",
+    mealType: "sauce",
+    protein: "",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "sauce",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "'Another classic French sauce, this is similar to Béchamel, but enriched with grated cheese. It's good served with gougéres.'",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "1 tbsp",
+        ingredient: "Butter",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "2 tbsp",
+        ingredient: "Flour",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "250 mL",
+        ingredient: "Whole milk",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "60 G",
+        ingredient: "Comté, gruyère or even blue cheese or a dry goat's cheese",
+        preparation: "grated"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "1/2 tsp",
+        ingredient: "Salt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "",
+        ingredient: "White pepper",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "",
+        ingredient: "Grating of nutmeg",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Melt the butter (1 tbsp) in a small pan. Add the flour (2 tbsp) and cook for 5 minutes over a low heat, then slowly add the milk (250 mL), mixing well to avoid lumps."
+      },
+      {
+        stepNumber: 2,
+        direction: "Bring back to the boil and cook for 2-3 minutes. Take the pan off the heat, then beat in the grated cheese (60 G). Season with salt (1/2 tsp), white pepper and a grating of nutmeg."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 75,
+    keywords: "",
+    recipeTitle: "Light Hollandaise Sauce",
+    servingSize: "6",
+    totalTime: "15 minutes",
+    mealType: "sauce",
+    protein: "",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "sauce",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "'The traditional version of this sauce is laden with butter and can be too rich and heavy. Thankfully, there is a lighter way of making it and the sauce is still delicious. Serve with vegetables, such as asparagus. It's also lovely with fish.'",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "2",
+        ingredient: "Eggs",
+        preparation: "one whole and one yolk"
+      },
+      {
+        ingredientNumber: 2,
+        amount: "2 tbsp",
+        ingredient: "Olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "2 tbsp",
+        ingredient: "Butter",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1 tbsp",
+        ingredient: "White wine vinegar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "2 tbsp",
+        ingredient: "Crème fraîche",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "",
+        ingredient: "Salt and white pepper",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Crack the whole egg into a pan and add the extra yolk. Add 100 mL of water, then the oil (2 tbsp) and butter (2 tbsp) and season well with salt and white pepper."
+      },
+      {
+        stepNumber: 2,
+        direction: "Place the pan over a medium heat and whisk with a balloon whisk until the mixture is light and fluffy. It should be thick enough to hold in the whisk as you lift it."
+      },
+      {
+        stepNumber: 3,
+        direction: "Take the pan off the heat and whisk in the vinegar (1 tbsp) and créme fraîche (2 tbsp)."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 74,
+    keywords: "",
+    recipeTitle: "Basil Sauce",
+    servingSize: "about 200 mL",
+    totalTime: "5-20 minutes",
+    mealType: "sauce",
+    protein: "vegetarian vegan",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "sauce",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "'This wonderfully fragrant sauce is similar to Liguriann pesto but without any cheese or pine nuts. It's usually used to flavour soups and salads but also makes a nice dip to serve with crudités. I know it's harder work but it is best to make this with a pestle and mortar if you can. If you do use a food processor, don't blitz the sauce until smooth - leave a little texture.'",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "200 G",
+        ingredient: "Basil leaves",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "1 tbsp",
+        ingredient: "Coarse salt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "4",
+        ingredient: "Garlic cloves",
+        preparation: "peeled and crushed"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1 tsp",
+        ingredient: "Ground black pepper or chilli powder",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "",
+        ingredient: "Zest of 1 unwaxed lemon (optional)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "160 mL",
+        ingredient: "Extra virgin olive oil",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Place the basil leaves (200 G), salt (1 tbsp) and garlic (4 cloves) in a mortar and crush them until coarse. Stir in the pepper or chilli powder (1 tsp), lemon zest and olive oil (160 mL)."
+      },
+      {
+        stepNumber: 2,
+        direction: "If making this in a food processor, mix until combined but not too smooth."
+      },
+      {
+        stepNumber: 3,
+        direction: "Spoon the pistou into a bowl, cover and store in the fridge. This keeps well for about 2 weeks."
+      }
     ],
     recipeImage: "",
     cookbookTitle: "The French Revolution",
