@@ -1,17 +1,15 @@
 export const fullRecipeListArray = [
   {
     recipeNumber: x,
-    keywords: "",
     recipeTitle: "",
     servingSize: "",
     totalTime: "",
-    mealType: "stock",
-    protein: "vegetarian",
-    cuisine: "french",
+    mealType: "lunch dinner",
+    protein: "fish",
+    cuisine: "american",
     season: "spring summer fall winter",
-    dishType: "stock",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    dishType: "appetizer starter soup",
+    keywords: "", // comfort food, favorite
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -118,6 +116,468 @@ export const fullRecipeListArray = [
       },
     ],
     recipeImage: "",
+    cookbookTitle: "Giada at Home",
+    cookbookAuthor: "Giada de Laurentiis",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 85,
+    recipeTitle: "Ligurian Fish Stew",
+    servingSize: "4-6",
+    totalTime: "50 minutes",
+    mealType: "lunch dinner",
+    protein: "vegetarian",
+    cuisine: "american",
+    season: "spring summer fall winter",
+    dishType: "appetizer starter soup",
+    keywords: "favorite", // comfort food, favorite
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "1/3 cup",
+        ingredient: "Olive oil",
+        preparation: "plus more for drizzling"
+      },
+      {
+        ingredientNumber: 2,
+        amount: "2",
+        ingredient: "Medium potatoes",
+        preparation: "peeled and chopped into 3/4-inch pieces"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "2",
+        ingredient: "Medium carrots",
+        preparation: "peeled and chopped into 3/4-inch pieces"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1",
+        ingredient: "Onion",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "2",
+        ingredient: "Garlic cloves",
+        preparation: "halved"
+      },
+      {
+        ingredientNumber: 6,
+        amount: "",
+        ingredient: "Salt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "3/4 cup",
+        ingredient: "Dry white wine",
+        preparation: "such as Pinot Grigio"
+      },
+      {
+        ingredientNumber: 8,
+        amount: "28 oz (1 can)",
+        ingredient: "Crushed Italian San Marzano tomatoes",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "1/2 tsp",
+        ingredient: "Crushed red pepper flakes",
+        preparation: "plus more for garnish"
+      },
+      {
+        ingredientNumber: 10,
+        amount: "1-1/2 pounds",
+        ingredient: "Skinless white fish fillets",
+        preparation: "such as halibut, cod, or arctic char, cut into 3/4-inch chunks"
+      },
+      {
+        ingredientNumber: 11,
+        amount: "1/4 cup",
+        ingredient: "Parsley leaves",
+        preparation: "flat-leaf, chopped"
+      },
+      {
+        ingredientNumber: 12,
+        amount: "1 loaf",
+        ingredient: "Ciabatta bread",
+        preparation: "trimmed and cut into 1/2-inch slices"
+      },
+      {
+        ingredientNumber: 13,
+        amount: "",
+        ingredient: "Olive oil",
+        preparation: "for drizzling"
+      },
+      {
+        ingredientNumber: 14,
+        amount: "1",
+        ingredient: "Garlic clove",
+        preparation: "halved"
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "For the stew: In a 6-quart, heavy-bottomed stock pot or Dutch oven, heat the 1/3 cup oil over medium-high heat. Add the potatoes (2), carrots (2), onion (1), and garlic (2 cloves). Season with salt and cook, stirring frequently, until the vegetables begin to soften, 5-8 minutes. Turn the heat to high. Add the wine (3/4 cup) and scrape up the brown bits that cling to the bottom of the pan with a wooden spoon. Cook until most of the liquid has evaporated, about 5 minutes. Add the tomatoes (28 oz), 1 cup of water, and the red pepper flakes (1/2 tsp). Reduce the heat and bring the mixture to a simmer. Cover annd cook until the vegetables are tender, 18-20 minutes."
+      },
+      {
+        stepNumber: 2,
+        direction: "Meanwhile, make the crostini: Place an oven rack in the center of the oven and preheat the oven to 400˚F/200˚C."
+      },
+      {
+        stepNumber: 3,
+        direction: "Arrange the bread slices in a single layer on a baking sheet and drizzle with olive oil. Bake until light golden, about 10 minutes. Cool for 2 minutes. Rub the warm toasts with the cut side of the garlic."
+      },
+      {
+        stepNumber: 4,
+        direction: "Season the fish with salt and add to the stew. Cook, stirring occasionally, until cooked through, 5-8 minutes."
+      },
+      {
+        stepNumber: 5,
+        direction: "Season the stew with salt, to taste. Ladle the stew into bowls nd garnish with parsley. Drizzle with olive oil and sprinkle a few red pepper flakes on top. Serve with the crostini."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "Giada at Home",
+    cookbookAuthor: "Giada de Laurentiis",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 84,
+    recipeTitle: "Artichoke and Bean Bruschetta",
+    servingSize: "4-6",
+    totalTime: "45 minutes",
+    mealType: "lunch dinner",
+    protein: "pork",
+    cuisine: "american",
+    season: "spring summer fall winter",
+    dishType: "appetizer starter snack",
+    keywords: "", // comfort food, favorite
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "",
+        ingredient: "Vegetable oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "4 slices",
+        ingredient: "Prosciutto",
+        preparation: "very thinly sliced"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "12 slices",
+        ingredient: "Rustic country bread",
+        preparation: "1/4-inch-thick"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1/2 cup",
+        ingredient: "Olive oil",
+        preparation: "plus more for drizzling"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "12 oz (1 package)",
+        ingredient: "Artichoke hearts",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "15 oz (1 can)",
+        ingredient: "Cannellini beans",
+        preparation: "rinsed and drained"
+      },
+      {
+        ingredientNumber: 7,
+        amount: "1 cup",
+        ingredient: "Pecorino Romano cheese",
+        preparation: "freshly grated"
+      },
+      {
+        ingredientNumber: 8,
+        amount: "1/2 cup",
+        ingredient: "Fresh basil leaves",
+        preparation: "coarsely chopped"
+      },
+      {
+        ingredientNumber: 9,
+        amount: "1 tsp",
+        ingredient: "Lemon zest",
+        preparation: "grated"
+      },
+      {
+        ingredientNumber: 10,
+        amount: "1 tbsp",
+        ingredient: "Fresh lemon juice",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 11,
+        amount: "2 tsp",
+        ingredient: "Salt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 12,
+        amount: "1/2 tsp",
+        ingredient: "Freshly ground black pepper",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Place an oven rack in the center of the oven and preheat the oven to 375˚F/200˚C. Spray  rimmed baking sheet with vegetable oil cooking spray."
+      },
+      {
+        stepNumber: 2,
+        direction: "Lay the prosciutto (4 slices) in a single layer on the prepared baking sheet and bake for 10-12 minutes, until crispy. Set aside to cool for 10 minutes."
+      },
+      {
+        stepNumber: 3,
+        direction: "On another baking sheet, arrange the bread slices (12) in a single layer. Using a pastry brush, brush the bread with 1/4 cup of the oil. Bake for 12-15 minutes, until golden."
+      },
+      {
+        stepNumber: 4,
+        direction: "In the food processor, combine the artichoke hearts (12 oz), beans (15 oz), cheese (1 cup), basil (1/2 cup), lemon zest (1 tsp), lemon juice (1 tbsp), salt (2 tsp), and pepper (1/2 tsp). Pulse until the mixture is chunky. With the machine running, slowly add the remaining 1/4 cup olive oil and mix until combined but still slightly chunky. "
+      },
+      {
+        stepNumber: 5,
+        direction: "Spoon the artichoke mixture onto the crostini. Crumble the prosciutto and sprinkle on top. Drizzle with oil and serve."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "Giada at Home",
+    cookbookAuthor: "Giada de Laurentiis",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 83,
+    recipeTitle: "Roasted Eggplant and White Bean Crostini",
+    servingSize: "4-6",
+    totalTime: "45 minutes",
+    mealType: "lunch dinner",
+    protein: "vegetarian vegan",
+    cuisine: "American",
+    season: "spring summer fall winter",
+    dishType: "appetizer starter snack",
+    keywords: "", // comfort food, favorite
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "1",
+        ingredient: "Eggplant (1.5 pounds)",
+        preparation: "trimmed and cut into 2-inch pieces"
+      },
+      {
+        ingredientNumber: 2,
+        amount: "1/3 cup",
+        ingredient: "Olive oil",
+        preparation: "plus more for drizzling"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "",
+        ingredient: "Salt and freshly ground black pepper",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1",
+        ingredient: "French baguette",
+        preparation: "cut into 1/2-inch-thick slices"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "15 oz (1 can)",
+        ingredient: "Cannellini beans",
+        preparation: "drained and rinsed"
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1/3 cup",
+        ingredient: "Parsley leaves",
+        preparation: "flat-leaf, loosely packed"
+      },
+      {
+        ingredientNumber: 7,
+        amount: "3 tbsp",
+        ingredient: "Fresh lemon juice (1 lemon)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "1",
+        ingredient: "Garlic clove",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Place an oven rack in the middle of the oven and preheat the oven to 450˚F/225˚C. "
+      },
+      {
+        stepNumber: 2,
+        direction: "Put the eggplant on a parchment paper-lined rimmed baking sheet. Drizzle with olive oil and season with salt and pepper. Roast for 20-25 minutes, until golden brown. Set side to cool."
+      },
+      {
+        stepNumber: 3,
+        direction: "While the eggplant is roasting, preheat a grill pan over medium-high heat. Drizzle the bread slices with olive oil on both sides and arrange in the pan. Cook until both sides are pale golden and crisp, about 5 minutes total. Set aside to cool."
+      },
+      {
+        stepNumber: 4,
+        direction: "In the bowl of a food processor, combine the cooled eggplant (flesh and skin), beans (15 oz), parsley (1/3 cup), lemon juice, garlic (1 clove), salt (1/2 tsp), and pepper (1/4 tsp). Pulse until the mixture is coarsely chopped. With the machine running, gradually add the olive oil (1/3 cup) and process until the mixture is creamy. Season with salt and pepper, if needed."
+      },
+      {
+        stepNumber: 5,
+        direction: "Spoon the spread into a small bowl and serve with the bread slices. Alternatively, spoon the spread over the bread and arrange on a serving platter."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "Giada at Home",
+    cookbookAuthor: "Giada de Laurentiis",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 82,
+    keywords: "bake baking",
+    recipeTitle: "Quick Puff Pastry",
+    servingSize: "about 550 G",
+    totalTime: "60 minutes",
+    mealType: "pastry",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "pastry",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "'Traditional puff pastry takes up to 6 hours to make and needs a lot of resting time, rolling and folding. This method is much quicker and produces pastry that is just as delicious and flaky.'",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "250 G",
+        ingredient: "Cold Butter",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "300 G",
+        ingredient: "Plain flour",
+        preparation: "plus extra for dusting"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1 tsp",
+        ingredient: "Salt",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Cut the butter (250 G) into large dice, add them to the flour (300 G) and salt (1 tsp) in a bowl and work the butter and flour together loosely with your fingertips. Don't overwork it - you must be able to see bits of butter."
+      },
+      {
+        stepNumber: 2,
+        direction: "Add 160 mL of cold water and bring the dough together. Wrap the dough in cling film and leave it to rest in the fridge for 20 minutes."
+      },
+      {
+        stepNumber: 3,
+        direction: "Roll out the dough on a floured surface to make a rectangle of about 20 x 50 cM. Fold the top third down to the centre and the bottom third up and over that. Give the dough a quarter turn and roll, then repeat the folds."
+      },
+      {
+        stepNumber: 4,
+        direction: "Leave the dough in the fridge for another 20 minutes, then it is ready to use."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "The French Revolution",
+    cookbookAuthor: "Michel Roux Jr",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 81,
+    keywords: "bake baking",
+    recipeTitle: "Light Sweet Pastry",
+    servingSize: "about 350 G",
+    totalTime: "15 minutes",
+    mealType: "pastry",
+    protein: "vegetarian",
+    cuisine: "french",
+    season: "spring summer fall winter",
+    dishType: "pastry",
+    favorite: "",  // leave blank if not
+    comfortFood: "",  // leave blank if not
+    recipeBackstory: "'A crumbly sweet pastry, this is made with half cream cheese, half butter to give it a lovely light texture. It's a little less rich than the usual recipe but still indulgent and with great depth of flavour.'",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "1",
+        ingredient: "Egg yolk",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "60 G",
+        ingredient: "Icing sugar (confectioner's sugar)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "",
+        ingredient: "Pinch of Salt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1/2 tsp",
+        ingredient: "Vanilla extract",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "60 G",
+        ingredient: "Cream cheese",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "60 G",
+        ingredient: "Butter",
+        preparation: "softened"
+      },
+      {
+        ingredientNumber: 7,
+        amount: "200 G",
+        ingredient: "Plain flour",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Beat the egg yolk with the sugar (60 G), salt (a pinch) and vanilla (1/2 tsp) in a bowl until pale. Add the cream cheese (60 G) and butter (60 G), then work in the flour (200 G) to form a dough. Add a little more flour if eneded. Don't overwork the dough."
+      },
+      {
+        stepNumber: 2,
+        direction: "Wrap the dough in cling film and leave it in the fridge to rest for 30 minutes before using."
+      }
+    ],
+    recipeImage: "",
     cookbookTitle: "The French Revolution",
     cookbookAuthor: "Michel Roux Jr",
     cookbookImage: "",
@@ -128,7 +588,7 @@ export const fullRecipeListArray = [
     keywords: "bake baking",
     recipeTitle: "Traditional Shortcrust Pastry",
     servingSize: "about 300 G",
-    totalTime: "",
+    totalTime: "15 minutes",
     mealType: "pastry",
     protein: "vegetarian",
     cuisine: "french",
@@ -140,106 +600,38 @@ export const fullRecipeListArray = [
     recipeIngredientList: [
       {
         ingredientNumber: 1,
-        amount: "",
-        ingredient: "",
+        amount: "200 G",
+        ingredient: "Plain flour",
         preparation: ""
       },
       {
         ingredientNumber: 2,
-        amount: "",
-        ingredient: "",
-        preparation: ""
+        amount: "100 G",
+        ingredient: "Butter, softened",
+        preparation: "plus extra for greasing the tart ring"
       },
       {
         ingredientNumber: 3,
-        amount: "",
-        ingredient: "",
+        amount: "1",
+        ingredient: "Egg",
         preparation: ""
       },
       {
         ingredientNumber: 4,
-        amount: "",
-        ingredient: "",
+        amount: "1/2 tsp",
+        ingredient: "Salt",
         preparation: ""
-      },
-      {
-        ingredientNumber: 5,
-        amount: "",
-        ingredient: "",
-        preparation: ""
-      },
-      {
-        ingredientNumber: 6,
-        amount: "",
-        ingredient: "",
-        preparation: ""
-      },
-      {
-        ingredientNumber: 7,
-        amount: "",
-        ingredient: "",
-        preparation: ""
-      },
-      {
-        ingredientNumber: 8,
-        amount: "",
-        ingredient: "",
-        preparation: ""
-      },
-      {
-        ingredientNumber: 9,
-        amount: "",
-        ingredient: "",
-        preparation: ""
-      },
-      {
-        ingredientNumber: 10,
-        amount: "",
-        ingredient: "",
-        preparation: ""
-      },
+      }
     ],
     recipeDirections: [
       {
         stepNumber: 1,
-        direction: ""
+        direction: "Pile the flour (200 G) on your work surface and make a well in the middle. Put the softened butter (100 G), egg (1) and salt (1/2 tsp) in the well and using your fingertips work them together until creamy. Gradually work in the flour and finlly add a tablespoon of cold water to bring it all together. Do not overwork the pastry."
       },
       {
         stepNumber: 2,
-        direction: ""
-      },
-      {
-        stepNumber: 3,
-        direction: ""
-      },
-      {
-        stepNumber: 4,
-        direction: ""
-      },
-      {
-        stepNumber: 5,
-        direction: ""
-      },
-      {
-        stepNumber: 6,
-        direction: ""
-      },
-      {
-        stepNumber: 7,
-        direction: ""
-      },
-      {
-        stepNumber: 8,
-        direction: ""
-      },
-      {
-        stepNumber: 9,
-        direction: ""
-      },
-      {
-        stepNumber: 10,
-        direction: ""
-      },
+        direction: "Wrap the pastry in cling film and leave it in the fridge until needed."
+      }
     ],
     recipeImage: "",
     cookbookTitle: "The French Revolution",
