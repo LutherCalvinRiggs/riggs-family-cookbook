@@ -122,15 +122,597 @@ export const fullRecipeListArray = [
     amazonProductLink: "",
   },
   {
+    recipeNumber: 90,
+    recipeTitle: "Bucatini all'Amatriciana with Spicy Smoked Mozzarella Meatballs",
+    servingSize: "4-6",
+    totalTime: "",
+    mealType: "lunch dinner",
+    protein: "beef veal",
+    cuisine: "italian",
+    season: "spring summer fall winter",
+    dishType: "main",
+    keywords: "comfort food", // comfort food, favorite
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 5,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "",
+        ingredient: "",
+        preparation: ""
+      },
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: ""
+      },
+      {
+        stepNumber: 2,
+        direction: ""
+      },
+      {
+        stepNumber: 3,
+        direction: ""
+      },
+      {
+        stepNumber: 4,
+        direction: ""
+      },
+      {
+        stepNumber: 5,
+        direction: ""
+      },
+      {
+        stepNumber: 6,
+        direction: ""
+      },
+      {
+        stepNumber: 7,
+        direction: ""
+      },
+      {
+        stepNumber: 8,
+        direction: ""
+      },
+      {
+        stepNumber: 9,
+        direction: ""
+      },
+      {
+        stepNumber: 10,
+        direction: ""
+      },
+    ],
+    recipeImage: "",
+    cookbookTitle: "Giada at Home",
+    cookbookAuthor: "Giada de Laurentiis",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 89,
+    recipeTitle: "Caponata",
+    servingSize: "5 cups",
+    totalTime: "",
+    mealType: "lunch",
+    protein: "vegetariann vegan",
+    cuisine: "italian",
+    season: "spring summer fall winter",
+    dishType: "side",
+    keywords: "", // comfort food, favorite
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "1/4 cup",
+        ingredient: "Olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "1",
+        ingredient: "Onion",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1",
+        ingredient: "Celery stalk",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1",
+        ingredient: "Medium eggplant",
+        preparation: "cut into 1/2-inch cubes"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "1",
+        ingredient: "Red bell pepper",
+        preparation: "cored, seeded, and cut into 1/2-inch pieces"
+      },
+      {
+        ingredientNumber: 6,
+        amount: "14.5 oz (1 can)",
+        ingredient: "Diced tomatoes with juices",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "3 tbsp",
+        ingredient: "Raisins",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "1/2 tsp",
+        ingredient: "Dried oregano",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "1/4 cup",
+        ingredient: "Red wine vinegar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "4 tsp",
+        ingredient: "Sugar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 11,
+        amount: "1 tbsp",
+        ingredient: "Capers",
+        preparation: "rinsed and drained"
+      },
+      {
+        ingredientNumber: 12,
+        amount: "1/2 tsp",
+        ingredient: "Salt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 13,
+        amount: "1/2 tsp",
+        ingredient: "Freshly ground black pepper",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "In a large stainless-steel skillet, heat the olive oil (1/4 cup) over medium-high heat. Add the onion and cook until translucent, about 3 minutes. Add the celery and eggplant and cook unntil soft, 3 to 4 minutes. Add the bell pepper and cook until crisp-tender, about 5 minutes. Add the tomatoes (14.5 oz), raisins (3 tbsp), and oregano (1/2 tsp) to the pan. Simmer over medium-low heat, stirring frequently, until the mixture thickens, about 20 minutes. Stir in the vinegar (1/4 cup), sugar (4 tsp), capers (1 tbsp), salt (1/2 tsp) and pepper (1/2 tsp). Season with more salt and pepper, if needed."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "Giada at Home",
+    cookbookAuthor: "Giada de Laurentiis",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 88,
+    recipeTitle: "Grilled Vegetable, Herb, and Goat Cheese Sandwiches",
+    servingSize: "4",
+    totalTime: "20 minutes",
+    mealType: "lunch",
+    protein: "vegetarian",
+    cuisine: "american",
+    season: "spring summer fall winter",
+    dishType: "sandwich",
+    keywords: "comfort food", // comfort food, favorite
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "1 cup",
+        ingredient: "Sun-dried tomatoes (oil-packed)",
+        preparation: "drained"
+      },
+      {
+        ingredientNumber: 2,
+        amount: "1/3 cup",
+        ingredient: "Olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "2",
+        ingredient: "Garlic cloves",
+        preparation: "minced"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1/2 cup",
+        ingredient: "Fresh basil leaves",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "1 tbsp",
+        ingredient: "Fresh tarragon leaves",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1 tbsp",
+        ingredient: "Fresh thyme leaves",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 7,
+        amount: "1/2 tsp",
+        ingredient: "Salt",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "1/2 tsp",
+        ingredient: "Freshly ground black pepper",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "2",
+        ingredient: "Zucchini",
+        preparation: "ends trimmed, sliced lengthwise 1/4-inch thick"
+      },
+      {
+        ingredientNumber: 10,
+        amount: "2",
+        ingredient: "Japanese eggplants",
+        preparation: "ends trimmed, sliced lengthwise 1/4-inch thick"
+      },
+      {
+        ingredientNumber: 11,
+        amount: "1",
+        ingredient: "Baguette",
+        preparation: "sliced in half lengthwise"
+      },
+      {
+        ingredientNumber: 12,
+        amount: "1 cup (8 oz)",
+        ingredient: "Goat cheese",
+        preparation: "at room temperature"
+      },
+      {
+        ingredientNumber: 13,
+        amount: "1.5 cups (2 oz)",
+        ingredient: "Baby spinach",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Place a grill pan over medium-high heat or preheat a gas or charcoal grill."
+      },
+      {
+        stepNumber: 2,
+        direction: "Finely chop the sun-dried tomatoes (1 cup) and put them in a bowl. Add the olive oil (1/3 cup), garlic (2 cloves), basil (1/2 cup), tarragon (1 tbsp), thyme (1 tbsp), salt (1/2 tsp), and pepper (1/2 tsp)."
+      },
+      {
+        stepNumber: 3,
+        direction: "Spoon 2 tablespoons of the tomato mixture into a medium bowl. Add the zucchini and eggplant to the bowl and toss until coated. Grill the vegetables for 3 to 4 minutes on each side, until tender."
+      },
+      {
+        stepNumber: 4,
+        direction: "While the vegetables are cooking, spread the remaining tomato mixture on the baguette halves. Using a spatula, spread the goat cheese on top. Layer the grilled vegetables on the bottom half of the baguette. Arrange the spinach over the vegetables. Place the top half of the baguette on top of the filling."
+      },
+      {
+        stepNumber: 5,
+        direction: "To serve, cut the baguette into 4 sandwiches. Serve immediately or wrap in parchment paper and refrigerate for up to 2 hours."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "Giada at Home",
+    cookbookAuthor: "Giada de Laurentiis",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 87,
+    recipeTitle: "Lemon Chicken Soup with Spaghetti",
+    servingSize: "4-6",
+    totalTime: "30 minutes",
+    mealType: "lunch dinner",
+    protein: "poultry chicken",
+    cuisine: "american",
+    season: "spring summer fall winter",
+    dishType: "soup",
+    keywords: "comfort food", // comfort food, favorite
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "6 cups (1.5 quarts)",
+        ingredient: "Chicken broth",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "1/3 cup",
+        ingredient: "Lemon juice (2 lemons)",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1",
+        ingredient: "Bay leaf",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1",
+        ingredient: "Onion",
+        preparation: "finely diced"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "2",
+        ingredient: "Carrots",
+        preparation: "peeled and sliced 1/4-inch thick"
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1",
+        ingredient: "Celery stalk",
+        preparation: "thinly sliced"
+      },
+      {
+        ingredientNumber: 7,
+        amount: "1 cup (about 2.5 oz)",
+        ingredient: "Spaghetti",
+        preparation: "broken into 2-inch pieces"
+      },
+      {
+        ingredientNumber: 8,
+        amount: "2 cups",
+        ingredient: "Cooked rotisserie chicken (preferrably breast meat)",
+        preparation: "diced"
+      },
+      {
+        ingredientNumber: 9,
+        amount: "1 cup",
+        ingredient: "Pecorino Romano cheese",
+        preparation: "grated"
+      },
+      {
+        ingredientNumber: 10,
+        amount: "1/4 cup",
+        ingredient: "Flat-leaf Parsley leaves",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 10,
+        amount: "",
+        ingredient: "Salt",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "In a large stockpot, bring the chicken broth (6 cups), lemon juice (1/3 cup), and bay leaf to a boil over medium-high heat. Add the onion (1), carrots (2), and celery (1) and bring to a boil. Reduce the heat so the mixture simmers and cook until the vegetables are tender, 6 to 8 minutes."
+      },
+      {
+        stepNumber: 2,
+        direction: "Add the pasta (1 cup) and cook, stirring occasionally, for 6 to 8 minutes, or until the pasta is tender. Add the chicken (2 cups) and heat through, 2 to 3 minutes."
+      },
+      {
+        stepNumber: 3,
+        direction: "Discard the bay leaf. Remove the pot from the heat. Stir in the cheese (1 cup) and the parsley (1/4 cup). Season with salt, to taste. Ladle the soup into bowls and serve."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "Giada at Home",
+    cookbookAuthor: "Giada de Laurentiis",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 86,
+    recipeTitle: "White Bean and Chicken Chili",
+    servingSize: "4-6",
+    totalTime: "90 minutes",
+    mealType: "lunch dinner",
+    protein: "poultry chicken",
+    cuisine: "american",
+    season: "spring summer fall winter",
+    dishType: "soup",
+    keywords: "", // comfort food, favorite
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "2 tbsp",
+        ingredient: "Olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "1",
+        ingredient: "Large onion",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "4",
+        ingredient: "Garlic cloves",
+        preparation: "minced"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "2 lbs",
+        ingredient: "Chicken",
+        preparation: "ground"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "2 tbsp",
+        ingredient: "Ground cumin",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1 tbsp",
+        ingredient: "Fennel seeds",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "1 tbsp",
+        ingredient: "Dried Oregano",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "2 tsp",
+        ingredient: "Chili powder",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "3 tbsp",
+        ingredient: "All-purpose flour",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "30 Oz (2 cans)",
+        ingredient: "Cannellinni, or other white beans",
+        preparation: "rinsed and drained"
+      },
+      {
+        ingredientNumber: 11,
+        amount: "1 bunch",
+        ingredient: "Swiss chard",
+        preparation: "stems removed, leaves chopped into 1-inch slices"
+      },
+      {
+        ingredientNumber: 12,
+        amount: "1.5 Cup",
+        ingredient: "Frozen Corn",
+        preparation: "thawed"
+      },
+      {
+        ingredientNumber: 13,
+        amount: "4 Cups (1 Qt)",
+        ingredient: "Chicken broth",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 14,
+        amount: "1/4 tsp",
+        ingredient: "Crushed red pepper flakes",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 15,
+        amount: "",
+        ingredient: "Freshly ground black pepper",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 16,
+        amount: "1/2 Cup",
+        ingredient: "Freshly grated Parmesan cheese",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 17,
+        amount: "1/4 Cup",
+        ingredient: "Fresh flat-leaf parsley leaves",
+        preparation: "chopped"
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "In a large, heavy-bottomed sauce pan or Dutch oven, heat the oil (2 tbsp) over medium-high heat. Add the onion and cook until translucent, about 5 minutes. Add the garlic (4 cloves) and cook for 30 seconnds. Add the ground chickenn (2 lbs), 1 teaspoon salt, the cuminn (2 tbsp), fennel seeds (1 tbsp), oregano (1 tbsp), and chili powder (2 tsp). Cook, stirring frequently, until the chicken is cooked through, about 8 minutes."
+      },
+      {
+        stepNumber: 2,
+        direction: "Stir the flour (3 tbsp) into the chicken mixture. Add the beans (30 oz), Swiss chard (1 bunch), corn (1.5 cups), and chicken broth (4 cups/1 quart). Bring the mixture to a simmer, scraping up the brown bits that cling to the bottom of the pan with a wooden spoon. Lower the heat and simmer for 55 to 60 minutes, until the liquid hs reduced by about half and the chili has thickened. Add the red pepper flakes (1/4 tsp) and simmer for another 10 minutes. Season nwith salt and pepper."
+      },
+      {
+        stepNumber: 3,
+        direction: "Ladle the chili into serving bowls. Sprinkle with the Parmesan cheese and chopped parsley."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "Giada at Home",
+    cookbookAuthor: "Giada de Laurentiis",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
     recipeNumber: 85,
     recipeTitle: "Ligurian Fish Stew",
     servingSize: "4-6",
     totalTime: "50 minutes",
     mealType: "lunch dinner",
-    protein: "vegetarian",
+    protein: "fish seafood",
     cuisine: "american",
     season: "spring summer fall winter",
-    dishType: "appetizer starter soup",
+    dishType: "soup",
     keywords: "favorite", // comfort food, favorite
     recipeBackstory: "",  // optional
     recipeIngredientList: [
