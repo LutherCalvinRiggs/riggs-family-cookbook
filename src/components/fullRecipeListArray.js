@@ -122,16 +122,16 @@ export const fullRecipeListArray = [
     amazonProductLink: "",
   },
   {
-    recipeNumber: 90,
-    recipeTitle: "Bucatini all'Amatriciana with Spicy Smoked Mozzarella Meatballs",
-    servingSize: "4-6",
-    totalTime: "",
+    recipeNumber: 94,
+    recipeTitle: "Brown Butter Risotto with Lobster",
+    servingSize: "4",
+    totalTime: "45 minutes",
     mealType: "lunch dinner",
-    protein: "beef veal",
+    protein: "seafood",
     cuisine: "italian",
     season: "spring summer fall winter",
-    dishType: "main",
-    keywords: "comfort food", // comfort food, favorite
+    dishType: "pasta",
+    keywords: "comfort food favorite", // comfort food, favorite
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -223,6 +223,520 @@ export const fullRecipeListArray = [
       {
         stepNumber: 7,
         direction: ""
+      },
+      {
+        stepNumber: 8,
+        direction: ""
+      },
+      {
+        stepNumber: 9,
+        direction: ""
+      },
+      {
+        stepNumber: 10,
+        direction: ""
+      },
+    ],
+    recipeImage: "",
+    cookbookTitle: "Giada at Home",
+    cookbookAuthor: "Giada de Laurentiis",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 93,
+    recipeTitle: "Fusilli with Spicy Pesto",
+    servingSize: "4-6",
+    totalTime: "20 minutes",
+    mealType: "lunch dinner",
+    protein: "vegetarian",
+    cuisine: "italian",
+    season: "spring summer fall winter",
+    dishType: "pasta",
+    keywords: "comfort food favorite", // comfort food, favorite
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "1 cup",
+        ingredient: "Chopped walnuts",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "2",
+        ingredient: "Garlic cloves",
+        preparation: "coarsely chopped"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1",
+        ingredient: "Red or green jalapeño pepper",
+        preparation: "stemmed and coarsely chopped"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "2 cups (78 ounces)",
+        ingredient: "Grated Asiago cheese",
+        preparation: "plus 1/2 cup (2 oz) shaved"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "2 tsp",
+        ingredient: "Salt",
+        preparation: "or more to taste"
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1 tsp",
+        ingredient: "Freshly ground black pepper",
+        preparation: "or more to taste"
+      },
+      {
+        ingredientNumber: 7,
+        amount: "2 cups (3 oz)",
+        ingredient: "Baby spinach",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "3 cups (3 oz)",
+        ingredient: "Arugula",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "1/4 cup",
+        ingredient: "Olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "1 pound",
+        ingredient: "Fusilli pasta",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "In a food processor, combine the walnuts (1 cup), garlic (2 cloves), jalapeño (1), grated cheese (2 cups), salt (2 tsp), and pepper (1 tsp). Process until the mixture is smooth Add the spinach (2 cups) and arugula (3 cups) and process until blended. With the machine running, gradually add the olive oil (1/4 cup)."
+      },
+      {
+        stepNumber: 2,
+        direction: "Bring a large pot of salted water to a boil over high heat. Add the pasta (1 lbs) and cook, stirring occasionally, until tender but still firm to the bite, 8 to 10 minutes. Drain the pasta, reserving about 1 cup of the pasta water. Transfer the cooked pasta to a large serving bowl and add the pesto. Toss well. If you needed, thin out the sauce with a little pasta water and season with salt and pepper."
+      },
+      {
+        stepNumber: 3,
+        direction: "Garnish with the Asiago cheese (1/2 cup) shavings and serve."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "Giada at Home",
+    cookbookAuthor: "Giada de Laurentiis",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 92,
+    recipeTitle: "Penne with Treviso and Goat Cheese",
+    servingSize: "4-6",
+    totalTime: "20 minutes",
+    mealType: "lunch dinner",
+    protein: "vegetarian",
+    cuisine: "italian",
+    season: "spring summer fall winter",
+    dishType: "pasta main side",
+    keywords: "", // comfort food, favorite
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "1 pound",
+        ingredient: "Penne pasta",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "1/4 cup",
+        ingredient: "Olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1",
+        ingredient: "Garlic clove",
+        preparation: "halved"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1 pound",
+        ingredient: "Treviso (or radicchio)",
+        preparation: "chopped (about 4 cups)"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "3 cups (5 oz)",
+        ingredient: "Baby spinach",
+        preparation: "packed cups"
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1/2 cup",
+        ingredient: "Chicken broth",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "1/4 cup",
+        ingredient: "Balsamic vinegar",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "2 tbsp",
+        ingredient: "Fresh lemon juice",
+        preparation: "from 1 lemon"
+      },
+      {
+        ingredientNumber: 9,
+        amount: "1/2 tsp",
+        ingredient: "Crushed Red Pepper Flakes",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 10,
+        amount: "1 tbsp",
+        ingredient: "Salt",
+        preparation: "and more to taste"
+      },
+      {
+        ingredientNumber: 11,
+        amount: "1-1/2 cups",
+        ingredient: "Parmesan cheese",
+        preparation: "freshly grated"
+      },
+      {
+        ingredientNumber: 12,
+        amount: "1-1/2 cups",
+        ingredient: "Goat cheese",
+        preparation: "crumbled"
+      },
+      {
+        ingredientNumber: 13,
+        amount: "1/2 cup",
+        ingredient: "Fresh basil leaves",
+        preparation: "torn"
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Bringe a large pot of salted water to a boil over high heat. Add the pasta and cook, stirring occasionally, until tender but still firm to the bite, 8 to 10 minutes."
+      },
+      {
+        stepNumber: 2,
+        direction: "Meanwhile, in a 12-inch skillet, heat the oil (1/4 cup) over medium heat. Add the garlic (1 clove) and cook until fragrant and golden, about 1 minute. Remove the garlic and discard."
+      },
+      {
+        stepNumber: 3,
+        direction: "Add the treviso (1 lbs), spinach (3 cups), chicken broth (1/2 cup), balsamic vinegar (1/4 cup), lemon juice (2 tablespoons), red pepper flakes (1/2 teaspoon), and salt (1 tablespoon). Cook until the treviso and spinach wilt, 6 to 8 minutes."
+      },
+      {
+        stepNumber: 4,
+        direction: "Drain the pasta, reserving about 1 cup of the pasta water. Add the pasta and Parmesan cheese (1-1/2 cup) to the skillet. Toss well, thinning out the sauce with a little pasta water, if needed. Season with salt, if needed."
+      },
+      {
+        stepNumber: 5,
+        direction: "Transfer the penne to serving bowls. Top each portion with the crumbled goat cheese (1-1/2 cups) and garnish with basil (1/2 cup) before serving."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "Giada at Home",
+    cookbookAuthor: "Giada de Laurentiis",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 91,
+    recipeTitle: "Rigatoni with Creamy Mushroom Sauce",
+    servingSize: "4-6",
+    totalTime: "25 minutes",
+    mealType: "lunch dinner",
+    protein: "vegetarian",
+    cuisine: "italian",
+    season: "spring summer fall winter",
+    dishType: "main side pasta",
+    keywords: "comfort food", // comfort food, favorite
+    recipeBackstory: "",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "1 lbs",
+        ingredient: "Rigatoni pasta",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "1 tbsp",
+        ingredient: "Olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 3,
+        amount: "2",
+        ingredient: "Shallots",
+        preparation: "minced"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "1",
+        ingredient: "Garlic clove",
+        preparation: "minced"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "",
+        ingredient: "Salt and freshly ground black pepper",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "1 lbs",
+        ingredient: "Assorted mushrooms (cremini, shiitake, or button)",
+        preparation: "cleaned and sliced"
+      },
+      {
+        ingredientNumber: 7,
+        amount: "1/2 cup",
+        ingredient: "Dry white wine",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 8,
+        amount: "1/2 cup",
+        ingredient: "Vegetable broth",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 9,
+        amount: "8 oz (1 cup)",
+        ingredient: "Mascarpone cheese",
+        preparation: "at room temperature"
+      },
+      {
+        ingredientNumber: 10,
+        amount: "1/2 cup",
+        ingredient: "Freshly grated Parmesan cheese",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 11,
+        amount: "1/4 cup",
+        ingredient: "Fresh chives",
+        preparation: "chopped"
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "Bring a large pot of salted water to a boil over high heat. Add the pasta (1 lbs) and cook, stirring occasionally, until tender but still firm to the bite, 8 to 10 minutes."
+      },
+      {
+        stepNumber: 2,
+        direction: "Meanwhile, heat the oil (1 tbsp) in a large skillet over medium-high heat. Add the shallots (2) and garlic (1 clove) and season with salt and pepper. Cook until soft, about 2 minutes. Add the mushrooms (1 lbs) and season with salt and pepper. Cook, stirring occasionally, until the mushrooms are tender, 5 to 7 minutes. Turn the heat to high. Add the wine (1/2 cup) and cook for 3 minutes, or until all the liquid evaporates. Add the broth (1/2 cup) and simmer until the liquid is slightly reduced."
+      },
+      {
+        stepNumber: 3,
+        direction: "Remove the pan from the heat. Add the mascarpone cheese (1 cup) and stir until creamy. Drain the pasta, reserving about 1 cup of the pasta water, and transfer to a serving bowl. Add the mushroom mixture and the Parmasen (1/2 cup). Season with salt and pepper and toss well to coat the pasta, adding the reserved pasta water, if needed, to loosen the pasta. Garnish with the chopped chives (1/4 cup)."
+      }
+    ],
+    recipeImage: "",
+    cookbookTitle: "Giada at Home",
+    cookbookAuthor: "Giada de Laurentiis",
+    cookbookImage: "",
+    amazonProductLink: "",
+  },
+  {
+    recipeNumber: 90,
+    recipeTitle: "Bucatini all'Amatriciana with Spicy Smoked Mozzarella Meatballs",
+    servingSize: "4-6",
+    totalTime: "45 minutes",
+    mealType: "lunch dinner",
+    protein: "beef veal",
+    cuisine: "italian",
+    season: "spring summer fall winter",
+    dishType: "main side pasta",
+    keywords: "comfort food", // comfort food, favorite
+    recipeBackstory: "Chef's tip: First, make the meatballs and preheat the oven. Then make the sauce. While the sauce simmers, bake the meatballs in the oven and boil the pasta. This way everything is ready at the same time.",  // optional
+    recipeIngredientList: [
+      {
+        ingredientNumber: 1,
+        amount: "2 tbsp",
+        ingredient: "Olive oil",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 2,
+        amount: "6 oz",
+        ingredient: "Pancetta",
+        preparation: "diced"
+      },
+      {
+        ingredientNumber: 3,
+        amount: "1",
+        ingredient: "Yellow onion",
+        preparation: "finely chopped"
+      },
+      {
+        ingredientNumber: 4,
+        amount: "2",
+        ingredient: "Garlic cloves",
+        preparation: "minced"
+      },
+      {
+        ingredientNumber: 5,
+        amount: "Pinch",
+        ingredient: "crushed red pepper flakes",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 6,
+        amount: "14 oz (1 can)",
+        ingredient: "Crushed tomatoes",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 7,
+        amount: "1/2 tsp",
+        ingredient: "Salt",
+        preparation: "or more to taste"
+      },
+      {
+        ingredientNumber: 8,
+        amount: "1/2 tsp",
+        ingredient: "Freshly ground black pepper",
+        preparation: "or more to taste"
+      },
+      {
+        ingredientNumber: 9,
+        amount: "1/2 cup",
+        ingredient: "Pecorino Romano cheese",
+        preparation: "grated"
+      },
+      {
+        ingredientNumber: 10,
+        amount: "1",
+        ingredient: "Small onion",
+        preparation: "grated"
+      },
+      {
+        ingredientNumber: 11,
+        amount: "3/4 cup",
+        ingredient: "Fresh flat-leafed parsley leaves",
+        preparation: "chopped"
+      },
+      {
+        ingredientNumber: 12,
+        amount: "2/3 cup (plus 1/4 cup to top)",
+        ingredient: "Parmesan cheese",
+        preparation: "freshly grated"
+      },
+      {
+        ingredientNumber: 13,
+        amount: "1/3 cup",
+        ingredient: "Dried bread crumbs",
+        preparation: "seasoned Italian-style"
+      },
+      {
+        ingredientNumber: 14,
+        amount: "1",
+        ingredient: "Large egg",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 15,
+        amount: "2 tbsp",
+        ingredient: "Ketchup",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 16,
+        amount: "3",
+        ingredient: "Garlic cloves",
+        preparation: "minced"
+      },
+      {
+        ingredientNumber: 17,
+        amount: "1/4 tsp",
+        ingredient: "Crushed red pepper flakes",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 18,
+        amount: "1 tsp",
+        ingredient: "Salt",
+        preparation: "or more for taste"
+      },
+      {
+        ingredientNumber: 19,
+        amount: "1/2 tsp",
+        ingredient: "Freshly ground black pepper",
+        preparation: "or more for taste"
+      },
+      {
+        ingredientNumber: 20,
+        amount: "8 oz",
+        ingredient: "Ground beef",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 21,
+        amount: "8 oz",
+        ingredient: "Ground veal",
+        preparation: ""
+      },
+      {
+        ingredientNumber: 22,
+        amount: "2 oz",
+        ingredient: "Smoked mozzarella cheese",
+        preparation: "cut into 16 (1/2-inch) cubes"
+      },
+      {
+        ingredientNumber: 23,
+        amount: "1 lbs",
+        ingredient: "Bucatini or other long pasta",
+        preparation: ""
+      }
+    ],
+    recipeDirections: [
+      {
+        stepNumber: 1,
+        direction: "For the sauce: In a large, heavy skillet, heat the oil (2 tbsp) over medium heat. Add the pancetta (6 oz) and cook, stirring constantly, until golden brown, 5 to 7 minutes. Using a slotted spoon, remove the pancetta and set aside."
+      },
+      {
+        stepNumber: 2,
+        direction: "Add the onion (1) to the skillet and cook for 5 minutes. Stir in the garlic (2 cloves) and red pepper flakes (pinch) and cook until fragrant, about 30 seconds. Add the tomatoes (14 oz), salt (1/2 tsp), black pepper (1/2 tsp), and the cooked pancetta. Simmer, uncovered, over medium-low heat until the sauce thickens, about 15 minutes. Stir in the Pecorino Romano cheese (1/2 cup) and season with salt and pepper, if needed."
+      },
+      {
+        stepNumber: 3,
+        direction: "For the meatballs: Position an oven rack in the lower third of the oven and preheat the oven to 400˚F/200˚C. Line a rimmed baking sheet with parchment paper."
+      },
+      {
+        stepNumber: 4,
+        direction: "In a large bowl, combine the onion (1), 1/2 cup of the parsley, 2/3 cup of the Parmesan cheese, the bread crumbs (1/3 cup), egg (1), ketchup (2 tbsp), garlic (3 cloves), red pepper flakes (1/4 tsp), salt (1 tsp), and pepper (1/2 tsp). Add the beef (8 oz) and veal (8 oz). Using your hands, combine the ingredients gently but thoroughly. Shape the meat mixture into 16 1-1/2-inch diameter meatballs and place on the prepared baking sheet. Make a depression in the center of each meatball and place a cube of mozzarella inside. Re-form the meatball so that the mozarealla is completely covered with the meat mixture."
+      },
+      {
+        stepNumber: 5,
+        direction: "Bake the meatballs for 15 minutes, or until cooked through."
+      },
+      {
+        stepNumber: 6,
+        direction: "Meawhile, bring a large pot of salted water to a boil over high heat. Add the pasta (1 pound) and cook until tender but still firm to the bite, stirring occasionally, 8 to 10 minutes."
+      },
+      {
+        stepNumber: 7,
+        direction: "Drain the pasta and place in a large serving bowl. Add the sauce. Toss gently and season with salt and pepper, if needed. Sprinkle with the remaining 1/4 cup parsley and 1/4 cup Parmesan cheese. Put the meatballs in a separate bowl and serve alongside the pasta."
       },
       {
         stepNumber: 8,
