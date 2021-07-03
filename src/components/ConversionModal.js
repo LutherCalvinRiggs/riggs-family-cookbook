@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../css/ConversionTable.css';
+import '../css/ConversionModal.css';
 
-class ConversionTable extends Component {
+class ConversionModal extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -16,4 +16,4 @@ class ConversionTable extends Component {
   }
 }
 
-export default ConversionTable
+export default ConversionModal

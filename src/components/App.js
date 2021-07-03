@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import '../css/App.css';
-import MobileAppNavigation from './MobileAppNavigation.js'
-import LandingPage from './LandingPage.js'
-import RecipePage from './RecipePage.js'
-import ConversionTable from './ConversionTable.js'
+import NavMenu from './NavMenu.js';
+import LandingPage from './LandingPage.js';
+import Recipes from './Recipes.js';
+// import ConversionModal from './ConversionModal.js';
 
 
 
@@ -11,7 +11,7 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      displayedContent: 'landingPage',
+      appContent: 'landingPage',
       orderBy: 'recipeTitle', 
       /* options: recipeTitle, servingSize, totalTime, mealType */
       orderDir: 'asc',
@@ -40,17 +40,19 @@ class App extends Component {
     })
   }
   
-  updateDisplay = (newState) => {
+  updateAppState = (newState) => {
     this.setState({
-      displayedContent: newState
+      appContent: newState
     })
   }
 
-  displayedContent = (displayedContent) => {
-    if(displayedContent === 'landingPage') {
+  showAppContent = (appContent) => {
+    if(appContent === 'landingPage') {
       return  <LandingPage />
-    } else if (displayedContent === 'recipeList') {
-      return  <RecipePage 
+    } 
+
+    if (appContent === 'recipes') {
+      return  <Recipes 
                 orderBy = {this.state.orderBy}
                 orderDir = {this.state.orderDir}
                 keywordText = {this.state.keywordText}
@@ -58,16 +60,17 @@ class App extends Component {
                 searchList = {this.keywordSearch}
                 clearSearch = {this.clearSearch}
               />
-    } else if (displayedContent === 'conversionTable') { 
-      return <ConversionTable />
     }
   };
   
   render() {
     return (
       <>
-        <MobileAppNavigation showContent={this.updateDisplay}/>
-        {this.displayedContent(this.state.displayedContent)}
+        <NavMenu updateInterface={this.updateAppState}/>
+        {/* <ConversionModal showModal={this.updateModalState}/> */}
+
+        {/* Displays the current app content state */}
+        {this.showAppContent(this.state.appContent)}
       </>
     )
   }

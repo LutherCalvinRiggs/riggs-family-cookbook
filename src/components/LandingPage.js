@@ -1,72 +1,52 @@
 import React from 'react';
 import '../css/LandingPage.css';
 
-const LandingPage = (props) => {
+const LandingPage = () => {
   return (
     <div 
       id="landing-page"
       className="flex-column background-navy text-white background-image-center-fixed-bottom"
     >
-      <div className="page-content">
-        <LandingPageHeader />
+      <div className="landing-page">
+        <LandingLogo />
         <Greeting />
       </div>
     </div>
   )
 }
 
-const LandingPageHeader = (props) => {
+const LandingLogo = () => {
   return (
-    <h1 
-      id="landing-page-header"
-      className="text-center text-uppercase"
-    >
-      <span 
-        id="landing-header-top"
-        className="block-display"
-      >
-        The
-      </span>
-      <span 
-        id="riggs"
-        className="text-capitalize">
-          Riggs
-      </span>
-      <span 
-        id="landing-header-middle"
-        className="block-display"
-      >
-        Family
-      </span>
-      <span 
-        id="landing-header-bottom"
-        className="block-display"
-      >
-        Cookbook
-      </span>
-    </h1>
+    <img src="landing-logo.png" 
+         alt="Riggs Family Recipes" 
+         className="landing-logo"
+    />
   )
 }
 
 const Greeting = () => {
   return (
-    <div 
-      id="greeting"
-      className="white-text"
-    >
-      <p id="welcome" className="greeting-message text-center">
+    <div id="greeting">
+      <p className="welcome">
         Welcome!
       </p>
-      <p className="greeting-message">
-        What follows is a collection of recipes that our family has enjoyed through the years and that we would like to share with all of you. They range from quick and easy to complex and elegant, but you don't need to be a master chef to recreate any of these flavorful dishes. 
+      <p>
+        What follows is a collection of recipes that our family has enjoyed through the years and that we would like to share with all of you. They range from quick and simple to complex and elegant, but you don&apos;t need to be a master chef to recreate any of these delisious meals! 
       </p>
-      <p className="greeting-message">
-        With that said, dawn your apron, pour a glass of wine and let's get cooking!
+      <p>
+        Click the open book icon in the navigation bar below to begin viewing the recipes. Scroll down to see the ingredient list and cooking instruction. More recipes can be viewed by swiping left and right in the viewing window. 
+      </p>
+      <p>
+        Should you need to convert a measurement, weight, temperature, or anything else, simply click the measuring cup icon in the navigation bar to access the built in conversion table menu.  
+      </p>
+      <p>
+        Thank you for visiting our family&apos;s recipe book and we&apos;re confident that you and your loved ones will enjoy the culinary journey that awaits!
+      </p>
+      <p className="sign-off">
+        Bon apetit!
       </p>
     </div>
   )
 }
-
-
 
 export default LandingPage
