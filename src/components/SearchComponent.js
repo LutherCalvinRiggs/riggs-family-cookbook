@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import '../css/SearchComponent.css'
             
 class SearchComponent extends Component {
@@ -19,14 +20,14 @@ class SearchComponent extends Component {
   }
 
   toggleDropdownMenu() {
-    if (this.state.dropdownStatus === "collapsed") {
-      this.toggleDropdown("expanded")
-    } else if (this.state.dropdownStatus === "expanded") {
+    if (this.state.dropdownStatus !== "collapsed") {
       this.toggleDropdown("collapsed")
+    } else if (this.state.dropdownStatus !== "expanded") {
+      this.toggleDropdown("expanded")
     }
   }
 
-  render(props) {
+  render() {
     return (
       <div id="search-component" className="">
         <div id="input-group" className="flex-row justify-center">
@@ -44,7 +45,7 @@ class SearchComponent extends Component {
             className=""
             aria-label="Search Recipes"
             placeholder={this.props.keywordText === '' ? 'Search...' : this.props.keywordText}
-            onChange={ e => this.props.searchList(e.target.value)}
+            onChange={ (e) => this.props.searchList(e.target.value)}
           />
           
           
@@ -72,32 +73,32 @@ class SearchComponent extends Component {
               </button> */}
               <button className={'dropdown-item ' + 
                   (this.props.orderBy === 'recipeTitle' ? 'active-sort' : '' )}
-                  onClick={e => this.props.changeOrder('recipeTitle', this.props.orderDir)}
+                  onClick={ () => this.props.changeOrder('recipeTitle', this.props.orderDir)}
                   href="#">
                   Alphabetical
               </button>
               <button className={'dropdown-item ' + 
                   (this.props.orderBy === 'servingSize' ? 'active-sort' : '' )}
-                  onClick={e => this.props.changeOrder('servingSize', this.props.orderDir)}
+                  onClick={ () => this.props.changeOrder('servingSize', this.props.orderDir)}
                   href="#">
                   Serving Size
               </button>
               <button className={'dropdown-item ' + 
                   (this.props.orderBy === 'totalTime' ? 'active-sort' : '' )}
-                  onClick={e => this.props.changeOrder('totalTime', this.props.orderDir)}
+                  onClick={ () => this.props.changeOrder('totalTime', this.props.orderDir)}
                   href="#">
                   Total Time
               </button>
               <div role="separator" className="flex-column dropdown-divider">
                 <button className={'dropdown-item ' + 
                     (this.props.orderDir === 'asc' ? 'active-sort' : '' )}
-                    onClick={e => this.props.changeOrder(this.props.orderBy, 'asc')}
+                    onClick={ () => this.props.changeOrder(this.props.orderBy, 'asc')}
                     href="#">
                     Asc
                 </button>
                 <button className={'dropdown-item ' + 
                     (this.props.orderDir === 'desc' ? 'active-sort' : '' )}
-                    onClick={e => this.props.changeOrder(this.props.orderBy, 'desc')}
+                    onClick={ () => this.props.changeOrder(this.props.orderBy, 'desc')}
                     href="#">
                     Desc
                 </button>
@@ -108,6 +109,18 @@ class SearchComponent extends Component {
       </div>
     )
   }
+}
+
+SearchComponent.propTypes = {
+  clearSearch: PropTypes.func.isRequired,
+  toggleDropdown: PropTypes.func.isRequired,
+  toggleDropdownMenu: PropTypes.func.isRequired,
+  keywordText: PropTypes.string.isRequired,
+  searchList: PropTypes.object.isRequired,
+  orderBy: PropTypes.string.isRequired,
+  changeOrder: PropTypes.string.isRequired,
+  orderDir: PropTypes.string.isRequired,
+  // e: PropTypes.object.isRequired,
 }
 
 export default SearchComponent
