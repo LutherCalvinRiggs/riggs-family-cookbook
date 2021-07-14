@@ -45,7 +45,7 @@ class SearchComponent extends Component {
             className=""
             aria-label="Search Recipes"
             placeholder={this.props.keywordText === '' ? 'Search...' : this.props.keywordText}
-            onChange={ (e) => this.props.searchList(e.target.value)}
+            onChange={ (e) => this.props.searchForKeyword(e.target.value)}
           />
           
           
@@ -116,7 +116,7 @@ SearchComponent.propTypes = {
   toggleDropdown: PropTypes.func.isRequired,
   toggleDropdownMenu: PropTypes.func.isRequired,
   keywordText: PropTypes.string.isRequired,
-  searchList: PropTypes.object.isRequired,
+  searchForKeyword: PropTypes.func.isRequired,
   orderBy: PropTypes.string.isRequired,
   changeOrder: PropTypes.string.isRequired,
   orderDir: PropTypes.string.isRequired,

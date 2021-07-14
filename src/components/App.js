@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import PropTypes from 'prop-types';
 import '../css/App.css';
-// import NavMenu from './NavMenu.js';
+import NavMenu from './NavMenu.js';
 import LandingPage from './LandingPage.js';
 import Recipes from './Recipes.js';
 // import SearchComponent from './SearchComponent.js'
@@ -22,7 +22,7 @@ class App extends Component {
     // this.clearSearch = this.clearSearch.bind(this); 
     // this.keywordTextUpdate = this.keywordTextUpdate.bind(this); 
     // this.changeOrder = this.changeOrder.bind(this);
-    // this.updateAppState = this.updateAppState.bind(this);
+    this.updateAppState = this.updateAppState.bind(this);
     // this.showAppContent = this.showAppContent.bind(this);
   }
 

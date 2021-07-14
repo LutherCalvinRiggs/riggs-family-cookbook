@@ -8,43 +8,49 @@ class Recipes extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      fullList: fullRecipeListArray,
-      // orderBy: 'recipeTitle', 
-      // /* options: recipeTitle, servingSize, totalTime, mealType */
-      // orderDir: 'asc',
-      // keywordText: ''
+      fullRecipeList: fullRecipeListArray,
+      orderBy: 'recipeTitle', 
+      /* orderBy options: recipeTitle, servingSize, totalTime, mealType */
+      orderDir: 'asc',
+      keywordText: ''
     }
-    // this.keywordSearch = this.keywordSearch.bind(this);
-    // this.changeOrder = this.changeOrder.bind(this);
+    this.keywordSearch = this.keywordSearch.bind(this);
+    this.changeOrder = this.changeOrder.bind(this);
   }
 
-  // keywordSearch = (keyword) => {
-  //   this.setState({
-  //     keywordText: keyword
-  //   })
-  // }
+  keywordSearch = (keyword) => {
+    this.setState({
+      keywordText: keyword
+    })
+  }
 
-  // changeOrder = (newOrder, newDir) => {
-  //   this.setState({
-  //     orderBy: newOrder,
-  //     orderDir: newDir
-  //   })
-  // }
+  changeOrder = (newOrder, newDir) => {
+    this.setState({
+      orderBy: newOrder,
+      orderDir: newDir
+    })
+  }
+
+  clearSearch = () => {
+    this.setState({
+      keywordText: ''
+    })
+  }
 
   render() {
 
     let order;
-    let filteredList = this.state.fullList;
+    let filteredList = this.state.fullRecipeList;
 
-    if (this.props.orderDir === 'asc') {
+    if (this.state.orderDir === 'asc') {
       order = 1;
     } else {
       order = -1;
     }
 
-    filteredList = filteredList.sort((a,b) => {
-      if (a[this.props.orderBy].toLowerCase() <
-          b[this.props.orderBy].toLowerCase()
+    let listToDisplay = filteredList.sort((a,b) => {
+      if (a[this.state.orderBy].toLowerCase() <
+          b[this.state.orderBy].toLowerCase()
       ) {
         return -1 * order;
       } else {
@@ -54,43 +60,43 @@ class Recipes extends Component {
       return (
         eachItem.keywords
         .toLowerCase()
-        .includes(this.props.keywordText.toLowerCase()) ||
+        .includes(this.state.keywordText.toLowerCase()) ||
         eachItem.recipeTitle
         .toLowerCase()
-        .includes(this.props.keywordText.toLowerCase()) ||
+        .includes(this.state.keywordText.toLowerCase()) ||
         eachItem.servingSize
         .toLowerCase()
-        .includes(this.props.keywordText.toLowerCase()) ||
+        .includes(this.state.keywordText.toLowerCase()) ||
         eachItem.totalTime
         .toLowerCase()
-        .includes(this.props.keywordText.toLowerCase()) ||
+        .includes(this.state.keywordText.toLowerCase()) ||
         eachItem.mealType
         .toLowerCase()
-        .includes(this.props.keywordText.toLowerCase()) ||
+        .includes(this.state.keywordText.toLowerCase()) ||
         eachItem.protein
         .toLowerCase()
-        .includes(this.props.keywordText.toLowerCase()) ||
+        .includes(this.state.keywordText.toLowerCase()) ||
         eachItem.cuisine
         .toLowerCase()
-        .includes(this.props.keywordText.toLowerCase()) ||
+        .includes(this.state.keywordText.toLowerCase()) ||
         eachItem.season
         .toLowerCase()
-        .includes(this.props.keywordText.toLowerCase()) ||
+        .includes(this.state.keywordText.toLowerCase()) ||
         eachItem.dishType
         .toLowerCase()
-        .includes(this.props.keywordText.toLowerCase()) ||
+        .includes(this.state.keywordText.toLowerCase()) ||
         eachItem.favorite
         .toLowerCase()
-        .includes(this.props.keywordText.toLowerCase()) ||
+        .includes(this.state.keywordText.toLowerCase()) ||
         eachItem.comfortFood
         .toLowerCase()
-        .includes(this.props.keywordText.toLowerCase()) ||
+        .includes(this.state.keywordText.toLowerCase()) ||
         eachItem.cookbookTitle
         .toLowerCase()
-        .includes(this.props.keywordText.toLowerCase()) ||
+        .includes(this.state.keywordText.toLowerCase()) ||
         eachItem.cookbookAuthor
         .toLowerCase()
-        .includes(this.props.keywordText.toLowerCase())
+        .includes(this.state.keywordText.toLowerCase())
       )
     })
 
@@ -101,28 +107,19 @@ class Recipes extends Component {
       >
 
         <SearchComponent 
-          orderBy = {this.props.orderBy}
-          orderDir = {this.props.orderDir}
-          keywordText = {this.props.keywordText}
-          searchList = {this.props.searchList}
-          changeOrder = {this.props.changeOrder}
-          clearSearch = {this.props.clearSearch}
+          orderBy = {this.state.orderBy}
+          orderDir = {this.state.orderDir}
+          keywordText = {this.state.keywordText}
+          searchForKeyword = {this.keywordSearch}
+          changeOrder = {this.changeOrder}
+          clearSearch = {this.clearSearch}
         />
         <RecipeList 
-          recipeList = {filteredList}
+          recipeList = {listToDisplay}
         />
       </div>
     )
   }
-}
-
-Recipes.propTypes = {
-  orderDir: PropTypes.string.isRequired,
-  orderBy: PropTypes.string.isRequired,
-  keywordText: PropTypes.string.isRequired,
-  searchList: PropTypes.string.isRequired,
-  changeOrder: PropTypes.func.isRequired,
-  clearSearch: PropTypes.func.isRequired
 }
 
   function RecipeImage(props) {
