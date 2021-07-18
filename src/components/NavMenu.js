@@ -47,72 +47,11 @@ function NavMenu({ updateInterface }) {
         altText="Shopping Cart"
         showContent={updateInterface}
       />
-      {/* <RecipeButton 
-        showContent={updateInterface}
-      />
-      <ConversionButtonn 
-        showContent={updateInterface}
-      />
-      <ShoppingListButton 
-        showContent={updateInterface}
-      /> */}
     </div>
   )
 }
 NavMenu.propTypes = {
   updateInterface: PropTypes.func.isRequired
 }
-
-
-//   const UserAccountButton = ({ showContent }) => {
-//     return (
-//       // <i className="far fa-user"></i>
-//       <img 
-//         id="user-account-icon"
-//         className="nav-icon"
-//         src="./images/chef-hat-icon-48.png"
-//         alt="User Acct"
-//         onClick={() => showContent('UserAccountButton')}
-//       />
-//     )
-//   }
-
-//   const RecipeButton = ({ showContent }) => {
-//     return (
-//       // <i class="fas fa-book-open"></i>
-//       <img 
-//         id="recipe-list-icon"
-//         className="nav-icon"
-//         src="./images/recipe-book-icon-48.png"
-//         alt="Recipe List"
-//         onClick={() => showContent('recipeList')}
-//       />
-//     )
-//   }
-
-//   const ConversionButtonn = ({ showContent }) => {
-//     return (
-//       <img 
-//         id="conversion-table-icon"
-//         className="nav-icon"
-//         src="./images/measuring-cup-icon-48.png"
-//         alt="Conversion Table"
-//         onClick={() => showContent('conversionTable')}
-//       />
-//     )
-//   }
-  
-//   const ShoppingListButton = ({ showContent }) => {
-//     return (
-//       // <i class="fas fa-shopping-basket"></i>
-//       <img 
-//         id="shopping-list-icon"
-//         className="nav-icon"
-//         src="./images/shopping-cart-icon-48.png"
-//         alt="Shopping List"
-//         onClick={() => showContent('shoppingList')}
-//       />
-//     )
-//   }
 
 export default NavMenu
