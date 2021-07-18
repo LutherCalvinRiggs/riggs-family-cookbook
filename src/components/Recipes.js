@@ -16,22 +16,23 @@ class Recipes extends Component {
     }
     this.keywordSearch = this.keywordSearch.bind(this);
     this.changeOrder = this.changeOrder.bind(this);
+    this.clearSearch = this.clearSearch.bind(this);
   }
 
-  keywordSearch = (keyword) => {
+  keywordSearch(keyword) {
     this.setState({
       keywordText: keyword
     })
   }
 
-  changeOrder = (newOrder, newDir) => {
+  changeOrder(newOrder, newDir) {
     this.setState({
       orderBy: newOrder,
       orderDir: newDir
     })
   }
 
-  clearSearch = () => {
+  clearSearch() {
     this.setState({
       keywordText: ''
     })
