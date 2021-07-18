@@ -13,7 +13,7 @@ class SearchComponent extends Component {
     this.toggleDropdownMenu = this.toggleDropdownMenu.bind(this)
   }
 
-  toggleDropdown = (newState) => {
+  toggleDropdown(newState) {
     this.setState({
       dropdownStatus: newState
     })
@@ -120,7 +120,6 @@ SearchComponent.propTypes = {
   orderBy: PropTypes.string.isRequired,
   changeOrder: PropTypes.string.isRequired,
   orderDir: PropTypes.string.isRequired,
-  // e: PropTypes.object.isRequired,
 }
 
 export default SearchComponent
