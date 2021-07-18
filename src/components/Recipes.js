@@ -137,11 +137,10 @@ class Recipes extends Component {
     imageInfo: PropTypes.object.isRequired
   }
 
-  function RecipeList(props) {
-    // console.log(props.recipeList)
+  function RecipeList({ recipeList }) {
     return (
       <div id="recipe-list">
-        {props.recipeList.map((item) => (
+        {recipeList.map((item) => (
           <article 
             key={item.recipeNumber} 
             className="recipe"
@@ -230,7 +229,7 @@ class Recipes extends Component {
   }
 
   RecipeList.propTypes = {
-    recipeList: PropTypes.object.isRequired
+    recipeList: PropTypes.array.isRequired
   }
 
 export default Recipes

@@ -112,14 +112,12 @@ class SearchComponent extends Component {
 }
 
 SearchComponent.propTypes = {
-  clearSearch: PropTypes.func.isRequired,
-  toggleDropdown: PropTypes.func.isRequired,
-  toggleDropdownMenu: PropTypes.func.isRequired,
   keywordText: PropTypes.string.isRequired,
-  searchForKeyword: PropTypes.func.isRequired,
   orderBy: PropTypes.string.isRequired,
-  changeOrder: PropTypes.string.isRequired,
   orderDir: PropTypes.string.isRequired,
+  changeOrder: PropTypes.func.isRequired,
+  searchForKeyword: PropTypes.func.isRequired,
+  clearSearch: PropTypes.func.isRequired,
 }
 
 export default SearchComponent
