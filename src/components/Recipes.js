@@ -8,20 +8,21 @@ class Recipes extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      fullRecipeList: fullRecipeListArray,
+      recipeListArray: fullRecipeListArray,
       orderBy: 'recipeTitle', 
       /* orderBy options: recipeTitle, servingSize, totalTime, mealType */
       orderDir: 'asc',
       keywordText: ''
     }
-    this.keywordSearch = this.keywordSearch.bind(this);
+    this.updateKeyword = this.updateKeyword.bind(this);
     this.changeOrder = this.changeOrder.bind(this);
     this.clearSearch = this.clearSearch.bind(this);
   }
 
-  keywordSearch(keyword) {
+  updateKeyword(keyword) {
+    let scrubbedKeyword = keyword.toLowerCase()
     this.setState({
-      keywordText: keyword
+      keywordText: scrubbedKeyword
     })
   }
 
@@ -38,10 +39,12 @@ class Recipes extends Component {
     })
   }
 
+  
+
   render() {
 
     let order;
-    let filteredList = this.state.fullRecipeList;
+    let allRecipes = this.state.recipeListArray;
 
     if (this.state.orderDir === 'asc') {
       order = 1;
@@ -49,7 +52,25 @@ class Recipes extends Component {
       order = -1;
     }
 
-    let listToDisplay = filteredList.sort((a,b) => {
+    let filteredRecipes = allRecipes.filter((recipeToFilter) => {
+      return (
+        recipeToFilter.keywords.toLowerCase().includes(this.state.keywordText) ||
+        recipeToFilter.recipeTitle.toLowerCase().includes(this.state.keywordText) ||
+        recipeToFilter.servingSize.toLowerCase().includes(this.state.keywordText) ||
+        recipeToFilter.totalTime.toLowerCase().includes(this.state.keywordText) ||
+        recipeToFilter.mealType.toLowerCase().includes(this.state.keywordText) ||
+        recipeToFilter.protein.toLowerCase().includes(this.state.keywordText) ||
+        recipeToFilter.cuisine.toLowerCase().includes(this.state.keywordText) ||
+        recipeToFilter.season.toLowerCase().includes(this.state.keywordText) ||
+        recipeToFilter.dishType.toLowerCase().includes(this.state.keywordText) ||
+        // recipeToFilter.favorite.toLowerCase().includes(this.state.keywordText) ||
+        // recipeToFilter.comfortFood.toLowerCase().includes(this.state.keywordText) ||
+        recipeToFilter.cookbookTitle.toLowerCase().includes(this.state.keywordText) ||
+        recipeToFilter.cookbookAuthor.toLowerCase().includes(this.state.keywordText)
+      )
+    });
+
+    let sortedRecipes = filteredRecipes.sort((a,b) => {
       if (a[this.state.orderBy].toLowerCase() <
           b[this.state.orderBy].toLowerCase()
       ) {
@@ -57,49 +78,9 @@ class Recipes extends Component {
       } else {
         return 1 * order;
       }
-    }).filter((eachItem) => {
-      return (
-        eachItem.keywords
-        .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem.recipeTitle
-        .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem.servingSize
-        .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem.totalTime
-        .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem.mealType
-        .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem.protein
-        .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem.cuisine
-        .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem.season
-        .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem.dishType
-        .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem.favorite
-        .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem.comfortFood
-        .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem.cookbookTitle
-        .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase()) ||
-        eachItem.cookbookAuthor
-        .toLowerCase()
-        .includes(this.state.keywordText.toLowerCase())
-      )
     })
+    
+    
 
     return (
       <div 
@@ -111,12 +92,12 @@ class Recipes extends Component {
           orderBy = {this.state.orderBy}
           orderDir = {this.state.orderDir}
           keywordText = {this.state.keywordText}
-          searchForKeyword = {this.keywordSearch}
+          searchForKeyword = {this.updateKeyword}
           changeOrder = {this.changeOrder}
           clearSearch = {this.clearSearch}
         />
         <RecipeList 
-          recipeList = {listToDisplay}
+          recipesToDisplay = {sortedRecipes}
         />
       </div>
     )
@@ -132,104 +113,78 @@ class Recipes extends Component {
       ></img>
     )
   }
-
   RecipeImage.propTypes = {
     imageInfo: PropTypes.object.isRequired
   }
 
-  function RecipeList({ recipeList }) {
+  function RecipeList({ recipesToDisplay }) {
     return (
       <div id="recipe-list">
-        {recipeList.map((item) => (
-          <article 
-            key={item.recipeNumber} 
-            className="recipe"
-          >
-            {item.recipeImage ? <RecipeImage imageInfo={item}/> : ""}
+        
+        {recipesToDisplay.map((recipe) => (
+          <article key={recipe.recipeNumber} className="recipe">
+            
+            {/* {recipe.recipeImage ? <RecipeImage imageInfo={recipe.recipeImage}/> : ""} */}
+
             <div className="recipe-header text-center">
-              <h2
-                className="recipe-title font-bold"
-              >
-                {item.recipeTitle}
+              <h2 className="recipe-title font-bold">
+                {recipe.recipeTitle}
               </h2>
-              <p
-                className="serving-size"
-              >
-                Serves {item.servingSize}
+              <p className="serving-size">
+                Serves {recipe.servingSize}
               </p>
-              <p
-                className="total-time"
-              >
-                Total time: {item.totalTime}
+              <p className="total-time">
+                Total time: {recipe.totalTime}
               </p>
-              <p 
-                className="recipe-backstory text-justify font-normal"
-              >
-                {item.recipeBackstory}
+              <p className="recipe-backstory text-justify font-normal">
+                {recipe.recipeBackstory}
               </p>
             </div>
-            <div
-              className="ingredient-list"
-            >
-              <h3
-                className="ingredient-header text-center font-bold"
-              >
+
+            <div className="ingredient-list">
+              <h3 className="ingredient-header text-center font-bold">
                 Ingredient List
               </h3>
               
-              {item.recipeIngredientList.map((item) => (
-                <div
-                  key={item.ingredientNumber}
-                  className="ingredient flex-row justify-center text-uppercase"
-                >
-                  <div 
-                    className="ingredient-quantity-container"
-                  >
-                    <p
-                      className="ingredient-amount text-right"
-                    >
-                      {item.amount}
+              {recipe.recipeIngredientList.map((ingredient) => (
+                <div key={ingredient.ingredientNumber} className="ingredient flex-row justify-center text-uppercase">
+
+                  <div className="ingredient-quantity-container">
+                    <p className="ingredient-amount text-right">
+                      {ingredient.amount}
                     </p>
                   </div>
-                  <div
-                    className="ingredient-item-container text-left"
-                  >
-                    <p
-                      className="ingredient-item"
-                    >
-                      {item.ingredient}
-                      {(item.preparation ? `, ${item.preparation}` : '')}
+
+                  <div className="ingredient-item-container text-left">
+                    <p className="ingredient-item">
+                      {ingredient.ingredient}
+                      {(ingredient.preparation ? `, ${ingredient.preparation}` : '')}
                     </p>
                   </div>
                 </div>
               ))}
             </div>
-            <div
-              className="recipe-directions text-justify"
-            >
-              <h3
-                className="directions-header text-center font-bold"
-              >
+
+            <div className="recipe-directions text-justify">
+              <h3 className="directions-header text-center font-bold">
                 Directions
               </h3>
-              {item.recipeDirections.map((item) => (
-                <p
-                  key={item.stepNumber}
-                  className="direction"
-                >
-                  {item.direction}
+
+              {recipe.recipeDirections.map((step) => (
+                <p key={step.stepNumber} className="direction">
+                  {step.direction}
                 </p>
               ))}
             </div>
             
           </article>
         ))}
+
       </div>
     )
   }
-
   RecipeList.propTypes = {
-    recipeList: PropTypes.array.isRequired
+    recipesToDisplay: PropTypes.array.isRequired
   }
 
 export default Recipes
