@@ -1549,7 +1549,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 82,
-    keywords: "bake baking",
     recipeTitle: "Quick Puff Pastry",
     servingSize: "about 550 G",
     totalTime: "60 minutes",
@@ -1558,8 +1557,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "pastry",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "bake baking",
     recipeBackstory: "'Traditional puff pastry takes up to 6 hours to make and needs a lot of resting time, rolling and folding. This method is much quicker and produces pastry that is just as delicious and flaky.'",  // optional
     recipeIngredientList: [
       {
@@ -1607,7 +1605,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 81,
-    keywords: "bake baking",
     recipeTitle: "Light Sweet Pastry",
     servingSize: "about 350 G",
     totalTime: "15 minutes",
@@ -1616,8 +1613,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "pastry",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "bake baking",
     recipeBackstory: "'A crumbly sweet pastry, this is made with half cream cheese, half butter to give it a lovely light texture. It's a little less rich than the usual recipe but still indulgent and with great depth of flavour.'",  // optional
     recipeIngredientList: [
       {
@@ -1681,7 +1677,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 80,
-    keywords: "bake baking",
     recipeTitle: "Traditional Shortcrust Pastry",
     servingSize: "about 300 G",
     totalTime: "15 minutes",
@@ -1690,8 +1685,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "pastry",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "bake baking",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -1737,7 +1731,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 79,
-    keywords: "",
     recipeTitle: "Tomato & Garlic Purée",
     servingSize: "a small bowlful",
     totalTime: "15 minutes",
@@ -1746,8 +1739,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "sauce",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "",
     recipeBackstory: "'This can be used for adding flavour to salads or sndwiches or even as a dip. It's best to use dried tomatoes that still have some moisture - sometimes called sun-blushed or semi-dried. If you have a jar of tomatoes in oil, the oil can be used instead of, or as some of, the oil in the recipe.'",  // optional
     recipeIngredientList: [
       {
@@ -1799,7 +1791,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 78,
-    keywords: "",
     recipeTitle: "Tomato & Herb Sauce",
     servingSize: "4-6",
     totalTime: "15 minutes",
@@ -1808,8 +1799,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "sauce",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "",
     recipeBackstory: "'This sauce is best made a few hours before serving or even a day ahead to allow time for the flavours to develop. It's a perfect accompaniment for white fish or grilled vegetbles.'",  // optional
     recipeIngredientList: [
       {
@@ -1879,7 +1869,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 77,
-    keywords: "",
     recipeTitle: "Grlic & Pepper Sauce",
     servingSize: "a big bowlful",
     totalTime: "45 minutes",
@@ -1888,8 +1877,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "sauce",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "",
     recipeBackstory: "'Rouille is mostly served with fish soup or bouillabaisse but it's also good on salads or spread on slices of grilled baguette.'",  // optional
     recipeIngredientList: [
       {
@@ -1977,7 +1965,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 76,
-    keywords: "",
     recipeTitle: "Mornay Sauce",
     servingSize: "about 300 mL",
     totalTime: "15 minutes",
@@ -1986,8 +1973,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "sauce",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "",
     recipeBackstory: "'Another classic French sauce, this is similar to Béchamel, but enriched with grated cheese. It's good served with gougéres.'",  // optional
     recipeIngredientList: [
       {
@@ -2051,7 +2037,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 75,
-    keywords: "",
     recipeTitle: "Light Hollandaise Sauce",
     servingSize: "6",
     totalTime: "15 minutes",
@@ -2060,8 +2045,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "sauce",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "",
     recipeBackstory: "'The traditional version of this sauce is laden with butter and can be too rich and heavy. Thankfully, there is a lighter way of making it and the sauce is still delicious. Serve with vegetables, such as asparagus. It's also lovely with fish.'",  // optional
     recipeIngredientList: [
       {
@@ -2123,7 +2107,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 74,
-    keywords: "",
     recipeTitle: "Basil Sauce",
     servingSize: "about 200 mL",
     totalTime: "5-20 minutes",
@@ -2132,8 +2115,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "sauce",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "",
     recipeBackstory: "'This wonderfully fragrant sauce is similar to Liguriann pesto but without any cheese or pine nuts. It's usually used to flavour soups and salads but also makes a nice dip to serve with crudités. I know it's harder work but it is best to make this with a pestle and mortar if you can. If you do use a food processor, don't blitz the sauce until smooth - leave a little texture.'",  // optional
     recipeIngredientList: [
       {
@@ -2195,7 +2177,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 73,
-    keywords: "",
     recipeTitle: "Beef Stock",
     servingSize: "about 4 litres",
     totalTime: "405 minutes",
@@ -2204,8 +2185,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "stock",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "",
     recipeBackstory: "'Marrowbones, knuckles, ribs or oxtail tips with little or no meat on them are all fine for this stock. Ask your butcher to chop the bones up for you.'",  // optional
     recipeIngredientList: [
       {
@@ -2295,7 +2275,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 72,
-    keywords: "",
     recipeTitle: "Veal Stock",
     servingSize: "about 3-1/2 litres",
     totalTime: "255 minutes",
@@ -2304,8 +2283,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "stock",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "",
     recipeBackstory: "'Ask your butcher to chop the bones and split the calf's foot for you. This stock is ideal for the chicken breasts with Burgudny recipe.'",  // optional
     recipeIngredientList: [
       {
@@ -2385,7 +2363,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 71,
-    keywords: "",
     recipeTitle: "Brown Chicken Stock",
     servingSize: "about 5 litres",
     totalTime: "3 hours",
@@ -2394,8 +2371,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "stock",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "",
     recipeBackstory: "'For a brown chicken stock, the chicken bones are roasted before boiling which gives extra colour and depth of flavour.'",  // optional
     recipeIngredientList: [
       {
@@ -2479,7 +2455,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 70,
-    keywords: "",
     recipeTitle: "Chicken Stock",
     servingSize: "about 4 litres",
     totalTime: "105 minutes",
@@ -2488,8 +2463,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "stock",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "",
     recipeBackstory: "'This is a simple white chicken stock, made without roasting the bones, for use in soups and light chicken and fish dishes. Ask your butcher to split the calf's foot for you.'",  // optional
     recipeIngredientList: [
       {
@@ -2553,7 +2527,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 69,
-    keywords: "",
     recipeTitle: "Fish Stock",
     servingSize: "about 2 litres",
     totalTime: "60 minutes",
@@ -2562,8 +2535,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "stock",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "",
     recipeBackstory: "'Most fishmongers will give you fish bones and heads for stock if you ask. White fish, such as sole, whiting and turbot, are best. A good fish stock doesn't take long to make and it does make such a difference to your dish.'",  // optional
     recipeIngredientList: [
       {
@@ -2635,7 +2607,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 68,
-    keywords: "",
     recipeTitle: "Vegetable Stock",
     servingSize: "2 Litres",
     totalTime: "50 minutes",
@@ -2644,8 +2615,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "stock",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "",
     recipeBackstory: "'This simple vegetable stock is ideal for soups annd for cooking grains, such as buckwheat and Camargue red rice.'",  // optional
     recipeIngredientList: [
       {
@@ -2715,7 +2685,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 67,
-    keywords: "bake baking",
     recipeTitle: "Garlic Bread",
     servingSize: "1 loaf",
     totalTime: "110 minutes",
@@ -2724,8 +2693,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "side dish",
-    favorite: "favorite",  // leave blank if not
-    comfortFood: "comfort food",  // leave blank if not
+    keywords: "bake baking favorite comfort food",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -2815,7 +2783,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 66,
-    keywords: "bake baking",
     recipeTitle: "Choux Cheese Pastries",
     servingSize: "25-35",
     totalTime: "60 minnutes",
@@ -2823,9 +2790,8 @@ export const fullRecipeListArray = [
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side dish",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    dishType: "dessert",
+    keywords: "bake baking",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -2931,7 +2897,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 65,
-    keywords: "",
     recipeTitle: "Buckwheat Pancakes",
     servingSize: "2 pancakes",
     totalTime: "30 minutes",
@@ -2940,8 +2905,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "breakfast brunch",
-    favorite: "favorite",  // leave blank if not
-    comfortFood: "comfort food",  // leave blank if not
+    keywords: "favorite comfort food",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3067,7 +3031,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 64,
-    keywords: "bake baking",
     recipeTitle: "Buttery French Cakes",
     servingSize: "12-16 cakes",
     totalTime: "50 minutes",
@@ -3076,8 +3039,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "side dish",
-    favorite: "",  // leave blank if not
-    comfortFood: "comfort food",  // leave blank if not
+    keywords: "bake baking comfort food",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3139,7 +3101,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 63,
-    keywords: "bake baking",
     recipeTitle: "Spicy Biscuits",
     servingSize: "About 30 biscuits",
     totalTime: "190 minutes",
@@ -3148,8 +3109,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "side dish",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "bake baking",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3239,7 +3199,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 62,
-    keywords: "bake baking",
     recipeTitle: "Yoghurt Cake",
     servingSize: "10 cakes",
     totalTime: "30-50 minutes",
@@ -3248,8 +3207,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "side dish",
-    favorite: "favorite",  // leave blank if not
-    comfortFood: "comfort food",  // leave blank if not
+    keywords: "bake baking favorite comfort food",
     recipeBackstory: "'This simple cake is child's play - in fact it's often one of the first recipes that a French child cooks at home with the family. There's no need to weigh anything, as you just use the yoghurt pot to measure the rest of the ingredients.'",  // optional
     recipeIngredientList: [
       {
@@ -3321,7 +3279,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 61,
-    keywords: "bake baking",
     recipeTitle: "Brittany Shortbread",
     servingSize: "35 biscuits",
     totalTime: "75 minutes",
@@ -3330,8 +3287,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "side dish",
-    favorite: "",  // leave blank if not
-    comfortFood: "comfort food",  // leave blank if not
+    keywords: "bake baking comfort food",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3399,7 +3355,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 60,
-    keywords: "bake baking",
     recipeTitle: "Fruit Cake",
     servingSize: "1 x 28cm cake",
     totalTime: "75 minutes",
@@ -3408,8 +3363,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "side dish",
-    favorite: "",  // leave blank if not
-    comfortFood: "comfort food",  // leave blank if not
+    keywords: "bake baking comfort food",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3513,7 +3467,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 59,
-    keywords: "bake baking",
     recipeTitle: "Lemon Cake",
     servingSize: "10 slices",
     totalTime: "65 minutes",
@@ -3522,8 +3475,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "side dish",
-    favorite: "favorite",  // leave blank if not
-    comfortFood: "comfort food",  // leave blank if not
+    keywords: "bake baking favorite comfort food",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3601,7 +3553,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 58,
-    keywords: "bake baking",
     recipeTitle: "Fruit Tarts",
     servingSize: "8",
     totalTime: "60 minutes",
@@ -3610,8 +3561,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "side dish",
-    favorite: "",  // leave blank if not
-    comfortFood: "comfort food",  // leave blank if not
+    keywords: "bake baking comfort food",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3701,7 +3651,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 57,
-    keywords: "",
     recipeTitle: "Poached Peaches with Rosemary",
     servingSize: "6",
     totalTime: "45 minutes",
@@ -3709,9 +3658,8 @@ export const fullRecipeListArray = [
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side dish",
-    favorite: "",  // leave blank if not
-    comfortFood: "comfort food",  // leave blank if not
+    dishType: "dessert",
+    keywords: "comfort food",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3755,7 +3703,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 56,
-    keywords: "",
     recipeTitle: "Yoghurt & Strawberry Ice Cream",
     servingSize: "4",
     totalTime: "20 minutes",
@@ -3763,9 +3710,8 @@ export const fullRecipeListArray = [
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side dish",
-    favorite: "favorite",  // leave blank if not
-    comfortFood: "comfort food",  // leave blank if not
+    dishType: "dessert",
+    keywords: "favorite comfort food",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3817,7 +3763,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 55,
-    keywords: "",
     recipeTitle: "Chocolate Ice Cream",
     servingSize: "6-8",
     totalTime: "40 minutes (8 hours to freeze)",
@@ -3825,9 +3770,8 @@ export const fullRecipeListArray = [
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side dish",
-    favorite: "favorite",  // leave blank if not
-    comfortFood: "comfort food",  // leave blank if not
+    dishType: "dessert",
+    keywords: "favorite comfort food",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3897,7 +3841,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 54,
-    keywords: "",
     recipeTitle: "Chocolate Mousse",
     servingSize: "6-8",
     totalTime: "40 minutes",
@@ -3905,9 +3848,8 @@ export const fullRecipeListArray = [
     protein: "vegetarian",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side dish",
-    favorite: "favorite",  // leave blank if not
-    comfortFood: "comfort food",  // leave blank if not
+    dishType: "dessert",
+    keywords: "favorite comfort food",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -3965,7 +3907,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 53,
-    keywords: "",
     recipeTitle: "Fruit Compotes",
     servingSize: "6",
     totalTime: "25-35 minutes",
@@ -3973,9 +3914,8 @@ export const fullRecipeListArray = [
     protein: "vegetarian vegan",
     cuisine: "french",
     season: "spring summer fall winter",
-    dishType: "side dish",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    dishType: "dessert",
+    keywords: "",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -4059,7 +3999,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 52,
-    keywords: "",
     recipeTitle: "Fruit Soup with Verbena",
     servingSize: "4",
     totalTime: "45 minutes",
@@ -4067,9 +4006,8 @@ export const fullRecipeListArray = [
     protein: "vegetarian",
     cuisine: "french",
     season: "summer",
-    dishType: "side dish",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    dishType: "dessert",
+    keywords: "",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -4129,7 +4067,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 51,
-    keywords: "",
     recipeTitle: "French Toast, Normandy Style",
     servingSize: "2",
     totalTime: "25 minutes",
@@ -4138,8 +4075,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "main dish",
-    favorite: "favorite",  // leave blank if not
-    comfortFood: "comfort food",  // leave blank if not
+    keywords: "favorite comfort food",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
@@ -4233,7 +4169,6 @@ export const fullRecipeListArray = [
   },
   {
     recipeNumber: 50,
-    keywords: "",
     recipeTitle: "Fig Tarte Tatin",
     servingSize: "4",
     totalTime: "50 minnutes",
@@ -4242,8 +4177,7 @@ export const fullRecipeListArray = [
     cuisine: "french",
     season: "spring summer fall winter",
     dishType: "dessert",
-    favorite: "",  // leave blank if not
-    comfortFood: "",  // leave blank if not
+    keywords: "",
     recipeBackstory: "",  // optional
     recipeIngredientList: [
       {
